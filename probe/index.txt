@@ -7,3 +7,5 @@
 7 200 134655 https://www.sphinx-cinema.be/
 8 200 257059 https://www.studioskoop.be/
 9 403 5754 https://www.kinepolis.be/nl/bioscopen/kinepolis-gent/agenda
+1 500 106107 https://cinebel.dhnet.be/cinemas/11/Flandre%20orientale
+2 500 106107 https://cinebel.dhnet.be/nl/cinemas/11/Oost-Vlaanderen
