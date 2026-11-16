@@ -1,0 +1,22 @@
+name: Probe sources
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          mkdir -p probe
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+          D='days=1&days=2&days=3&days=4&days=5&days=6&days=7'
+          i=0
+          for u in "https://cinebel.dhnet.be/fr/theater/996" "https://cinebel.dhnet.be/fr/theater/993" \
+                   "https://cinebel.dhnet.be/fr/theater/994?theater=994&$D" "https://cinebel.dhnet.be/fr/cinema/994/Sphinx?theater=994&$D&go=1" \
+                   "https://cinebel.dhnet.be/nl/theater/996" ; do
+            i=$((i+1)); code=$(curl -sL -A "$UA" -o probe/$i.html -w '%{http_code} %{url_effective}' -m 30 "$u"); echo "$i $code" | tee -a probe/index.txt; sleep 2
+          done
+      - run: |
+          git config user.name cinema-bot; git config user.email cinema-bot@users.noreply.github.com
+          git add probe && git commit -m "probe" && git pull --rebase -X theirs -q && git push
