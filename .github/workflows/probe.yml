@@ -7,16 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
       - run: |
           mkdir -p probe
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
-          D='days=1&days=2&days=3&days=4&days=5&days=6&days=7'
-          i=0
-          for u in "https://cinebel.dhnet.be/fr/theater/996" "https://cinebel.dhnet.be/fr/theater/993" \
-                   "https://cinebel.dhnet.be/fr/theater/994?theater=994&$D" "https://cinebel.dhnet.be/fr/cinema/994/Sphinx?theater=994&$D&go=1" \
-                   "https://cinebel.dhnet.be/nl/theater/996" ; do
-            i=$((i+1)); code=$(curl -sL -A "$UA" -o probe/$i.html -w '%{http_code} %{url_effective}' -m 30 "$u"); echo "$i $code" | tee -a probe/index.txt; sleep 2
+          for u in https://www.pathe.be/nl/bioscopen/stad/sint-niklaas https://www.pathe.be/nl/films/ebenezer-56410 https://www.pathe.be/nl; do
+            echo "$(curl -sL -A "$UA" -o /dev/null -w '%{http_code}' -m 30 "$u") $u" | tee -a probe/index.txt
           done
+      - run: npm install --no-save --no-audit --no-fund playwright && npx playwright install --with-deps chrome
+      - run: xvfb-run -a node probe-pw.mjs 2>&1 | tee -a probe/index.txt || true
       - run: |
           git config user.name cinema-bot; git config user.email cinema-bot@users.noreply.github.com
           git add probe && git commit -m "probe" && git pull --rebase -X theirs -q && git push

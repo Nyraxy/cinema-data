@@ -1,5 +1,0 @@
-1 200 https://cinebel.dhnet.be/theater/996
-2 200 https://cinebel.dhnet.be/theater/993
-3 200 https://cinebel.dhnet.be/theater/994
-4 200 https://cinebel.dhnet.be/cinema/994/Sphinx
-5 200 https://cinebel.dhnet.be/theater/996
