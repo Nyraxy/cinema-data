@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T21:19:03.298Z",
+ "generatedAt": "2026-11-16T21:39:14.301Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
@@ -3563,21 +3563,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 22:00",
        "version": "vobe",
@@ -4204,7 +4192,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
@@ -4215,17 +4202,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "vobe",
@@ -4976,21 +4952,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 22:00",
        "version": "vobe",
@@ -5382,6 +5346,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027875_fr__1790682531976.jpg",
      "cinebelId": 1027875,
+     "url": "https://cinebel.dhnet.be/film/1027875/1518",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027875/1518",
      "showtimes": [
       {
@@ -5433,6 +5398,7 @@
      ],
      "poster": "/static/img/movie/poster/small/default.png",
      "cinebelId": 1028075,
+     "url": "https://cinebel.dhnet.be/film/1028075/A%20Family",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028075/A%20Family",
      "showtimes": [
       {
@@ -5459,6 +5425,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1002298_fr_alphaville_1315557841736.jpg",
      "cinebelId": 1002298,
+     "url": "https://cinebel.dhnet.be/film/1002298/Alphaville,%20une%20%C3%A9trange%20aventure%20de%20Lemmy%20Caution",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1002298/Alphaville,%20une%20%C3%A9trange%20aventure%20de%20Lemmy%20Caution",
      "showtimes": [
       {
@@ -5480,6 +5447,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028017_fr__1790352481899.jpg",
      "cinebelId": 1028017,
+     "url": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
       {
@@ -5555,6 +5523,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027586_fr__1787669815782.jpg",
      "cinebelId": 1027586,
+     "url": "https://cinebel.dhnet.be/film/1027586/Coward",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
       {
@@ -5642,6 +5611,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027125_fr__1789055749193.jpg",
      "cinebelId": 1027125,
+     "url": "https://cinebel.dhnet.be/film/1027125/Digger",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027125/Digger",
      "showtimes": [
       {
@@ -5663,6 +5633,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/7640_fr_donnie_darko_1312293735340.jpg",
      "cinebelId": 7640,
+     "url": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
       {
@@ -5702,6 +5673,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028037_fr_gugu_s_world_1790335320088.jpg",
      "cinebelId": 1028037,
+     "url": "https://cinebel.dhnet.be/film/1028037/Feito%20Pipa",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028037/Feito%20Pipa",
      "showtimes": [
       {
@@ -5729,6 +5701,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1026489_fr__1771413177795.jpg",
      "cinebelId": 1026489,
+     "url": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
       {
@@ -5816,6 +5789,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027719_fr_l_invitation_1787823611554.jpg",
      "cinebelId": 1027719,
+     "url": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
@@ -5867,6 +5841,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027753_fr__1791979686449.jpg",
      "cinebelId": 1027753,
+     "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
       {
@@ -5954,6 +5929,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/7273_fr_malpertuis_1317283874103.jpg",
      "cinebelId": 7273,
+     "url": "https://cinebel.dhnet.be/film/7273/Malpertuis",
      "cinebelUrl": "https://cinebel.dhnet.be/film/7273/Malpertuis",
      "showtimes": [
       {
@@ -5975,6 +5951,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/14375_fr_marie_antoinette_1310561692085.jpg",
      "cinebelId": 14375,
+     "url": "https://cinebel.dhnet.be/film/14375/Marie-Antoinette",
      "cinebelUrl": "https://cinebel.dhnet.be/film/14375/Marie-Antoinette",
      "showtimes": [
       {
@@ -6014,6 +5991,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027914_fr__1791987591223.jpg",
      "cinebelId": 1027914,
+     "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
       {
@@ -6101,6 +6079,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028023_fr__1791988107923.jpg",
      "cinebelId": 1028023,
+     "url": "https://cinebel.dhnet.be/film/1028023/Moulin",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028023/Moulin",
      "showtimes": [
       {
@@ -6128,6 +6107,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028103_fr__1793021443520.jpg",
      "cinebelId": 1028103,
+     "url": "https://cinebel.dhnet.be/film/1028103/Mumbo",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
      "showtimes": [
       {
@@ -6161,6 +6141,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028012_fr__1790352709351.jpg",
      "cinebelId": 1028012,
+     "url": "https://cinebel.dhnet.be/film/1028012/Naza",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028012/Naza",
      "showtimes": [
       {
@@ -6212,6 +6193,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027818_fr_raison_et_sentiments_1782397890778.jpg",
      "cinebelId": 1027818,
+     "url": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "showtimes": [
       {
@@ -6263,6 +6245,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027643_fr__1777286786456.jpg",
      "cinebelId": 1027643,
+     "url": "https://cinebel.dhnet.be/film/1027643/Res%20Nullius",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027643/Res%20Nullius",
      "showtimes": [
       {
@@ -6284,6 +6267,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
      "cinebelId": 1027315,
+     "url": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
      "showtimes": [
       {
@@ -6317,6 +6301,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027595_fr_soudain_1791984985241.jpg",
      "cinebelId": 1027595,
+     "url": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
       {
@@ -6374,6 +6359,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028064_fr__1791977595204.jpg",
      "cinebelId": 1028064,
+     "url": "https://cinebel.dhnet.be/film/1028064/The%20Six",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028064/The%20Six",
      "showtimes": [
       {
@@ -6407,6 +6393,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027890_fr__1786445741687.jpg",
      "cinebelId": 1027890,
+     "url": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
       {
@@ -6458,6 +6445,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027608_fr__1776249264700.jpg",
      "cinebelId": 1027608,
+     "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
       {
@@ -6551,6 +6539,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
      "cinebelId": 1028110,
+     "url": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
      "showtimes": [
       {
@@ -6581,6 +6570,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028017_fr__1790352481899.jpg",
      "cinebelId": 1028017,
+     "url": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
       {
@@ -6638,6 +6628,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027586_fr__1787669815782.jpg",
      "cinebelId": 1027586,
+     "url": "https://cinebel.dhnet.be/film/1027586/Coward",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
       {
@@ -6779,6 +6770,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028054_fr__1791793699789.jpg",
      "cinebelId": 1028054,
+     "url": "https://cinebel.dhnet.be/film/1028054/De%20Club%20van%20Sinterklaas:%20Paniek%20in%20het%20Pietendorp",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028054/De%20Club%20van%20Sinterklaas:%20Paniek%20in%20het%20Pietendorp",
      "showtimes": [
       {
@@ -6800,6 +6792,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/7640_fr_donnie_darko_1312293735340.jpg",
      "cinebelId": 7640,
+     "url": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
       {
@@ -6857,6 +6850,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1026489_fr__1771413177795.jpg",
      "cinebelId": 1026489,
+     "url": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
       {
@@ -6974,6 +6968,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027719_fr_l_invitation_1787823611554.jpg",
      "cinebelId": 1027719,
+     "url": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
@@ -7031,6 +7026,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027753_fr__1791979686449.jpg",
      "cinebelId": 1027753,
+     "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
       {
@@ -7124,6 +7120,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027587_fr__1785416168048.jpg",
      "cinebelId": 1027587,
+     "url": "https://cinebel.dhnet.be/film/1027587/La%20Vie%20d'une%20femme",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027587/La%20Vie%20d'une%20femme",
      "showtimes": [
       {
@@ -7145,6 +7142,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/11566_fr_lost_in_translation_1310561448446.jpg",
      "cinebelId": 11566,
+     "url": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "cinebelUrl": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "showtimes": [
       {
@@ -7202,6 +7200,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/11736_fr_massacre_a_la_tron_onneuse__1974__1425209170058.jpg",
      "cinebelId": 11736,
+     "url": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
      "cinebelUrl": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
      "showtimes": [
       {
@@ -7229,6 +7228,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027914_fr__1791987591223.jpg",
      "cinebelId": 1027914,
+     "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
       {
@@ -7388,6 +7388,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028103_fr__1793021443520.jpg",
      "cinebelId": 1028103,
+     "url": "https://cinebel.dhnet.be/film/1028103/Mumbo",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
      "showtimes": [
       {
@@ -7409,6 +7410,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
      "cinebelId": 1027315,
+     "url": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
      "showtimes": [
       {
@@ -7442,6 +7444,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027595_fr_soudain_1791984985241.jpg",
      "cinebelId": 1027595,
+     "url": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
       {
@@ -7499,6 +7502,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027894_fr__1789483489442.jpg",
      "cinebelId": 1027894,
+     "url": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "showtimes": [
       {
@@ -7568,6 +7572,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027890_fr__1786445741687.jpg",
      "cinebelId": 1027890,
+     "url": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
       {
@@ -7613,6 +7618,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1027608_fr__1776249264700.jpg",
      "cinebelId": 1027608,
+     "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
       {
@@ -7754,6 +7760,7 @@
      ],
      "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
      "cinebelId": 1028110,
+     "url": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
      "showtimes": [
       {
