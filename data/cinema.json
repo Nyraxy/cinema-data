@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T20:56:56.259Z",
+ "generatedAt": "2026-11-16T21:19:03.298Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
@@ -8,7 +8,9 @@
   },
   "watchlist": "letterboxd: 1126",
   "watched": "1972 films (1831 rated, 1172 liked); history from export + new watches added automatically",
-  "errors": []
+  "errors": [
+   "poster A Family: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/static/img/movie/poster/small/default.png\", waiting until \"load\"\n"
+  ]
  },
  "cinemas": [
   {
@@ -36,7 +38,8 @@
      "allDays": [
       "2027-03-14"
      ],
-     "showtimes": []
+     "showtimes": [],
+     "posterThumb": "data/posters/bbfe202b6337f8d7.jpg"
     },
     {
      "title": "La Bayadère (Opéra National de Paris)",
@@ -59,7 +62,8 @@
      "allDays": [
       "2027-01-31"
      ],
-     "showtimes": []
+     "showtimes": [],
+     "posterThumb": "data/posters/e6aa6e0b1b22b61d.jpg"
     },
     {
      "title": "You Can See Everything",
@@ -96,7 +100,8 @@
        "status": "available",
        "special": "Avant-premiere"
       }
-     ]
+     ],
+     "posterThumb": "data/posters/7679f314fdf2ee55.jpg"
     },
     {
      "title": "I Play Rocky",
@@ -131,7 +136,8 @@
        "status": "available",
        "special": "Avant-premiere"
       }
-     ]
+     ],
+     "posterThumb": "data/posters/4158f0e5059eb333.jpg"
     },
     {
      "title": "Avengers : Doomsday",
@@ -658,7 +664,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/16a41306c4d41b22.jpg"
     },
     {
      "title": "Dune Part Three",
@@ -921,7 +928,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/76d910bd155df6f9.jpg"
     },
     {
      "title": "Dune : Part Three Exclusieve Avant-première",
@@ -959,7 +967,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/8443f1ffb89eedbe.jpg"
     },
     {
      "title": "Fan Event : Avengers : Doomsday",
@@ -1010,7 +1019,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0b3c1f0d064cb048.jpg"
     },
     {
      "title": "Le Lac des Cygnes (Opéra National de Paris)",
@@ -1043,7 +1053,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/142746466e042c37.jpg"
     },
     {
      "title": "André Rieu’s 2026 Christmas Concert: Let It Snow",
@@ -1088,7 +1099,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/f1cdaa30705abb8d.jpg"
     },
     {
      "title": "Siniclub: Fjord",
@@ -1145,7 +1157,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/d471de020d82206a.jpg"
     },
     {
      "title": "2 Aile Arasinda",
@@ -1181,7 +1194,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0b107331eeefbd4a.jpg"
     },
     {
      "title": "Asterix - Het Koninkrijk Nubië",
@@ -1253,7 +1267,8 @@
        "status": "available",
        "special": "Avant-premiere"
       }
-     ]
+     ],
+     "posterThumb": "data/posters/689796e09772ff22.jpg"
     },
     {
      "title": "Siniclub: Le Faux Soir",
@@ -1312,7 +1327,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0fe003b389771216.jpg"
     },
     {
      "title": "Family Day : Disney's Hexed",
@@ -1348,7 +1364,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/e2a1e667d88eee4b.jpg"
     },
     {
      "title": "Disney's Hexed",
@@ -1657,7 +1674,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/3b4288ee2b00c9d5.jpg"
     },
     {
      "title": "Focker-in-Law",
@@ -1706,7 +1724,8 @@
        "status": "available",
        "special": "Avant-premiere"
       }
-     ]
+     ],
+     "posterThumb": "data/posters/e4614629b99c034d.jpg"
     },
     {
      "title": "Paper Tiger",
@@ -1769,7 +1788,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/929a920289c26aea.jpg"
     },
     {
      "title": "Ladies Night : Focker-in-Law",
@@ -1805,7 +1825,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/cf8a4469be4b860a.jpg"
     },
     {
      "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
@@ -1851,7 +1872,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c6a3089766a3a7bc.jpg"
     },
     {
      "title": "Nasza rewolucja",
@@ -1897,7 +1919,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/15ef0062673ec201.jpg"
     },
     {
      "title": "Cine Seniors : Digger",
@@ -1945,7 +1968,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/bc68360e3132aa74.jpg"
     },
     {
      "title": "Fan Event : The Hunger Games : Sunrise on the Reaping",
@@ -1994,7 +2018,8 @@
        "status": "soldout",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c11932176babfd25.jpg"
     },
     {
      "title": "Heysel 85",
@@ -2279,7 +2304,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/bffe6aacdb747497.jpg"
     },
     {
      "title": "The Hunger Games : Sunrise on the Reaping",
@@ -2644,7 +2670,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/319cc7c70e451585.jpg"
     },
     {
      "title": "CineLive : Het Zwanenmeer",
@@ -2666,7 +2693,8 @@
      "allDays": [
       "2027-01-29"
      ],
-     "showtimes": []
+     "showtimes": [],
+     "posterThumb": "data/posters/373af6d4d3595227.jpg"
     },
     {
      "title": "Mini Movie Club: Peppa's Kerst",
@@ -2713,7 +2741,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/4e5c528e7d59ebbf.jpg"
     },
     {
      "title": "Ebenezer",
@@ -2980,7 +3009,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/279d5ecfe5c1f86c.jpg"
     },
     {
      "title": "How to Rob a Bank",
@@ -3177,7 +3207,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/2624fef1e879eb01.jpg"
     },
     {
      "title": "Carnaval",
@@ -3329,7 +3360,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/e08515e1947351de.jpg"
     },
     {
      "title": "Godzilla Minus Zero",
@@ -3470,7 +3502,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c7ad57cfd8da3ff1.jpg"
     },
     {
      "title": "Wild Horse Nine",
@@ -3505,7 +3538,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/37d4df9cee5cc23b.jpg"
     },
     {
      "title": "Fall 2 : Deadpoint",
@@ -3555,7 +3589,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/a091cc7cf42e53cd.jpg"
     },
     {
      "title": "De Grote Sinterklaasfilm en de  Vliegende Pieten",
@@ -3842,7 +3877,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/1256ef3d53255aae.jpg"
     },
     {
      "title": "Coward",
@@ -3969,7 +4005,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
     },
     {
      "title": "Coyote vs. Acme",
@@ -4030,7 +4067,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/6f966442039e823f.jpg"
     },
     {
      "title": "Shaun Het Schaap: Het Beest van de Boerderij",
@@ -4144,7 +4182,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/28c9cde16feba11a.jpg"
     },
     {
      "title": "Other Mommy",
@@ -4286,7 +4325,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
     },
     {
      "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
@@ -4409,7 +4449,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c74193e7ea020753.jpg"
     },
     {
      "title": "Yugly",
@@ -4513,7 +4554,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/bb7e1c804714c3f7.jpg"
     },
     {
      "title": "Siniclub: Fausse Note",
@@ -4547,7 +4589,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/7efeb9d1f937b909.jpg"
     },
     {
      "title": "Het Vergeten Eiland",
@@ -4642,7 +4685,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/95b8424d74013bb5.jpg"
     },
     {
      "title": "Siniclub: 500 Miles",
@@ -4699,7 +4743,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c306c7bb39abd109.jpg"
     },
     {
      "title": "Heart of the Beast",
@@ -4909,7 +4954,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/020fb9097c9b3d3d.jpg"
     },
     {
      "title": "Resident Evil",
@@ -4956,7 +5002,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/f6aa9072067ea3f7.jpg"
     },
     {
      "title": "Spider-Man : Brand New Day",
@@ -5065,7 +5112,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/e6649e5a65dd7dba.jpg"
     },
     {
      "title": "Siniclub: The Christophers",
@@ -5123,7 +5171,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/33fd18cc3a2379ac.jpg"
     },
     {
      "title": "The Odyssey",
@@ -5228,7 +5277,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/f6fe4791e8b56464.jpg"
     },
     {
      "title": "Minions & Monsters",
@@ -5310,7 +5360,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0c9988d983b43b10.jpg"
     }
    ],
    "state": "fresh"
@@ -5369,7 +5420,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c433167eb752c084.jpg"
     },
     {
      "title": "A Family",
@@ -5415,7 +5467,8 @@
        "subtitles": "S.t. ang",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/8f6bd68d3daa8ce7.jpg"
     },
     {
      "title": "Club Kid",
@@ -5489,7 +5542,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/3684bb436c829601.jpg"
     },
     {
      "title": "Coward",
@@ -5575,7 +5629,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/02728bda7d3329e1.jpg"
     },
     {
      "title": "Digger",
@@ -5595,7 +5650,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/9e26554c8ea5c369.jpg"
     },
     {
      "title": "Donnie Darko",
@@ -5633,7 +5689,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/87c70a9c63e895cd.jpg"
     },
     {
      "title": "Gugu's World",
@@ -5659,7 +5716,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/e21a96509568e3a8.jpg"
     },
     {
      "title": "Heysel 85",
@@ -5745,7 +5803,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0488b9bce8f1e3df.jpg"
     },
     {
      "title": "L'Invitation",
@@ -5795,7 +5854,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/7f3c156df3da8c26.jpg"
     },
     {
      "title": "La Gradiva",
@@ -5881,7 +5941,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/d2ba505675dcd990.jpg"
     },
     {
      "title": "Malpertuis",
@@ -5901,7 +5962,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/9a24d7b11ce9205d.jpg"
     },
     {
      "title": "Marie-Antoinette",
@@ -5939,7 +6001,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/59e2dd9db561b331.jpg"
     },
     {
      "title": "Minotaure",
@@ -6025,7 +6088,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c2c152df6d64a95f.jpg"
     },
     {
      "title": "Moulin",
@@ -6051,7 +6115,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/7b02b3f7d1958745.jpg"
     },
     {
      "title": "Mumbo",
@@ -6083,7 +6148,8 @@
        "subtitles": null,
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/3cf10dbaf121e63a.jpg"
     },
     {
      "title": "Naza",
@@ -6133,7 +6199,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/70ea7795b6dd6f94.jpg"
     },
     {
      "title": "Raison et sentiments",
@@ -6183,7 +6250,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/2e5eb654227d0bfa.jpg"
     },
     {
      "title": "Res Nullius",
@@ -6203,7 +6271,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/1845bce9a4c2675f.jpg"
     },
     {
      "title": "Shaun le Mouton: La Bêêête d'Halloween",
@@ -6235,7 +6304,8 @@
        "subtitles": null,
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/bbecf8ee5024c879.jpg"
     },
     {
      "title": "Soudain",
@@ -6291,7 +6361,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/b82ef191903e65ab.jpg"
     },
     {
      "title": "The Six",
@@ -6323,7 +6394,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/776c73e7ceb8d421.jpg"
     },
     {
      "title": "Wicker",
@@ -6373,7 +6445,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c7f89b90af441bbe.jpg"
     },
     {
      "title": "Wild Horse Nine",
@@ -6465,7 +6538,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/cadb982379536bef.jpg"
     },
     {
      "title": "You Can See Everything",
@@ -6485,7 +6559,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/8a470b404ccc72fc.jpg"
     }
    ],
    "state": "fresh"
@@ -6550,7 +6625,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/3684bb436c829601.jpg"
     },
     {
      "title": "Coward",
@@ -6690,7 +6766,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/02728bda7d3329e1.jpg"
     },
     {
      "title": "De Club van Sinterklaas: Paniek in het Pietendorp",
@@ -6710,7 +6787,8 @@
        "subtitles": null,
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/dd2c4ed83da46832.jpg"
     },
     {
      "title": "Donnie Darko",
@@ -6766,7 +6844,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/87c70a9c63e895cd.jpg"
     },
     {
      "title": "Heysel 85",
@@ -6882,7 +6961,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/0488b9bce8f1e3df.jpg"
     },
     {
      "title": "L'Invitation",
@@ -6938,7 +7018,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/7f3c156df3da8c26.jpg"
     },
     {
      "title": "La Gradiva",
@@ -7030,7 +7111,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/d2ba505675dcd990.jpg"
     },
     {
      "title": "La Vie d'une femme",
@@ -7050,7 +7132,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/bd34599cb8d50424.jpg"
     },
     {
      "title": "Lost in Translation",
@@ -7106,7 +7189,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/ee2ad72e5449b0af.jpg"
     },
     {
      "title": "Massacre à la tronçonneuse",
@@ -7132,7 +7216,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/9512e01254fb952e.jpg"
     },
     {
      "title": "Minotaure",
@@ -7290,7 +7375,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c2c152df6d64a95f.jpg"
     },
     {
      "title": "Mumbo",
@@ -7310,7 +7396,8 @@
        "subtitles": null,
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/3cf10dbaf121e63a.jpg"
     },
     {
      "title": "Shaun le Mouton: La Bêêête d'Halloween",
@@ -7342,7 +7429,8 @@
        "subtitles": null,
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/bbecf8ee5024c879.jpg"
     },
     {
      "title": "Soudain",
@@ -7398,7 +7486,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/b82ef191903e65ab.jpg"
     },
     {
      "title": "The Only Living Pickpocket in New York",
@@ -7466,7 +7555,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/05c0d14e208960b1.jpg"
     },
     {
      "title": "Wicker",
@@ -7510,7 +7600,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/c7f89b90af441bbe.jpg"
     },
     {
      "title": "Wild Horse Nine",
@@ -7650,7 +7741,8 @@
        "subtitles": "S.t. fr/nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/cadb982379536bef.jpg"
     },
     {
      "title": "You Can See Everything",
@@ -7670,7 +7762,8 @@
        "subtitles": "S.t. nl",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/8a470b404ccc72fc.jpg"
     }
    ],
    "state": "fresh"
