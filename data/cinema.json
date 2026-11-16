@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T16:42:58.879Z",
+ "generatedAt": "2026-11-16T18:19:41.710Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
@@ -2719,18 +2719,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-16 17:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-16 20:15",
        "version": "vobe",
        "tags": [
@@ -3010,17 +2998,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-16 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-16 20:15",
        "version": "vobe",
        "tags": [
@@ -3227,17 +3204,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 17:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 19:45",
        "version": "nlbe",
@@ -3748,17 +3714,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 17:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 20:30",
        "version": "vobe",
