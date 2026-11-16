@@ -1,0 +1,3 @@
+# Films that should never be suggested for the cinema (e.g. watch at home instead).
+# One film per line, "Title (Year)" as on Letterboxd. Lines starting with # are ignored.
+Resident Evil (2026)

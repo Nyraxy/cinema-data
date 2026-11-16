@@ -8,6 +8,8 @@ A GitHub Action that runs every 3 hours (plus extra runs on Monday evening) and 
 - **Letterboxd (Nyrax)**: the watchlist (live), and watched films with ratings/likes from the Letterboxd export in
   `letterboxd-export/` plus the RSS feed and first films page for recent activity
 
+To stop a film from being suggested (e.g. one you'd rather watch at home), add it to `exclude.txt`.
+
 A daily Claude scheduled task reads this file together with Google Calendar and emails cinema suggestions.
 
 Run locally: `node scrape.mjs` (Node 20+, no dependencies).
