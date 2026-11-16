@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T18:55:07.276Z",
+ "generatedAt": "2026-11-16T20:56:56.259Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
@@ -28,6 +28,7 @@
      ],
      "releaseAt": "2027-03-14",
      "url": "https://www.pathe.be/nl/films/notre-dame-de-paris-opera-national-de-paris-56067",
+     "poster": "https://media.pathe.be/movie/alex/HO00003736/poster/md/1/movie&uuid=FA4D080B-C3FF-4A97-AC16-396029CAC392",
      "slug": "notre-dame-de-paris-opera-national-de-paris-56067",
      "isNew": false,
      "isComingSoon": true,
@@ -50,6 +51,7 @@
      ],
      "releaseAt": "2027-01-31",
      "url": "https://www.pathe.be/nl/films/la-bayadere-opera-national-de-paris-56066",
+     "poster": "https://media.pathe.be/movie/alex/HO00003735/poster/md/1/movie&uuid=E35A8F14-ABB4-4DB5-803D-46D27815ACAA",
      "slug": "la-bayadere-opera-national-de-paris-56066",
      "isNew": false,
      "isComingSoon": true,
@@ -73,6 +75,7 @@
      ],
      "releaseAt": "2026-12-30",
      "url": "https://www.pathe.be/nl/films/you-can-see-everything-56838",
+     "poster": "https://media.pathe.be/movie/alex/HO00003807/poster/md/1/movie&uuid=7993C1DB-2EA8-4B56-AB26-87B00ECF4FFE",
      "slug": "you-can-see-everything-56838",
      "isNew": false,
      "isComingSoon": true,
@@ -107,6 +110,7 @@
      ],
      "releaseAt": "2026-12-23",
      "url": "https://www.pathe.be/nl/films/i-play-rocky-56969",
+     "poster": "https://media.pathe.be/movie/alex/HO00003821/poster/md/1/movie&uuid=95BD485D-B960-4982-B0F4-09CE22F692A9",
      "slug": "i-play-rocky-56969",
      "isNew": false,
      "isComingSoon": true,
@@ -144,6 +148,7 @@
      ],
      "releaseAt": "2026-12-16",
      "url": "https://www.pathe.be/nl/films/avengers-doomsday-55265",
+     "poster": "https://media.pathe.be/movie/alex/HO00003651/poster/md/1/movie&uuid=C27699B8-279F-4063-815F-22876B22C225",
      "slug": "avengers-doomsday-55265",
      "isNew": false,
      "isComingSoon": true,
@@ -670,6 +675,7 @@
      ],
      "releaseAt": "2026-12-16",
      "url": "https://www.pathe.be/nl/films/dune-part-three-55295",
+     "poster": "https://media.pathe.be/movie/alex/HO00003653/poster/md/2/movie&uuid=3BDAF126-872C-4B5D-844A-1812918D5738",
      "slug": "dune-part-three-55295",
      "isNew": false,
      "isComingSoon": true,
@@ -932,6 +938,7 @@
      ],
      "releaseAt": "2026-12-15",
      "url": "https://www.pathe.be/nl/films/dune-part-three-exclusieve-avant-premiere-55266",
+     "poster": "https://media.pathe.be/movie/alex/HO00003652/poster/md/4/movie&uuid=ECE4CE76-6E31-4DAA-B4D0-60341673F73E",
      "slug": "dune-part-three-exclusieve-avant-premiere-55266",
      "isNew": false,
      "isComingSoon": true,
@@ -969,6 +976,7 @@
      ],
      "releaseAt": "2026-12-15",
      "url": "https://www.pathe.be/nl/films/fan-event-avengers-doomsday-56069",
+     "poster": "https://media.pathe.be/movie/alex/HO00003738/poster/md/2/movie&uuid=AD287577-F8B4-4ED6-A347-F89AADD93FE7",
      "slug": "fan-event-avengers-doomsday-56069",
      "isNew": false,
      "isComingSoon": true,
@@ -1015,6 +1023,7 @@
      ],
      "releaseAt": "2026-12-13",
      "url": "https://www.pathe.be/nl/films/le-lac-des-cygnes-opera-national-de-paris-56065",
+     "poster": "https://media.pathe.be/movie/alex/HO00003734/poster/md/1/movie&uuid=15510B6C-2D98-4FDE-A71D-B00B09FE9242",
      "slug": "le-lac-des-cygnes-opera-national-de-paris-56065",
      "isNew": false,
      "isComingSoon": true,
@@ -1047,6 +1056,7 @@
      ],
      "releaseAt": "2026-12-12",
      "url": "https://www.pathe.be/nl/films/andre-rieu-s-2026-christmas-concert-let-it-snow-56068",
+     "poster": "https://media.pathe.be/movie/alex/HO00003737/poster/md/1/movie&uuid=51FFD206-5ABC-465B-A023-686AE1DAADBF",
      "slug": "andre-rieu-s-2026-christmas-concert-let-it-snow-56068",
      "isNew": false,
      "isComingSoon": true,
@@ -1091,6 +1101,7 @@
      ],
      "releaseAt": "2026-12-09",
      "url": "https://www.pathe.be/nl/films/siniclub-fjord-56372",
+     "poster": "https://media.pathe.be/movie/alex/HO00003771/poster/md/1/movie&uuid=35B2D700-2BC0-4F4C-95A3-2C74AB853CF2",
      "slug": "siniclub-fjord-56372",
      "isNew": false,
      "isComingSoon": true,
@@ -1150,6 +1161,7 @@
      ],
      "releaseAt": "2026-12-03",
      "url": "https://www.pathe.be/nl/films/2-aile-arasinda-55462",
+     "poster": "https://media.pathe.be/movie/alex/HO00003675/poster/md/2/movie&uuid=63030C9E-E4D1-4086-B791-8464E176E6FD",
      "slug": "2-aile-arasinda-55462",
      "isNew": false,
      "isComingSoon": true,
@@ -1183,6 +1195,7 @@
      ],
      "releaseAt": "2026-12-02",
      "url": "https://www.pathe.be/nl/films/asterix-het-koninkrijk-nubie-56997",
+     "poster": "https://media.pathe.be/movie/alex/HO00003831/poster/md/2/movie&uuid=9F22ADDE-13C0-46AF-BDEA-6B2DDD3C64E6",
      "slug": "asterix-het-koninkrijk-nubie-56997",
      "isNew": false,
      "isComingSoon": true,
@@ -1255,6 +1268,7 @@
      ],
      "releaseAt": "2026-12-02",
      "url": "https://www.pathe.be/nl/films/siniclub-le-faux-soir-56371",
+     "poster": "https://media.pathe.be/movie/alex/HO00003770/poster/md/1/movie&uuid=DF1123F8-C80A-4DF5-A499-1B07405620CB",
      "slug": "siniclub-le-faux-soir-56371",
      "isNew": false,
      "isComingSoon": true,
@@ -1313,6 +1327,7 @@
      ],
      "releaseAt": "2026-11-28",
      "url": "https://www.pathe.be/nl/films/family-day-disney-s-hexed-56721",
+     "poster": "https://media.pathe.be/movie/alex/HO00003793/poster/md/2/movie&uuid=8CF3E44E-0225-4128-9E5E-5AC581DBB012",
      "slug": "family-day-disney-s-hexed-56721",
      "isNew": false,
      "isComingSoon": true,
@@ -1348,6 +1363,7 @@
      ],
      "releaseAt": "2026-11-25",
      "url": "https://www.pathe.be/nl/films/disney-s-hexed-56720",
+     "poster": "https://media.pathe.be/movie/alex/HO00003792/poster/md/2/movie&uuid=5C91EBE7-EB79-4085-9DD5-27C56A3FE7D0",
      "slug": "disney-s-hexed-56720",
      "isNew": false,
      "isComingSoon": true,
@@ -1656,6 +1672,7 @@
      ],
      "releaseAt": "2026-11-25",
      "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
+     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/3/movie&uuid=D4ED47A6-F604-4780-842C-FD4B313B2F18",
      "slug": "focker-in-law-56078",
      "isNew": false,
      "isComingSoon": true,
@@ -1705,6 +1722,7 @@
      ],
      "releaseAt": "2026-11-25",
      "url": "https://www.pathe.be/nl/films/paper-tiger-56725",
+     "poster": "https://media.pathe.be/movie/alex/HO00003797/poster/md/2/movie&uuid=4C1AD351-0A3C-42AD-A355-639F94B5FC42",
      "slug": "paper-tiger-56725",
      "isNew": false,
      "isComingSoon": true,
@@ -1766,6 +1784,7 @@
      ],
      "releaseAt": "2026-11-24",
      "url": "https://www.pathe.be/nl/films/ladies-night-focker-in-law-56079",
+     "poster": "https://media.pathe.be/movie/alex/HO00003740/poster/md/4/movie&uuid=0DCFDB4E-0558-4291-9635-22E27D569C6D",
      "slug": "ladies-night-focker-in-law-56079",
      "isNew": false,
      "isComingSoon": true,
@@ -1801,6 +1820,7 @@
      ],
      "releaseAt": "2026-11-21",
      "url": "https://www.pathe.be/nl/films/bts-world-tour-arirang-in-kaohsiung-56973",
+     "poster": "https://media.pathe.be/movie/alex/HO00003824/poster/md/2/movie&uuid=BB70A246-ADF0-4716-836D-39959BBD2ADE",
      "slug": "bts-world-tour-arirang-in-kaohsiung-56973",
      "isNew": false,
      "isComingSoon": true,
@@ -1845,6 +1865,7 @@
      ],
      "releaseAt": "2026-11-20",
      "url": "https://www.pathe.be/nl/films/nasza-rewolucja-56957",
+     "poster": "https://media.pathe.be/movie/alex/HO00003815/poster/md/1/movie&uuid=E4994A62-1CC6-4727-B69D-7520237874EB",
      "slug": "nasza-rewolucja-56957",
      "isNew": false,
      "isComingSoon": true,
@@ -1892,6 +1913,7 @@
      ],
      "releaseAt": "2026-11-19",
      "url": "https://www.pathe.be/nl/films/cine-seniors-digger-55470",
+     "poster": "https://media.pathe.be/movie/alex/HO00003681/poster/md/5/movie&uuid=5A1865CF-8E0E-4465-85EB-A238B1542552",
      "slug": "cine-seniors-digger-55470",
      "isNew": false,
      "isComingSoon": true,
@@ -1940,6 +1962,7 @@
      ],
      "releaseAt": "2026-11-18",
      "url": "https://www.pathe.be/nl/films/fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
+     "poster": "https://media.pathe.be/movie/alex/HO00003761/poster/md/5/movie&uuid=C283F36F-B66C-400B-9288-CC48650C42D0",
      "slug": "fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
      "isNew": false,
      "isComingSoon": true,
@@ -1988,6 +2011,7 @@
      ],
      "releaseAt": "2026-11-18",
      "url": "https://www.pathe.be/nl/films/heysel-85-55068",
+     "poster": "https://media.pathe.be/movie/alex/HO00003609/poster/md/2/movie&uuid=904709F1-7535-475B-A81F-4042EF169B08",
      "slug": "heysel-85-55068",
      "isNew": false,
      "isComingSoon": true,
@@ -2272,6 +2296,7 @@
      ],
      "releaseAt": "2026-11-18",
      "url": "https://www.pathe.be/nl/films/the-hunger-games-sunrise-on-the-reaping-55214",
+     "poster": "https://media.pathe.be/movie/alex/HO00003637/poster/md/5/movie&uuid=FD170D1D-E201-4567-B67F-9573C3729449",
      "slug": "the-hunger-games-sunrise-on-the-reaping-55214",
      "isNew": false,
      "isComingSoon": true,
@@ -2633,6 +2658,7 @@
      ],
      "releaseAt": "2026-11-16",
      "url": "https://www.pathe.be/nl/films/cinelive-het-zwanenmeer-54758",
+     "poster": "https://media.pathe.be/movie/alex/HO00003551/poster/md/2/movie&uuid=702E7C47-E63A-49EB-8A68-FF5345FFCDF4",
      "slug": "cinelive-het-zwanenmeer-54758",
      "isNew": true,
      "isComingSoon": false,
@@ -2653,6 +2679,7 @@
      ],
      "releaseAt": "2026-11-14",
      "url": "https://www.pathe.be/nl/films/mini-movie-club-peppa-s-kerst-56171",
+     "poster": "https://media.pathe.be/movie/alex/HO00003746/poster/md/2/movie&uuid=7E3C1BE7-4365-45D9-BD08-80EAD87FD04E",
      "slug": "mini-movie-club-peppa-s-kerst-56171",
      "isNew": true,
      "isComingSoon": false,
@@ -2702,12 +2729,12 @@
      ],
      "releaseAt": "2026-11-11",
      "url": "https://www.pathe.be/nl/films/ebenezer-56410",
+     "poster": "https://media.pathe.be/movie/alex/HO00003776/poster/md/2/movie&uuid=B32C794E-C3CE-40A2-BC5B-3148E22EF394",
      "slug": "ebenezer-56410",
      "isNew": true,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
@@ -2718,18 +2745,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 20:15",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "vobe",
@@ -2981,12 +2996,12 @@
      ],
      "releaseAt": "2026-11-11",
      "url": "https://www.pathe.be/nl/films/how-to-rob-a-bank-56420",
+     "poster": "https://media.pathe.be/movie/alex/HO00003777/poster/md/2/movie&uuid=264AB579-CBFB-4F7A-870C-338EF8A0E40E",
      "slug": "how-to-rob-a-bank-56420",
      "isNew": true,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
@@ -2997,17 +3012,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "vobe",
@@ -3188,12 +3192,12 @@
      ],
      "releaseAt": "2026-11-11",
      "url": "https://www.pathe.be/nl/films/carnaval-56963",
+     "poster": "https://media.pathe.be/movie/alex/HO00003819/poster/md/2/movie&uuid=B5D20544-16B0-4E31-B799-E141A948524C",
      "slug": "carnaval-56963",
      "isNew": true,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
@@ -3204,17 +3208,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 19:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 17:15",
        "version": "nlbe",
@@ -3353,12 +3346,12 @@
      ],
      "releaseAt": "2026-11-04",
      "url": "https://www.pathe.be/nl/films/godzilla-minus-zero-56150",
+     "poster": "https://media.pathe.be/movie/alex/HO00003741/poster/md/2/movie&uuid=EBE9525B-77C5-4E53-B33F-167344E145FC",
      "slug": "godzilla-minus-zero-56150",
      "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-20",
@@ -3367,17 +3360,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:00",
        "version": "vobe",
@@ -3502,6 +3484,7 @@
      ],
      "releaseAt": "2026-11-04",
      "url": "https://www.pathe.be/nl/films/wild-horse-nine-56722",
+     "poster": "https://media.pathe.be/movie/alex/HO00003794/poster/md/2/movie&uuid=5651C398-4F55-4C7C-83C2-433DDD76EB98",
      "slug": "wild-horse-nine-56722",
      "isNew": false,
      "isComingSoon": false,
@@ -3540,6 +3523,7 @@
      ],
      "releaseAt": "2026-10-28",
      "url": "https://www.pathe.be/nl/films/fall-2-deadpoint-55217",
+     "poster": "https://media.pathe.be/movie/alex/HO00003640/poster/md/2/movie&uuid=93AD4E86-DEC2-43FB-A25A-AB3259E08A48",
      "slug": "fall-2-deadpoint-55217",
      "isNew": false,
      "isComingSoon": false,
@@ -3584,6 +3568,7 @@
      ],
      "releaseAt": "2026-10-28",
      "url": "https://www.pathe.be/nl/films/de-grote-sinterklaasfilm-en-de-vliegende-pieten-56375",
+     "poster": null,
      "slug": "de-grote-sinterklaasfilm-en-de-vliegende-pieten-56375",
      "isNew": false,
      "isComingSoon": false,
@@ -3698,12 +3683,12 @@
      ],
      "releaseAt": "2026-10-21",
      "url": "https://www.pathe.be/nl/films/clayface-56038",
+     "poster": "https://media.pathe.be/movie/alex/HO00003731/poster/md/2/movie&uuid=F0F03E17-6AFD-4D9A-9AC1-C7A597A3BBFA",
      "slug": "clayface-56038",
      "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
@@ -3714,17 +3699,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 20:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:45",
        "version": "vobe",
@@ -3882,12 +3856,12 @@
      ],
      "releaseAt": "2026-10-21",
      "url": "https://www.pathe.be/nl/films/coward-56342",
+     "poster": "https://media.pathe.be/movie/alex/HO00003764/poster/md/2/movie&uuid=E00DC734-0BA1-4B3D-BD68-DC4653F796B9",
      "slug": "coward-56342",
      "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-19",
       "2026-11-20",
@@ -3896,17 +3870,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 13:45",
        "version": "vobe",
@@ -4023,6 +3986,7 @@
      ],
      "releaseAt": "2026-10-21",
      "url": "https://www.pathe.be/nl/films/coyote-vs-acme-56037",
+     "poster": "https://media.pathe.be/movie/alex/HO00003730/poster/md/2/movie&uuid=A12CCE1A-141A-4466-9F66-661ADD109EEC",
      "slug": "coyote-vs-acme-56037",
      "isNew": false,
      "isComingSoon": false,
@@ -4081,6 +4045,7 @@
      ],
      "releaseAt": "2026-10-21",
      "url": "https://www.pathe.be/nl/films/shaun-het-schaap-het-beest-van-de-boerderij-56216",
+     "poster": "https://media.pathe.be/movie/alex/HO00003754/poster/md/2/movie&uuid=AE120E90-FF45-41D4-BD15-17FDFDE01E1F",
      "slug": "shaun-het-schaap-het-beest-van-de-boerderij-56216",
      "isNew": false,
      "isComingSoon": false,
@@ -4194,6 +4159,7 @@
      ],
      "releaseAt": "2026-10-14",
      "url": "https://www.pathe.be/nl/films/other-mommy-55475",
+     "poster": "https://media.pathe.be/movie/alex/HO00003682/poster/md/4/movie&uuid=87F88132-EE82-4E63-809C-31D3676768DF",
      "slug": "other-mommy-55475",
      "isNew": false,
      "isComingSoon": false,
@@ -4210,17 +4176,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 19:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 22:00",
        "version": "vobe",
@@ -4344,6 +4299,7 @@
      ],
      "releaseAt": "2026-10-14",
      "url": "https://www.pathe.be/nl/films/de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
+     "poster": "https://media.pathe.be/movie/alex/HO00003729/poster/md/1/movie&uuid=7E2D1671-C69A-475B-AF5B-C82622BB6298",
      "slug": "de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
      "isNew": false,
      "isComingSoon": false,
@@ -4469,6 +4425,7 @@
      ],
      "releaseAt": "2026-10-14",
      "url": "https://www.pathe.be/nl/films/yugly-56033",
+     "poster": "https://media.pathe.be/movie/alex/HO00003726/poster/md/2/movie&uuid=6C67312C-36F6-42C9-B53E-2FF727705796",
      "slug": "yugly-56033",
      "isNew": false,
      "isComingSoon": false,
@@ -4570,6 +4527,7 @@
      ],
      "releaseAt": "2026-10-07",
      "url": "https://www.pathe.be/nl/films/siniclub-fausse-note-56368",
+     "poster": "https://media.pathe.be/movie/alex/HO00003767/poster/md/1/movie&uuid=51756998-CFEF-4C78-8A24-FBF08A17F7E7",
      "slug": "siniclub-fausse-note-56368",
      "isNew": false,
      "isComingSoon": false,
@@ -4607,6 +4565,7 @@
      ],
      "releaseAt": "2026-10-07",
      "url": "https://www.pathe.be/nl/films/het-vergeten-eiland-55307",
+     "poster": "https://media.pathe.be/movie/alex/HO00003654/poster/md/2/movie&uuid=2B484430-7E7D-444C-AA73-C8228E605290",
      "slug": "het-vergeten-eiland-55307",
      "isNew": false,
      "isComingSoon": false,
@@ -4696,6 +4655,7 @@
      ],
      "releaseAt": "2026-09-30",
      "url": "https://www.pathe.be/nl/films/siniclub-500-miles-56370",
+     "poster": "https://media.pathe.be/movie/alex/HO00003769/poster/md/1/movie&uuid=EF595903-2D9C-4F6B-9287-9D98358CC0B9",
      "slug": "siniclub-500-miles-56370",
      "isNew": false,
      "isComingSoon": false,
@@ -4756,12 +4716,12 @@
      ],
      "releaseAt": "2026-09-23",
      "url": "https://www.pathe.be/nl/films/heart-of-the-beast-55219",
+     "poster": "https://media.pathe.be/movie/alex/HO00003642/poster/md/4/movie&uuid=38572D3A-18D4-4AC9-A78A-EA04B4A377F2",
      "slug": "heart-of-the-beast-55219",
      "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17",
       "2026-11-18",
       "2026-11-19",
@@ -4772,17 +4732,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 19:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "vobe",
@@ -4975,6 +4924,7 @@
      ],
      "releaseAt": "2026-09-16",
      "url": "https://www.pathe.be/nl/films/resident-evil-55085",
+     "poster": "https://media.pathe.be/movie/alex/HO00003614/poster/md/5/movie&uuid=30654322-8F96-4B3A-8A3A-5DD80A455773",
      "slug": "resident-evil-55085",
      "isNew": false,
      "isComingSoon": false,
@@ -5023,6 +4973,7 @@
      ],
      "releaseAt": "2026-07-29",
      "url": "https://www.pathe.be/nl/films/spider-man-brand-new-day-54409",
+     "poster": "https://media.pathe.be/movie/alex/HO00003523/poster/md/4/movie&uuid=A86E0638-AA17-4F04-B3B3-A58BE5A6A90E",
      "slug": "spider-man-brand-new-day-54409",
      "isNew": false,
      "isComingSoon": false,
@@ -5128,6 +5079,7 @@
      ],
      "releaseAt": "2026-07-29",
      "url": "https://www.pathe.be/nl/films/siniclub-the-christophers-56369",
+     "poster": "https://media.pathe.be/movie/alex/HO00003768/poster/md/1/movie&uuid=79ABA875-CC11-4BB2-822B-3B14ED6C20FD",
      "slug": "siniclub-the-christophers-56369",
      "isNew": false,
      "isComingSoon": false,
@@ -5184,6 +5136,7 @@
      ],
      "releaseAt": "2026-07-15",
      "url": "https://www.pathe.be/nl/films/the-odyssey-52999",
+     "poster": "https://media.pathe.be/movie/alex/HO00003503/poster/md/4/movie&uuid=01B2F75A-E9CD-4876-B1B4-E84B03421871",
      "slug": "the-odyssey-52999",
      "isNew": false,
      "isComingSoon": false,
@@ -5291,6 +5244,7 @@
      ],
      "releaseAt": "2026-06-24",
      "url": "https://www.pathe.be/nl/films/minions-monsters-52846",
+     "poster": "https://media.pathe.be/movie/alex/HO00003488/poster/md/2/movie&uuid=26DE31CC-C48F-40C4-82F7-0B0D1622B273",
      "slug": "minions-monsters-52846",
      "isNew": false,
      "isComingSoon": false,
@@ -5375,6 +5329,7 @@
      "directors": [
       "Cédric Kahn"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027875_fr__1790682531976.jpg",
      "cinebelId": 1027875,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027875/1518",
      "showtimes": [
@@ -5424,6 +5379,7 @@
      "directors": [
       "Mees Peijnenburg"
      ],
+     "poster": "/static/img/movie/poster/small/default.png",
      "cinebelId": 1028075,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028075/A%20Family",
      "showtimes": [
@@ -5449,6 +5405,7 @@
      "directors": [
       "Jean-Luc Godard"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1002298_fr_alphaville_1315557841736.jpg",
      "cinebelId": 1002298,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1002298/Alphaville,%20une%20%C3%A9trange%20aventure%20de%20Lemmy%20Caution",
      "showtimes": [
@@ -5468,6 +5425,7 @@
      "directors": [
       "Jordan Firstman"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028017_fr__1790352481899.jpg",
      "cinebelId": 1028017,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
@@ -5541,6 +5499,7 @@
      "directors": [
       "Lukas Dhont"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027586_fr__1787669815782.jpg",
      "cinebelId": 1027586,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
@@ -5626,6 +5585,7 @@
      "directors": [
       "Alejandro González Iñárritu"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027125_fr__1789055749193.jpg",
      "cinebelId": 1027125,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027125/Digger",
      "showtimes": [
@@ -5645,6 +5605,7 @@
      "directors": [
       "Richard Kelly"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/7640_fr_donnie_darko_1312293735340.jpg",
      "cinebelId": 7640,
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
@@ -5682,6 +5643,7 @@
      "directors": [
       "Allan Deberton"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028037_fr_gugu_s_world_1790335320088.jpg",
      "cinebelId": 1028037,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028037/Feito%20Pipa",
      "showtimes": [
@@ -5707,6 +5669,7 @@
      "directors": [
       "Teodora Ana Mihai"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1026489_fr__1771413177795.jpg",
      "cinebelId": 1026489,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
@@ -5792,6 +5755,7 @@
      "directors": [
       "Olivia Wilde"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027719_fr_l_invitation_1787823611554.jpg",
      "cinebelId": 1027719,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
@@ -5841,6 +5805,7 @@
      "directors": [
       "Marine Atlan"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027753_fr__1791979686449.jpg",
      "cinebelId": 1027753,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
@@ -5926,6 +5891,7 @@
      "directors": [
       "Harry Kümel"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/7273_fr_malpertuis_1317283874103.jpg",
      "cinebelId": 7273,
      "cinebelUrl": "https://cinebel.dhnet.be/film/7273/Malpertuis",
      "showtimes": [
@@ -5945,6 +5911,7 @@
      "directors": [
       "Sofia Coppola"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/14375_fr_marie_antoinette_1310561692085.jpg",
      "cinebelId": 14375,
      "cinebelUrl": "https://cinebel.dhnet.be/film/14375/Marie-Antoinette",
      "showtimes": [
@@ -5982,6 +5949,7 @@
      "directors": [
       "Andreï Zviagintsev"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027914_fr__1791987591223.jpg",
      "cinebelId": 1027914,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
@@ -6067,6 +6035,7 @@
      "directors": [
       "László Nemes"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028023_fr__1791988107923.jpg",
      "cinebelId": 1028023,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028023/Moulin",
      "showtimes": [
@@ -6092,6 +6061,7 @@
      "directors": [
       "Stine Marie Buhl"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028103_fr__1793021443520.jpg",
      "cinebelId": 1028103,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
      "showtimes": [
@@ -6123,6 +6093,7 @@
      "directors": [
       "Yuval  Abraham"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028012_fr__1790352709351.jpg",
      "cinebelId": 1028012,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028012/Naza",
      "showtimes": [
@@ -6172,6 +6143,7 @@
      "directors": [
       "Georgia Oakley"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027818_fr_raison_et_sentiments_1782397890778.jpg",
      "cinebelId": 1027818,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "showtimes": [
@@ -6221,6 +6193,7 @@
      "directors": [
       "Thomas Jean"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027643_fr__1777286786456.jpg",
      "cinebelId": 1027643,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027643/Res%20Nullius",
      "showtimes": [
@@ -6240,6 +6213,7 @@
      "directors": [
       "Steve Cox"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
      "cinebelId": 1027315,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
      "showtimes": [
@@ -6271,6 +6245,7 @@
      "directors": [
       "Ryusuke Hamaguchi"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027595_fr_soudain_1791984985241.jpg",
      "cinebelId": 1027595,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
@@ -6326,6 +6301,7 @@
      "directors": [
       "Reiner Holzemer"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028064_fr__1791977595204.jpg",
      "cinebelId": 1028064,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028064/The%20Six",
      "showtimes": [
@@ -6357,6 +6333,7 @@
      "directors": [
       "Alex Huston Fischer"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027890_fr__1786445741687.jpg",
      "cinebelId": 1027890,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
@@ -6406,6 +6383,7 @@
      "directors": [
       "Martin McDonagh"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027608_fr__1776249264700.jpg",
      "cinebelId": 1027608,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
@@ -6497,6 +6475,7 @@
      "directors": [
       "Nathan Fielder"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
      "cinebelId": 1028110,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
      "showtimes": [
@@ -6525,6 +6504,7 @@
      "directors": [
       "Jordan Firstman"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028017_fr__1790352481899.jpg",
      "cinebelId": 1028017,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
@@ -6580,6 +6560,7 @@
      "directors": [
       "Lukas Dhont"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027586_fr__1787669815782.jpg",
      "cinebelId": 1027586,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
@@ -6719,6 +6700,7 @@
      "directors": [
       "Martijn Koevoets"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028054_fr__1791793699789.jpg",
      "cinebelId": 1028054,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028054/De%20Club%20van%20Sinterklaas:%20Paniek%20in%20het%20Pietendorp",
      "showtimes": [
@@ -6738,6 +6720,7 @@
      "directors": [
       "Richard Kelly"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/7640_fr_donnie_darko_1312293735340.jpg",
      "cinebelId": 7640,
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
@@ -6793,6 +6776,7 @@
      "directors": [
       "Teodora Ana Mihai"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1026489_fr__1771413177795.jpg",
      "cinebelId": 1026489,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
@@ -6908,6 +6892,7 @@
      "directors": [
       "Olivia Wilde"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027719_fr_l_invitation_1787823611554.jpg",
      "cinebelId": 1027719,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
@@ -6963,6 +6948,7 @@
      "directors": [
       "Marine Atlan"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027753_fr__1791979686449.jpg",
      "cinebelId": 1027753,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
@@ -7054,6 +7040,7 @@
      "directors": [
       "Charline  Bourgeois-Tacquet"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027587_fr__1785416168048.jpg",
      "cinebelId": 1027587,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027587/La%20Vie%20d'une%20femme",
      "showtimes": [
@@ -7073,6 +7060,7 @@
      "directors": [
       "Sofia Coppola"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/11566_fr_lost_in_translation_1310561448446.jpg",
      "cinebelId": 11566,
      "cinebelUrl": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "showtimes": [
@@ -7128,6 +7116,7 @@
      "directors": [
       "Tobe Hooper"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/11736_fr_massacre_a_la_tron_onneuse__1974__1425209170058.jpg",
      "cinebelId": 11736,
      "cinebelUrl": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
      "showtimes": [
@@ -7153,6 +7142,7 @@
      "directors": [
       "Andreï Zviagintsev"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027914_fr__1791987591223.jpg",
      "cinebelId": 1027914,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
@@ -7310,6 +7300,7 @@
      "directors": [
       "Stine Marie Buhl"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028103_fr__1793021443520.jpg",
      "cinebelId": 1028103,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
      "showtimes": [
@@ -7329,6 +7320,7 @@
      "directors": [
       "Steve Cox"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
      "cinebelId": 1027315,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
      "showtimes": [
@@ -7360,6 +7352,7 @@
      "directors": [
       "Ryusuke Hamaguchi"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027595_fr_soudain_1791984985241.jpg",
      "cinebelId": 1027595,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
@@ -7415,6 +7408,7 @@
      "directors": [
       "Noah Segan"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027894_fr__1789483489442.jpg",
      "cinebelId": 1027894,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "showtimes": [
@@ -7482,6 +7476,7 @@
      "directors": [
       "Alex Huston Fischer"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027890_fr__1786445741687.jpg",
      "cinebelId": 1027890,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
@@ -7525,6 +7520,7 @@
      "directors": [
       "Martin McDonagh"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027608_fr__1776249264700.jpg",
      "cinebelId": 1027608,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
@@ -7664,6 +7660,7 @@
      "directors": [
       "Nathan Fielder"
      ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
      "cinebelId": 1028110,
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
      "showtimes": [
