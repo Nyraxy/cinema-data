@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-16T12:41:46.081Z",
+ "generatedAt": "2026-11-16T15:01:28.991Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 41 films",
-   "sphinx-gent": "fresh: 15 films",
-   "studio-skoop-gent": "fresh: 10 films"
+   "sphinx-gent": "fresh: 25 films",
+   "studio-skoop-gent": "fresh: 18 films"
   },
   "watchlist": "letterboxd: 1126",
-  "watched": "1945 films (1807 rated, 1158 liked); history from export + new watches added automatically",
+  "watched": "1972 films (1831 rated, 1172 liked); history from export + new watches added automatically",
   "errors": []
  },
  "cinemas": [
@@ -2043,17 +2043,6 @@
        "special": null
       },
       {
-       "time": "2026-11-20 22:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-21 17:50",
        "version": "vobe",
        "tags": [
@@ -2066,17 +2055,6 @@
       },
       {
        "time": "2026-11-21 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 22:10",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -2497,18 +2475,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-16 14:15",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-16 17:30",
        "version": "vobe",
        "tags": [
@@ -2593,17 +2559,6 @@
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 17:30",
        "version": "vobe",
@@ -2884,17 +2839,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-16 14:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-16 17:45",
        "version": "vobe",
        "tags": [
@@ -2972,17 +2916,6 @@
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 14:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 17:00",
        "version": "vobe",
@@ -3062,17 +2995,6 @@
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 14:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 17:15",
        "version": "vobe",
@@ -3243,17 +3165,6 @@
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-16 17:15",
        "version": "vobe",
@@ -3467,21 +3378,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-16",
       "2026-11-17"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-16 14:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 13:45",
        "version": "vobe",
@@ -3505,6 +3404,55 @@
    "source": "cinebel (next ~2 days only)",
    "films": [
     {
+     "title": "15/18",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 104,
+     "directors": [
+      "Cédric Kahn"
+     ],
+     "cinebelId": 1027875,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027875/1518",
+     "showtimes": [
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
      "title": "A Family",
      "originalTitle": null,
      "year": 2026,
@@ -3517,6 +3465,12 @@
      "showtimes": [
       {
        "time": "2026-11-17 13:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 13:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -3570,6 +3524,48 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3601,6 +3597,60 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3617,6 +3667,153 @@
      "showtimes": [
       {
        "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Donnie Darko",
+     "originalTitle": null,
+     "year": 2001,
+     "duration": 107,
+     "directors": [
+      "Richard Kelly"
+     ],
+     "cinebelId": 7640,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
+     "showtimes": [
+      {
+       "time": "2026-11-18 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 20:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 20:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Gugu's World",
+     "originalTitle": "Feito Pipa",
+     "year": 2026,
+     "duration": 93,
+     "directors": [
+      "Allan Deberton"
+     ],
+     "cinebelId": 1028037,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028037/Feito%20Pipa",
+     "showtimes": [
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Heysel 85",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 92,
+     "directors": [
+      "Teodora Ana Mihai"
+     ],
+     "cinebelId": 1026489,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
+     "showtimes": [
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 09:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -3642,6 +3839,30 @@
       },
       {
        "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -3682,6 +3903,73 @@
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Malpertuis",
+     "originalTitle": null,
+     "year": 1971,
+     "duration": 123,
+     "directors": [
+      "Harry Kümel"
+     ],
+     "cinebelId": 7273,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/7273/Malpertuis",
+     "showtimes": [
+      {
+       "time": "2026-11-23 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
       }
      ]
     },
@@ -3698,6 +3986,24 @@
      "showtimes": [
       {
        "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 11:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:30",
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
@@ -3732,6 +4038,60 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3761,6 +4121,37 @@
      ]
     },
     {
+     "title": "Mumbo",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 83,
+     "directors": [
+      "Stine Marie Buhl"
+     ],
+     "cinebelId": 1028103,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
+     "showtimes": [
+      {
+       "time": "2026-11-21 11:00",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      }
+     ]
+    },
+    {
      "title": "Naza",
      "originalTitle": null,
      "year": 2026,
@@ -3773,6 +4164,36 @@
      "showtimes": [
       {
        "time": "2026-11-17 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -3801,6 +4222,135 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-20 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Res Nullius",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 67,
+     "directors": [
+      "Thomas Jean"
+     ],
+     "cinebelId": 1027643,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027643/Res%20Nullius",
+     "showtimes": [
+      {
+       "time": "2026-11-19 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Shaun le Mouton: La Bêêête d'Halloween",
+     "originalTitle": "Shaun The Sheep: The Beast Of Mossy Bottom",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Steve Cox"
+     ],
+     "cinebelId": 1027315,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
+     "showtimes": [
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Soudain",
+     "originalTitle": "All of a Sudden",
+     "year": 2026,
+     "duration": 196,
+     "directors": [
+      "Ryusuke Hamaguchi"
+     ],
+     "cinebelId": 1027595,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
+     "showtimes": [
+      {
+       "time": "2026-11-18 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 16:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 16:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 16:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3820,6 +4370,18 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3836,6 +4398,36 @@
      "showtimes": [
       {
        "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -3869,6 +4461,85 @@
        "time": "2026-11-17 20:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "You Can See Everything",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 174,
+     "directors": [
+      "Nathan Fielder"
+     ],
+     "cinebelId": 1028110,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
+     "showtimes": [
+      {
+       "time": "2026-11-22 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
        "special": null
       }
      ]
@@ -3910,6 +4581,30 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 22:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3953,6 +4648,291 @@
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 22:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 19:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 22:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 19:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 16:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "De Club van Sinterklaas: Paniek in het Pietendorp",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 81,
+     "directors": [
+      "Martijn Koevoets"
+     ],
+     "cinebelId": 1028054,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028054/De%20Club%20van%20Sinterklaas:%20Paniek%20in%20het%20Pietendorp",
+     "showtimes": [
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Donnie Darko",
+     "originalTitle": null,
+     "year": 2001,
+     "duration": 107,
+     "directors": [
+      "Richard Kelly"
+     ],
+     "cinebelId": 7640,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
+     "showtimes": [
+      {
+       "time": "2026-11-18 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 22:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 22:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 22:10",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Heysel 85",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 92,
+     "directors": [
+      "Teodora Ana Mihai"
+     ],
+     "cinebelId": 1026489,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
+     "showtimes": [
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 19:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -3969,6 +4949,42 @@
      "showtimes": [
       {
        "time": "2026-11-16 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 22:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -4009,6 +5025,79 @@
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 17:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 19:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 16:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 16:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "La Vie d'une femme",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 98,
+     "directors": [
+      "Charline  Bourgeois-Tacquet"
+     ],
+     "cinebelId": 1027587,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027587/La%20Vie%20d'une%20femme",
+     "showtimes": [
+      {
+       "time": "2026-11-23 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
       }
      ]
     },
@@ -4031,6 +5120,36 @@
       },
       {
        "time": "2026-11-17 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 22:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 22:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 22:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:30",
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
@@ -4102,6 +5221,225 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 19:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 22:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 16:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Mumbo",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 83,
+     "directors": [
+      "Stine Marie Buhl"
+     ],
+     "cinebelId": 1028103,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
+     "showtimes": [
+      {
+       "time": "2026-11-21 14:30",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Shaun le Mouton: La Bêêête d'Halloween",
+     "originalTitle": "Shaun The Sheep: The Beast Of Mossy Bottom",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Steve Cox"
+     ],
+     "cinebelId": 1027315,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
+     "showtimes": [
+      {
+       "time": "2026-11-18 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Soudain",
+     "originalTitle": "All of a Sudden",
+     "year": 2026,
+     "duration": 196,
+     "directors": [
+      "Ryusuke Hamaguchi"
+     ],
+     "cinebelId": 1027595,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
+     "showtimes": [
+      {
+       "time": "2026-11-18 16:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 16:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 21:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 16:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 16:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 19:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -4127,6 +5465,48 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-18 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ]
     },
@@ -4149,6 +5529,24 @@
       },
       {
        "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -4188,6 +5586,127 @@
        "time": "2026-11-17 20:00",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 19:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 22:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "You Can See Everything",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 174,
+     "directors": [
+      "Nathan Fielder"
+     ],
+     "cinebelId": 1028110,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
+     "showtimes": [
+      {
+       "time": "2026-11-22 19:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
        "special": null
       }
      ]
@@ -20365,15 +21884,177 @@
    },
    {
     "name": "WandaVision (2021)",
-    "slug": null,
+    "slug": "wandavision",
     "rating": 4,
     "liked": true
    },
    {
     "name": "Agatha All Along (2024)",
-    "slug": null,
+    "slug": "agatha-all-along-2024",
     "rating": 3.5,
     "liked": true
+   },
+   {
+    "name": "Wonder Man (2026)",
+    "slug": "wonder-man-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Film Club (2025)",
+    "slug": "film-club-2025",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "The Imagineering Story (2019)",
+    "slug": "the-imagineering-story",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Harry & Meghan (2022)",
+    "slug": "harry-meghan",
+    "rating": null,
+    "liked": false
+   },
+   {
+    "name": "The Book of Boba Fett (2021)",
+    "slug": "the-book-of-boba-fett",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "Obi-Wan Kenobi (2022)",
+    "slug": "obi-wan-kenobi",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Marvel's The Defenders (2017)",
+    "slug": "marvels-the-defenders",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Ironheart (2025)",
+    "slug": "ironheart-2025",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Secret Invasion (2023)",
+    "slug": "secret-invasion",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "She-Hulk: Attorney at Law (2022)",
+    "slug": "she-hulk-attorney-at-law",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Ms. Marvel (2022)",
+    "slug": "ms-marvel",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Moon Knight (2022)",
+    "slug": "moon-knight-2022",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Hawkeye (2021)",
+    "slug": "hawkeye-2021",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "The Falcon and the Winter Soldier (2021)",
+    "slug": "the-falcon-and-the-winter-soldier",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Gilmore Girls: A Year in the Life (2016)",
+    "slug": "gilmore-girls-a-year-in-the-life",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "The Undoing (2020)",
+    "slug": "the-undoing",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "The Queen's Gambit (2020)",
+    "slug": "the-queens-gambit",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Pam & Tommy (2022)",
+    "slug": "pam-tommy",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "One Day (2024)",
+    "slug": "one-day-2024",
+    "rating": 3.5,
+    "liked": false
+   },
+   {
+    "name": "Normal People (2020)",
+    "slug": "normal-people-2020",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Mrs. Fletcher (2019)",
+    "slug": "mrs-fletcher",
+    "rating": null,
+    "liked": false
+   },
+   {
+    "name": "Lessons in Chemistry (2023)",
+    "slug": "lessons-in-chemistry",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Hollywood (2020)",
+    "slug": "hollywood-2020",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Devs (2020)",
+    "slug": "devs",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Chernobyl (2019)",
+    "slug": "chernobyl",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Alias Grace (2017)",
+    "slug": "alias-grace",
+    "rating": null,
+    "liked": false
+   },
+   {
+    "name": "Adolescence (2025)",
+    "slug": "adolescence-2025",
+    "rating": 3.5,
+    "liked": false
    }
   ]
  }
