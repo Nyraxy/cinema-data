@@ -51,6 +51,7 @@ export function parseCinebel(html, now = new Date()) {
         showtimes.push({ time: `${iso} ${t.padStart(5, "0")}`, version, subtitles, special });
       }
     }
+    const cinebelUrl = filmLink ? `https://cinebel.dhnet.be${encodeURI(decodeURI(filmLink[1].trim()))}` : null;
     films.push({
       title,
       originalTitle,
@@ -59,7 +60,8 @@ export function parseCinebel(html, now = new Date()) {
       directors,
       poster,
       cinebelId: filmLink ? Number(filmLink[2]) : null,
-      cinebelUrl: filmLink ? `https://cinebel.dhnet.be${encodeURI(decodeURI(filmLink[1].trim()))}` : null,
+      url: cinebelUrl,
+      cinebelUrl,
       showtimes,
     });
   }

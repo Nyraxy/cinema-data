@@ -2,8 +2,8 @@
   Email template for the daily cinema suggestions (used by the Claude scheduled task).
   Email-safe: tables + inline styles only, max 600px wide, no CSS classes, no JS.
   Repeat the marked blocks as needed and drop sections that would be empty.
-  Posters: Gmail removes <img> tags with web URLs. Attach each film's "posterThumb" file (base64) as an INLINE attachment
-  and reference it as src="cid:attN", N = its zero-based position in the attachments list. If a film has no posterThumb,
+  Posters: Gmail removes <img> tags with web URLs. Run tools/attachments.py with the films' "posterThumb" values;
+  pass its "attachments" output unchanged to send_message and use its "cid" values as the img src. If a film has no posterThumb,
   keep the grey placeholder cell.
   Colours: always write "background-color:" (never the "background:" shorthand, which Gmail strips) and keep the bgcolor attributes.
   Badge colours: NEW #e5484d · Watchlist #3e63dd · Re-release #8e4ec6 · Weekend #f76b15 · Gent #12a594
