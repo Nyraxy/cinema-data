@@ -286,36 +286,9 @@ async function scrapeRecentActivity() {
   return items;
 }
 
-// All watched films (with rating + like) from the public /films/ pages, read through the real
-// Chrome because Letterboxd blocks plain requests for page 2 onwards.
-async function scrapeAllWatchedViaBrowser() {
-  const page = await newPage();
-  try {
-    const load = async (url) => {
-      for (let i = 0; i < 3; i++) {
-        const r = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
-        await page.waitForSelector("li.griditem", { timeout: 20000 }).catch(() => {});
-        const html = await page.content();
-        if (r?.status() === 200 && html.includes("griditem")) return html;
-        console.warn(`letterboxd ${r?.status()} on ${url}, retrying`);
-        await page.waitForTimeout(8000 * (i + 1));
-      }
-      throw new Error(`${url}: blocked`);
-    };
-    const base = `https://letterboxd.com/${LETTERBOXD_USER}/films/`;
-    const first = await load(base);
-    const items = parsePosters(first);
-    const n = lastPage(first);
-    for (let p = 2; p <= n; p++) {
-      await page.waitForTimeout(1500 + Math.random() * 1500);
-      items.push(...parsePosters(await load(`${base}page/${p}/`)));
-    }
-    return { items, pages: n };
-  } finally {
-    await page.context().close();
-  }
-}
-
+// Watched history accumulates: everything from the previous run is kept, the (one-time) export
+// adds older history, and recent watches come from the RSS feed + first /films/ page every run.
+// (Letterboxd blocks GitHub's servers from page 2 of /films/ onwards, even through a real browser.)
 async function buildWatched(exp, previous) {
   const map = new Map();
   const upsert = ({ name, title, year, slug = null, rating = null, liked = false }) => {
@@ -332,19 +305,12 @@ async function buildWatched(exp, previous) {
   for (const r of exp.watched || []) upsert({ title: r.Name, year: Number(r.Year) || null });
   for (const r of exp.ratings || []) upsert({ title: r.Name, year: Number(r.Year) || null, rating: Number(r.Rating) || null });
   for (const r of exp.likes || []) upsert({ title: r.Name, year: Number(r.Year) || null, liked: true });
-  try {
-    const { items, pages } = await scrapeAllWatchedViaBrowser();
-    for (const r of items) upsert(r);
-    watchedSource = `letterboxd profile (${pages} pages)`;
-  } catch (e) {
-    errors.push(`letterboxd watched via browser: ${e.message}`);
-  }
   for (const r of await scrapeRecentActivity()) upsert(r);
   return [...map.values()];
 }
 
 // ---------- main ----------
-let watchedSource = "partial (rss + first page)";
+
 const prev = await readFile(OUT, "utf8").then(JSON.parse).catch(() => ({}));
 const exp = await readExport();
 
@@ -385,7 +351,7 @@ const out = {
   status: {
     cinemas: Object.fromEntries(cinemas.map((c) => [c.key, `${c.state}: ${c.films?.length ?? 0} films`])),
     watchlist: `${watchlistSource}: ${watchlist?.length ?? 0}`,
-    watched: `${watched.length} films (${watched.filter((w) => w.rating != null).length} rated, ${watched.filter((w) => w.liked).length} liked); source: ${watchedSource}; export ${exp.present ? "present" : "not uploaded (optional)"}`,
+    watched: `${watched.length} films (${watched.filter((w) => w.rating != null).length} rated, ${watched.filter((w) => w.liked).length} liked); history ${exp.present ? "from export + new watches added automatically" : "export not uploaded yet: only recent watches"}`,
     errors: errors.slice(0, 50),
   },
   cinemas,
