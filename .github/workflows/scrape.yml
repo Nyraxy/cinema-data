@@ -4,8 +4,10 @@ on:
   schedule:
     # Every 3 hours (UTC). GitHub may delay scheduled runs a bit.
     - cron: "7 */3 * * *"
-    # Extra runs on Monday evening, right after Pathé publishes next week's schedule (18:00 Brussels)
+    # Extra runs on Monday evening, after Pathé publishes next week's schedule (18:00 Brussels)
     - cron: "20,50 17 * * 1"
+  push:
+    paths: ["letterboxd-export/**"]
   workflow_dispatch:
 
 permissions:
@@ -18,19 +20,25 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - run: npm install --no-audit --no-fund
-      - run: npx playwright install --with-deps chromium
+      - name: Unpack a newly uploaded Letterboxd export
+        run: |
+          zip=$(ls -t letterboxd-export/*.zip 2>/dev/null | head -1 || true)
+          if [ -n "$zip" ]; then
+            unzip -o -q "$zip" -d letterboxd-export
+            git rm -q --cached letterboxd-export/*.zip || true
+            rm -f letterboxd-export/*.zip
+          fi
       - run: node scrape.mjs
       - name: Commit data
         run: |
           git config user.name "cinema-bot"
           git config user.email "cinema-bot@users.noreply.github.com"
-          git add data/cinema.json
+          git add -A data letterboxd-export
           git diff --cached --quiet || git commit -m "Update cinema data"
-          git push
+          git pull --rebase -q && git push

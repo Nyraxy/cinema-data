@@ -2,6 +2,5 @@
   "name": "cinema-data",
   "private": true,
   "type": "module",
-  "scripts": { "scrape": "node scrape.mjs" },
-  "dependencies": { "playwright": "^1.48.0" }
+  "scripts": { "scrape": "node scrape.mjs" }
 }
