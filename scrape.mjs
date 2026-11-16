@@ -1,6 +1,6 @@
 // Collects Pathé Sint-Niklaas showtimes + Letterboxd watchlist/watched films
 // and writes data/cinema.json. No dependencies (Node 20+).
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 
 const LETTERBOXD_USER = process.env.LETTERBOXD_USER || "Nyrax";
 const PATHE_CINEMA = process.env.PATHE_CINEMA || "cinema-pathe-sint-niklaas";
@@ -12,12 +12,16 @@ const HEADERS = {
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
   Accept: "text/html,application/json;q=0.9,*/*;q=0.8",
   "Accept-Language": "nl-BE,nl;q=0.9,en;q=0.8",
+  "Sec-Fetch-Dest": "document",
+  "Sec-Fetch-Mode": "navigate",
+  "Sec-Fetch-Site": "none",
+  "Upgrade-Insecure-Requests": "1",
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const errors = [];
 
-async function get(url, { json = false, tries = 3 } = {}) {
+async function get(url, { json = false, tries = 5 } = {}) {
   for (let i = 0; i < tries; i++) {
     try {
       const res = await fetch(url, { headers: HEADERS });
@@ -30,7 +34,7 @@ async function get(url, { json = false, tries = 3 } = {}) {
     } catch (e) {
       if (i === tries - 1) throw new Error(`${url}: ${e.message}`);
     }
-    await sleep(1500 * (i + 1));
+    await sleep(8000 * 2 ** i); // 8s, 16s, 32s, 64s
   }
   throw new Error(`${url}: gave up after ${tries} tries`);
 }
@@ -58,59 +62,89 @@ const decode = (s) =>
     .replace(/&gt;/g, ">");
 
 // ---------- Pathé ----------
+// pathe.be has bot protection that rejects plain requests, so we open the site in
+// headless Chrome (Playwright) and call its JSON API from inside the page.
+async function openPathe() {
+  const { chromium } = await import("playwright");
+  const browser = await chromium.launch({ headless: true, args: ["--disable-blink-features=AutomationControlled"] });
+  const context = await browser.newContext({
+    userAgent: HEADERS["User-Agent"],
+    locale: "nl-BE",
+    timezoneId: "Europe/Brussels",
+    viewport: { width: 1366, height: 900 },
+  });
+  await context.addInitScript(() => Object.defineProperty(navigator, "webdriver", { get: () => undefined }));
+  const page = await context.newPage();
+  await page.goto("https://www.pathe.be/nl", { waitUntil: "domcontentloaded", timeout: 60000 });
+  await page.waitForTimeout(5000); // let the bot-protection script set its cookies
+  const getJson = async (path) => {
+    for (let i = 0; i < 4; i++) {
+      const r = await page.evaluate(async (p) => {
+        const res = await fetch(p, { headers: { Accept: "application/json" }, credentials: "include" });
+        return { status: res.status, body: res.ok ? await res.text() : null };
+      }, path);
+      if (r.status === 200) return JSON.parse(r.body);
+      if (r.status === 404) return null;
+      console.warn(`pathe ${r.status} on ${path}, retrying`);
+      if (r.status === 403 && i === 1) {
+        await page.reload({ waitUntil: "domcontentloaded" });
+        await page.waitForTimeout(5000);
+      } else await sleep(3000 * (i + 1));
+    }
+    throw new Error(`pathe ${path}: gave up`);
+  };
+  return { getJson, close: () => browser.close() };
+}
+
 async function scrapePathe() {
   const base = "https://www.pathe.be";
-  const list = await get(`${base}/api/cinema/${PATHE_CINEMA}/shows?language=nl`, { json: true });
-  const today = new Date().toISOString().slice(0, 10);
-  const limit = new Date(Date.now() + DAYS_AHEAD * 864e5).toISOString().slice(0, 10);
-
-  const slugs = Object.keys(list.shows);
-  const films = await pool(slugs, 4, async (slug) => {
-    const meta = list.shows[slug];
-    const days = Object.keys(meta.days || {}).filter((d) => d >= today && d <= limit).sort();
-    let detail = {};
-    try {
-      detail = (await get(`${base}/api/show/${slug}?language=nl`, { json: true })) || {};
-    } catch (e) {
-      errors.push(`pathe detail ${slug}: ${e.message}`);
-    }
-    const showtimes = [];
-    for (const day of days) {
+  const pathe = await openPathe();
+  try {
+    const list = await pathe.getJson(`/api/cinema/${PATHE_CINEMA}/shows?language=nl`);
+    const today = new Date().toISOString().slice(0, 10);
+    const limit = new Date(Date.now() + DAYS_AHEAD * 864e5).toISOString().slice(0, 10);
+    const films = [];
+    for (const slug of Object.keys(list.shows)) {
+      const meta = list.shows[slug];
+      const days = Object.keys(meta.days || {}).filter((d) => d >= today && d <= limit).sort();
+      let detail = {};
       try {
-        const times =
-          (await get(`${base}/api/show/${slug}/showtimes/${PATHE_CINEMA}/${day}?language=nl`, {
-            json: true,
-          })) || [];
-        for (const t of times) {
-          showtimes.push({
-            time: t.time, // local Brussels time, "YYYY-MM-DD HH:MM:SS"
-            version: t.version,
-            tags: t.tags,
-            status: t.status,
-          });
-        }
+        detail = (await pathe.getJson(`/api/show/${slug}?language=nl`)) || {};
       } catch (e) {
-        errors.push(`pathe showtimes ${slug} ${day}: ${e.message}`);
+        errors.push(`pathe detail ${slug}: ${e.message}`);
       }
-      await sleep(150);
+      const showtimes = [];
+      for (const day of days) {
+        try {
+          const times = (await pathe.getJson(`/api/show/${slug}/showtimes/${PATHE_CINEMA}/${day}?language=nl`)) || [];
+          for (const t of times) {
+            showtimes.push({ time: t.time, version: t.version, tags: t.tags, status: t.status });
+          }
+        } catch (e) {
+          errors.push(`pathe showtimes ${slug} ${day}: ${e.message}`);
+        }
+        await sleep(120);
+      }
+      films.push({
+        slug,
+        title: detail.title || slug,
+        titleTracking: detail.titleTracking || null, // often the original/English title
+        duration: detail.duration ? Number(detail.duration) : null,
+        directors: detail.directors || null,
+        genres: detail.genres || [],
+        releaseAt: detail.releaseAt?.BE_NL || detail.releaseAt?.BE_FR || null,
+        url: `${base}/nl/films/${slug}`,
+        isNew: !!meta.isNew,
+        isComingSoon: !!meta.isComingSoon,
+        specialEvent: !!meta.specialEvent,
+        allDays: Object.keys(meta.days || {}).sort(),
+        showtimes,
+      });
     }
-    return {
-      slug,
-      title: detail.title || slug,
-      titleTracking: detail.titleTracking || null, // often the original/English title
-      duration: detail.duration ? Number(detail.duration) : null,
-      directors: detail.directors || null,
-      genres: detail.genres || [],
-      releaseAt: detail.releaseAt?.BE_NL || detail.releaseAt?.BE_FR || null,
-      url: `${base}/nl/films/${slug}`,
-      isNew: !!meta.isNew,
-      isComingSoon: !!meta.isComingSoon,
-      specialEvent: !!meta.specialEvent,
-      allDays: Object.keys(meta.days || {}).sort(),
-      showtimes,
-    };
-  });
-  return { cinema: PATHE_CINEMA, films };
+    return { cinema: PATHE_CINEMA, films };
+  } finally {
+    await pathe.close();
+  }
 }
 
 // ---------- Letterboxd ----------
@@ -146,7 +180,7 @@ async function scrapeLetterboxdList(path, { withViewing }) {
   const n = lastPage(first);
   const pages = [first];
   for (let p = 2; p <= n; p++) {
-    await sleep(700);
+    await sleep(2500 + Math.random() * 1500);
     pages.push(await get(`https://letterboxd.com/${LETTERBOXD_USER}/${path}/page/${p}/`));
   }
   const items = pages.flatMap((h) => parsePosters(h || ""));
@@ -208,6 +242,7 @@ const out = {
   letterboxd: { user: LETTERBOXD_USER, watchlist: watchlist.value, watched: watched.value },
 };
 
+await mkdir("data", { recursive: true });
 await writeFile(OUT, JSON.stringify(out, null, 1) + "\n");
 console.log(
   `pathe films: ${out.pathe?.films?.length ?? 0}, watchlist: ${out.letterboxd.watchlist?.length ?? 0}, watched: ${out.letterboxd.watched?.length ?? 0}, errors: ${errors.length}`,
