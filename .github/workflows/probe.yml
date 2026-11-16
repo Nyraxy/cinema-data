@@ -1,0 +1,22 @@
+name: Probe sources
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          mkdir -p probe
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+          i=0
+          while read -r url; do
+            i=$((i+1))
+            code=$(curl -sL -A "$UA" -H 'Accept-Language: nl-BE,nl;q=0.9' -o probe/$i.html -w '%{http_code}' -m 30 "$url")
+            echo "$i $code $(wc -c < probe/$i.html) $url" | tee -a probe/index.txt
+            sleep 2
+          done < probe-urls.txt
+      - run: |
+          git config user.name cinema-bot; git config user.email cinema-bot@users.noreply.github.com
+          git add probe && git commit -m "probe" && git push
