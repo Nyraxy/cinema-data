@@ -1,9 +1,2 @@
-https://cinebel.dhnet.be/fr/cinemas
-https://cinebel.dhnet.be/nl/bioscopen
-https://cinebel.dhnet.be/fr/cinema/883/Path%C3%A9%20Verviers
-https://letterboxd.com/nyrax/rss/
-https://letterboxd.com/nyrax/films/rated/.5-5/
-https://letterboxd.com/nyrax/films/page/2/
-https://www.sphinx-cinema.be/
-https://www.studioskoop.be/
-https://www.kinepolis.be/nl/bioscopen/kinepolis-gent/agenda
+https://cinebel.dhnet.be/cinemas/11/Flandre%20orientale
+https://cinebel.dhnet.be/nl/cinemas/11/Oost-Vlaanderen
