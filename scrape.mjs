@@ -1,4 +1,4 @@
-// Collects cinema showtimes (via cinebel.dhnet.be) + Letterboxd watchlist/watched films
+// Collects cinema showtimes (Pathé Sint-Niklaas via pathe.be, Ghent arthouses via cinebel.dhnet.be) + Letterboxd watchlist/watched films
 // and writes data/cinema.json. No dependencies (Node 20+).
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { parseCinebel } from "./cinebel.mjs";
@@ -7,10 +7,10 @@ const LETTERBOXD_USER = process.env.LETTERBOXD_USER || "Nyrax";
 const OUT = "data/cinema.json";
 const EXPORT_DIR = "letterboxd-export";
 
-// cinebel theater ids
-const CINEMAS = [
-  { id: 996, key: "pathe-sint-niklaas", name: "Pathé Sint-Niklaas", primary: true },
-  { id: 993, key: "kinepolis-gent", name: "Kinepolis Gent" },
+const PATHE_CINEMA = "cinema-pathe-sint-niklaas";
+const PATHE_DAYS_AHEAD = Number(process.env.DAYS_AHEAD || 60);
+// cinebel theater ids (cinebel no longer lists Pathé Sint-Niklaas or Kinepolis Gent)
+const CINEBEL = [
   { id: 994, key: "sphinx-gent", name: "Sphinx Cinema Gent" },
   { id: 995, key: "studio-skoop-gent", name: "Studio Skoop Gent" },
 ];
@@ -44,21 +44,116 @@ async function get(url, { json = false, tries = 4 } = {}) {
 const decode = (s) =>
   s.replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
 
-// ---------- Cinemas (cinebel) ----------
+// ---------- Pathé (own API, through a real Chrome) ----------
+// pathe.be's bot protection rejects plain requests and headless browsers, so the workflow
+// runs a full Chrome on a virtual display (xvfb) and we call Pathé's JSON API from the page.
+async function scrapePathe() {
+  const { chromium } = await import("playwright");
+  const browser = await chromium.launch({
+    headless: false,
+    channel: "chrome",
+    args: ["--disable-blink-features=AutomationControlled"],
+  });
+  try {
+    const ctx = await browser.newContext({ locale: "nl-BE", timezoneId: "Europe/Brussels", viewport: { width: 1366, height: 900 } });
+    const page = await ctx.newPage();
+    await page.goto("https://www.pathe.be/nl/bioscopen/stad/sint-niklaas", { waitUntil: "domcontentloaded", timeout: 90000 });
+    await page.waitForTimeout(8000);
+    const getJson = async (path) => {
+      for (let i = 0; i < 4; i++) {
+        const r = await page.evaluate(async (p) => {
+          const res = await fetch(p, { credentials: "include", headers: { Accept: "application/json" } });
+          return { status: res.status, body: res.ok ? await res.text() : null };
+        }, path);
+        if (r.status === 200) return JSON.parse(r.body);
+        if (r.status === 404) return null;
+        console.warn(`pathe ${r.status} on ${path}, retrying`);
+        if (i === 1) {
+          await page.reload({ waitUntil: "domcontentloaded" });
+          await page.waitForTimeout(8000);
+        } else await sleep(3000 * (i + 1));
+      }
+      throw new Error(`pathe ${path}: gave up`);
+    };
+
+    const list = await getJson(`/api/cinema/${PATHE_CINEMA}/shows?language=nl`);
+    const today = new Date().toISOString().slice(0, 10);
+    const limit = new Date(Date.now() + PATHE_DAYS_AHEAD * 864e5).toISOString().slice(0, 10);
+    const films = [];
+    for (const slug of Object.keys(list.shows)) {
+      const meta = list.shows[slug];
+      const days = Object.keys(meta.days || {}).filter((d) => d >= today && d <= limit).sort();
+      let detail = {};
+      try {
+        detail = (await getJson(`/api/show/${slug}?language=nl`)) || {};
+      } catch (e) {
+        errors.push(`pathe detail ${slug}: ${e.message}`);
+      }
+      const showtimes = [];
+      for (const day of days) {
+        try {
+          const times = (await getJson(`/api/show/${slug}/showtimes/${PATHE_CINEMA}/${day}?language=nl`)) || [];
+          const dayMeta = meta.days[day] || {};
+          for (const t of times) {
+            showtimes.push({
+              time: String(t.time).slice(0, 16), // Brussels local "YYYY-MM-DD HH:MM"
+              version: t.version, // vobe = original version with subtitles, vf = French, vn = Dutch
+              tags: t.tags,
+              status: t.status,
+              special: dayMeta.specialEvent || dayMeta.flag || null,
+            });
+          }
+        } catch (e) {
+          errors.push(`pathe showtimes ${slug} ${day}: ${e.message}`);
+        }
+        await sleep(100);
+      }
+      const release = detail.releaseAt?.BE_NL || detail.releaseAt?.BE_FR || null;
+      films.push({
+        title: detail.title || slug,
+        originalTitle: detail.titleTracking || null,
+        year: release ? Number(release.slice(0, 4)) : null, // Belgian release year (re-releases: original year differs)
+        duration: detail.duration ? Number(detail.duration) : null,
+        directors: detail.directors ? String(detail.directors).split(/,\s*/) : [],
+        genres: detail.genres || [],
+        releaseAt: release,
+        url: `https://www.pathe.be/nl/films/${slug}`,
+        slug,
+        isNew: !!meta.isNew,
+        isComingSoon: !!meta.isComingSoon,
+        specialEvent: !!meta.specialEvent,
+        allDays: Object.keys(meta.days || {}).sort(),
+        showtimes,
+      });
+    }
+    return films;
+  } finally {
+    await browser.close();
+  }
+}
+
+// ---------- Other cinemas (cinebel, ~2 days ahead) ----------
+async function scrapeCinebel(c) {
+  const html = await get(`https://cinebel.dhnet.be/fr/theater/${c.id}`);
+  const films = parseCinebel(html || "");
+  if (!films.length) throw new Error("no films parsed");
+  return films;
+}
+
 async function scrapeCinemas() {
+  const jobs = [
+    { key: "pathe-sint-niklaas", name: "Pathé Sint-Niklaas", primary: true, source: "pathe.be", run: scrapePathe },
+    ...CINEBEL.map((c) => ({ ...c, source: "cinebel (next ~2 days only)", run: () => scrapeCinebel(c) })),
+  ];
   const out = [];
-  const days = Array.from({ length: 14 }, (_, i) => `days=${i + 1}`).join("&");
-  for (const c of CINEMAS) {
+  for (const { run, ...c } of jobs) {
     try {
-      const html = await get(`https://cinebel.dhnet.be/fr/theater/${c.id}?${days}`);
-      const films = parseCinebel(html || "");
-      if (!films.length) throw new Error("no films parsed");
-      out.push({ ...c, films });
+      out.push({ ...c, films: await run() });
     } catch (e) {
       errors.push(`cinema ${c.name}: ${e.message}`);
       out.push({ ...c, films: null });
     }
-    await sleep(1500);
+    await sleep(1000);
   }
   return out;
 }
@@ -210,9 +305,9 @@ const exp = await readExport();
 let cinemas = await scrapeCinemas();
 // keep previous data for any cinema that failed this time
 cinemas = cinemas.map((c) => {
-  if (c.films) return { ...c, source: "fresh" };
+  if (c.films) return { ...c, state: "fresh" };
   const old = (prev.cinemas || []).find((p) => p.key === c.key);
-  return old ? { ...old, source: "stale" } : { ...c, source: "missing" };
+  return old ? { ...old, state: "stale" } : { ...c, state: "missing" };
 });
 
 let watchlist, watchlistSource;
@@ -241,7 +336,7 @@ const watched = await buildWatched(exp, prev.letterboxd?.watched);
 const out = {
   generatedAt: new Date().toISOString(),
   status: {
-    cinemas: Object.fromEntries(cinemas.map((c) => [c.key, `${c.source}: ${c.films?.length ?? 0} films`])),
+    cinemas: Object.fromEntries(cinemas.map((c) => [c.key, `${c.state}: ${c.films?.length ?? 0} films`])),
     watchlist: `${watchlistSource}: ${watchlist?.length ?? 0}`,
     watched: `${watched.length} films (${watched.filter((w) => w.rating != null).length} rated, ${watched.filter((w) => w.liked).length} liked); export ${exp.present ? "present" : "missing"}`,
     errors: errors.slice(0, 50),

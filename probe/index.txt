@@ -1,9 +1,0 @@
-403 https://www.pathe.be/nl/bioscopen/stad/sint-niklaas
-403 https://www.pathe.be/nl/films/ebenezer-56410
-403 https://www.pathe.be/nl
-page status ERR page.goto: Timeout 90000ms exceeded.
-Call log:
-  - navigating to "https://www.pathe.be/nl/bioscopen/stad/sint-niklaas", waiting until "networkidle"
- Bioscopen in Sint-Niklaas: beste plaatsen voor bioscopen in Sint-Niklaas
-api 200 {"days":{"2026-11-16":{"upsell":{"tag":"ATMOS","showSlug":"ebenezer-56410"},"highlightedShowtime":null},"2026-11-17":{"u
-api 200 [{"time":"2026-11-17 14:30:00","version":"vobe","tags":["ATMOS","DEFAULT","pmr","relaxseats"],"status":"available","rese

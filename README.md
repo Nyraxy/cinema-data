@@ -2,8 +2,9 @@
 
 A GitHub Action that runs every 3 hours (plus extra runs on Monday evening) and writes `data/cinema.json` with:
 
-- **Showtimes** from cinebel.dhnet.be for the next ~2 weeks at Pathé Sint-Niklaas, Kinepolis Gent, Sphinx and Studio Skoop
-  (pathe.be itself blocks requests from GitHub's servers)
+- **Pathé Sint-Niklaas**: all films and showtimes for the next ~2 months, from Pathé's own API (fetched through a
+  full Chrome on a virtual display, because Pathé blocks plain requests)
+- **Sphinx and Studio Skoop (Gent)**: showtimes for the next ~2 days from cinebel.dhnet.be
 - **Letterboxd (Nyrax)**: the watchlist (live), and watched films with ratings/likes from the Letterboxd export in
   `letterboxd-export/` plus the RSS feed and first films page for recent activity
 
