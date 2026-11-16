@@ -1,15 +1,731 @@
 {
- "generatedAt": "2026-11-16T11:40:31.776Z",
+ "generatedAt": "2026-11-16T11:54:52.523Z",
  "status": {
-  "pathe": "missing",
-  "watchlist": "fresh",
-  "watched": "missing",
+  "cinemas": {
+   "pathe-sint-niklaas": "missing: 0 films",
+   "kinepolis-gent": "missing: 0 films",
+   "sphinx-gent": "fresh: 15 films",
+   "studio-skoop-gent": "fresh: 10 films"
+  },
+  "watchlist": "letterboxd: 1126",
+  "watched": "96 films (96 rated, 64 liked); export missing",
   "errors": [
-   "pathe: pathe /api/cinema/cinema-pathe-sint-niklaas/shows?language=nl: gave up",
-   "letterboxd watched: https://letterboxd.com/Nyrax/films/page/2/: gave up after 5 tries"
+   "cinema Pathé Sint-Niklaas: no films parsed",
+   "cinema Kinepolis Gent: no films parsed"
   ]
  },
- "pathe": null,
+ "cinemas": [
+  {
+   "id": 996,
+   "key": "pathe-sint-niklaas",
+   "name": "Pathé Sint-Niklaas",
+   "primary": true,
+   "films": null,
+   "source": "missing"
+  },
+  {
+   "id": 993,
+   "key": "kinepolis-gent",
+   "name": "Kinepolis Gent",
+   "films": null,
+   "source": "missing"
+  },
+  {
+   "id": 994,
+   "key": "sphinx-gent",
+   "name": "Sphinx Cinema Gent",
+   "films": [
+    {
+     "title": "A Family",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 0,
+     "directors": [
+      "Mees Peijnenburg"
+     ],
+     "cinebelId": 1028075,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028075/A%20Family",
+     "showtimes": [
+      {
+       "time": "2026-11-17 13:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Alphaville, une étrange aventure de Lemmy Caution",
+     "originalTitle": null,
+     "year": 1965,
+     "duration": 98,
+     "directors": [
+      "Jean-Luc Godard"
+     ],
+     "cinebelId": 1002298,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1002298/Alphaville,%20une%20%C3%A9trange%20aventure%20de%20Lemmy%20Caution",
+     "showtimes": [
+      {
+       "time": "2026-11-17 20:00",
+       "version": "VO",
+       "subtitles": "S.t. ang",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Club Kid",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 122,
+     "directors": [
+      "Jordan Firstman"
+     ],
+     "cinebelId": 1028017,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Coward",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 125,
+     "directors": [
+      "Lukas Dhont"
+     ],
+     "cinebelId": 1027586,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Digger",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 129,
+     "directors": [
+      "Alejandro González Iñárritu"
+     ],
+     "cinebelId": 1027125,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027125/Digger",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "L'Invitation",
+     "originalTitle": "The Invite",
+     "year": 2026,
+     "duration": 107,
+     "directors": [
+      "Olivia Wilde"
+     ],
+     "cinebelId": 1027719,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
+     "showtimes": [
+      {
+       "time": "2026-11-16 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "La Gradiva",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 145,
+     "directors": [
+      "Marine Atlan"
+     ],
+     "cinebelId": 1027753,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Marie-Antoinette",
+     "originalTitle": null,
+     "year": 2006,
+     "duration": 123,
+     "directors": [
+      "Sofia Coppola"
+     ],
+     "cinebelId": 14375,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/14375/Marie-Antoinette",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Minotaure",
+     "originalTitle": "Minotaur",
+     "year": 2026,
+     "duration": 135,
+     "directors": [
+      "Andreï Zviagintsev"
+     ],
+     "cinebelId": 1027914,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Moulin",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 134,
+     "directors": [
+      "László Nemes"
+     ],
+     "cinebelId": 1028023,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028023/Moulin",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Naza",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 80,
+     "directors": [
+      "Yuval  Abraham"
+     ],
+     "cinebelId": 1028012,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028012/Naza",
+     "showtimes": [
+      {
+       "time": "2026-11-17 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Raison et sentiments",
+     "originalTitle": "Sense and Sensibility",
+     "year": 2026,
+     "duration": 131,
+     "directors": [
+      "Georgia Oakley"
+     ],
+     "cinebelId": 1027818,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "The Six",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 88,
+     "directors": [
+      "Reiner Holzemer"
+     ],
+     "cinebelId": 1028064,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028064/The%20Six",
+     "showtimes": [
+      {
+       "time": "2026-11-16 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Wicker",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 105,
+     "directors": [
+      "Alex Huston Fischer"
+     ],
+     "cinebelId": 1027890,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
+     "showtimes": [
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Wild Horse Nine",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 118,
+     "directors": [
+      "Martin McDonagh"
+     ],
+     "cinebelId": 1027608,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    }
+   ],
+   "source": "fresh"
+  },
+  {
+   "id": 995,
+   "key": "studio-skoop-gent",
+   "name": "Studio Skoop Gent",
+   "films": [
+    {
+     "title": "Club Kid",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 122,
+     "directors": [
+      "Jordan Firstman"
+     ],
+     "cinebelId": 1028017,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Coward",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 125,
+     "directors": [
+      "Lukas Dhont"
+     ],
+     "cinebelId": 1027586,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "L'Invitation",
+     "originalTitle": "The Invite",
+     "year": 2026,
+     "duration": 107,
+     "directors": [
+      "Olivia Wilde"
+     ],
+     "cinebelId": 1027719,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
+     "showtimes": [
+      {
+       "time": "2026-11-16 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "La Gradiva",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 145,
+     "directors": [
+      "Marine Atlan"
+     ],
+     "cinebelId": 1027753,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 19:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 19:45",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Lost in Translation",
+     "originalTitle": null,
+     "year": 2003,
+     "duration": 102,
+     "directors": [
+      "Sofia Coppola"
+     ],
+     "cinebelId": 11566,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Massacre à la tronçonneuse",
+     "originalTitle": "The Texas Chainsaw Massacre",
+     "year": 1974,
+     "duration": 83,
+     "directors": [
+      "Tobe Hooper"
+     ],
+     "cinebelId": 11736,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Minotaure",
+     "originalTitle": "Minotaur",
+     "year": 2026,
+     "duration": 135,
+     "directors": [
+      "Andreï Zviagintsev"
+     ],
+     "cinebelId": 1027914,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 19:45",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "The Only Living Pickpocket in New York",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 88,
+     "directors": [
+      "Noah Segan"
+     ],
+     "cinebelId": 1027894,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
+     "showtimes": [
+      {
+       "time": "2026-11-16 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Wicker",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 105,
+     "directors": [
+      "Alex Huston Fischer"
+     ],
+     "cinebelId": 1027890,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Wild Horse Nine",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 118,
+     "directors": [
+      "Martin McDonagh"
+     ],
+     "cinebelId": 1027608,
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ]
+    }
+   ],
+   "source": "fresh"
+  }
+ ],
  "letterboxd": {
   "user": "Nyrax",
   "watchlist": [
@@ -4518,6 +5234,583 @@
     "name": "Red Eye (2005)"
    }
   ],
-  "watched": null
+  "watched": [
+   {
+    "name": "The Commitments (1991)",
+    "slug": "the-commitments",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Dune: Part Two (2024)",
+    "slug": "dune-part-two",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Dune (2021)",
+    "slug": "dune-2021",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "VisionQuest (2026)",
+    "slug": "visionquest",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Wild Horse Nine (2026)",
+    "slug": "wild-horse-nine",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Coward (2026)",
+    "slug": "coward-2026",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Little Fockers (2010)",
+    "slug": "little-fockers",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Meet the Fockers (2004)",
+    "slug": "meet-the-fockers",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "Godzilla Minus Zero (2026)",
+    "slug": "godzilla-minus-zero",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "How to Rob a Bank (2026)",
+    "slug": "how-to-rob-a-bank-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Meet the Parents (2000)",
+    "slug": "meet-the-parents",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Godzilla Minus One (2023)",
+    "slug": "godzilla-minus-one",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Anastasia (1997)",
+    "slug": "anastasia-1997",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Crazy Rich Asians (2018)",
+    "slug": "crazy-rich-asians",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Love Language (2026)",
+    "slug": "love-language",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "Forgotten Island (2026)",
+    "slug": "forgotten-island-2026",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "The Odyssey (2026)",
+    "slug": "the-odyssey-2026",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Austin Powers: International Man of Mystery (1997)",
+    "slug": "austin-powers-international-man-of-mystery",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Street Fighter (2026)",
+    "slug": "street-fighter-2026",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "The Social Reckoning (2026)",
+    "slug": "the-social-reckoning",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The Social Network (2010)",
+    "slug": "the-social-network",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Verity (2026)",
+    "slug": "verity-2026",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Digger (2026)",
+    "slug": "digger-2026",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Coyote vs. Acme (2026)",
+    "slug": "coyote-vs-acme",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Heart of the Beast (2026)",
+    "slug": "heart-of-the-beast-2026",
+    "rating": 3.5,
+    "liked": false
+   },
+   {
+    "name": "Avengers: Endgame (2019)",
+    "slug": "avengers-endgame",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Avengers: Infinity War (2018)",
+    "slug": "avengers-infinity-war",
+    "rating": 5,
+    "liked": true
+   },
+   {
+    "name": "Lust, Caution (2007)",
+    "slug": "lust-caution",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "My Cousin Vinny (1992)",
+    "slug": "my-cousin-vinny",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Idiots (2026)",
+    "slug": "idiots-2026",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Best of the Best (2026)",
+    "slug": "best-of-the-best-2026",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "The Love Hypothesis (2026)",
+    "slug": "the-love-hypothesis",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Carrie (1976)",
+    "slug": "carrie-1976",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Boy (2010)",
+    "slug": "boy-2010",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Tony (2026)",
+    "slug": "tony-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Nimrods (2025)",
+    "slug": "nimrods",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Ghost (1990)",
+    "slug": "ghost",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Pressure (2026)",
+    "slug": "pressure-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Point Break (1991)",
+    "slug": "point-break",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "By Any Means (2026)",
+    "slug": "by-any-means-2026",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "Project Hail Mary (2026)",
+    "slug": "project-hail-mary",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Messy (2024)",
+    "slug": "messy-2024",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Barbie (2023)",
+    "slug": "barbie",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Magnolia (1999)",
+    "slug": "magnolia",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Finding Emily (2026)",
+    "slug": "finding-emily",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Katy Perry: The Lifetimes Tour – Live from Paris (2026)",
+    "slug": "katy-perry-the-lifetimes-tour-live-from-paris",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "The Brink of War (2026)",
+    "slug": "the-brink-of-war",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Mayday (2026)",
+    "slug": "mayday-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The Wrong Girls (2026)",
+    "slug": "the-wrong-girls",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Terminator 2: Judgment Day (1991)",
+    "slug": "terminator-2-judgment-day",
+    "rating": 5,
+    "liked": true
+   },
+   {
+    "name": "The Whisper Man (2026)",
+    "slug": "the-whisper-man",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Mutiny (2026)",
+    "slug": "mutiny-2026",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Don't Say Good Luck (2026)",
+    "slug": "dont-say-good-luck",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "One Night Only (2026)",
+    "slug": "one-night-only-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The End of Oak Street (2026)",
+    "slug": "the-end-of-oak-street",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Spider-Man: Brand New Day (2026)",
+    "slug": "spider-man-brand-new-day",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Supergirl (2026)",
+    "slug": "supergirl-2026",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "Minions & Monsters (2026)",
+    "slug": "minions-monsters-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Voicemails for Isabelle (2026)",
+    "slug": "voicemails-for-isabelle",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "40 Dates and 40 Nights (2026)",
+    "slug": "40-dates-and-40-nights",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "The Death of Robin Hood (2026)",
+    "slug": "the-death-of-robin-hood",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Girls Like Girls (2026)",
+    "slug": "girls-like-girls",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Toy Story 5 (2026)",
+    "slug": "toy-story-5",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "Never Change! (2026)",
+    "slug": "never-change-2026",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Hadestown: The Musical (2026)",
+    "slug": "hadestown-the-musical",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Office Romance (2026)",
+    "slug": "office-romance-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Disclosure Day (2026)",
+    "slug": "disclosure-day",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Masters of the Universe (2026)",
+    "slug": "masters-of-the-universe-2026",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Pommelien Thijs: AFAS Dome (2026)",
+    "slug": "pommelien-thijs-afas-dome",
+    "rating": 4.5,
+    "liked": true
+   },
+   {
+    "name": "The Mandalorian and Grogu (2026)",
+    "slug": "the-mandalorian-and-grogu",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "Teenage Sex and Death at Camp Miasma (2026)",
+    "slug": "teenage-sex-and-death-at-camp-miasma",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "The Punisher: One Last Kill (2026)",
+    "slug": "the-punisher-one-last-kill",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "David Attenborough's 100 Years on Planet Earth (2026)",
+    "slug": "david-attenboroughs-100-years-on-planet-earth",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Remarkably Bright Creatures (2026)",
+    "slug": "remarkably-bright-creatures",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Mortal Kombat II (2026)",
+    "slug": "mortal-kombat-ii",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "Swapped (2026)",
+    "slug": "swapped-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The Devil Wears Prada 2 (2026)",
+    "slug": "the-devil-wears-prada-2",
+    "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "The Sheep Detectives (2026)",
+    "slug": "the-sheep-detectives",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Roommates (2026)",
+    "slug": "roommates-2026",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "Michael (2026)",
+    "slug": "michael-2026",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The Super Mario Galaxy Movie (2026)",
+    "slug": "the-super-mario-galaxy-movie",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "The Magic Faraway Tree (2026)",
+    "slug": "the-magic-faraway-tree",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "They Will Kill You (2026)",
+    "slug": "they-will-kill-you",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "The Drama (2026)",
+    "slug": "the-drama",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Forbidden Fruits (2026)",
+    "slug": "forbidden-fruits-2026",
+    "rating": 2,
+    "liked": false
+   },
+   {
+    "name": "Over Your Dead Body (2026)",
+    "slug": "over-your-dead-body-2026",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "Pizza Movie (2026)",
+    "slug": "pizza-movie-2026",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "Pretty Lethal (2026)",
+    "slug": "pretty-lethal",
+    "rating": 3,
+    "liked": true
+   },
+   {
+    "name": "Power Ballad (2026)",
+    "slug": "power-ballad",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "Hoppers (2026)",
+    "slug": "hoppers",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Truly Naked (2026)",
+    "slug": "truly-naked",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "How to Make a Killing (2026)",
+    "slug": "how-to-make-a-killing-2026",
+    "rating": 2.5,
+    "liked": false
+   },
+   {
+    "name": "Sunny Dancer (2026)",
+    "slug": "sunny-dancer",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The Invite (2026)",
+    "slug": "the-invite-2026",
+    "rating": 4,
+    "liked": true
+   },
+   {
+    "name": "I Want Your Sex (2026)",
+    "slug": "i-want-your-sex",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Send Help (2026)",
+    "slug": "send-help",
+    "rating": 4,
+    "liked": true
+   }
+  ]
  }
 }
