@@ -5,7 +5,8 @@
  * Google Calendar, plans back-to-back cinema evenings and emails you (with posters) when there
  * are screenings you haven't been sent before. Runs in your own Google account: no other services.
  *
- * Setup: paste this file into a new project at https://script.google.com, then run setup() once.
+ * Setup: put Loader.gs (not this file) in a project at https://script.google.com and run install() once.
+ * The loader fetches this file from GitHub on every run, so changes pushed here go live automatically.
  *   testRun()  sends a [TEST] email right away (ignores the "already sent" check).
  *   run()      what the daily trigger calls.
  *   reset()    forgets which screenings were sent.
@@ -262,9 +263,9 @@ function render(now, days, also, others, sentKeys, test, posterCid, warnings) {
   o.push('<div style="background-color:#f3f4f6;padding:12px 0;font-family:Arial,Helvetica,sans-serif;color:#111827">' +
     '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="max-width:600px;margin:0 auto;background-color:#ffffff;border-radius:12px">');
   o.push(`<tr><td bgcolor="#111827" style="background-color:#111827;color:#ffffff;padding:16px 20px;border-radius:12px 12px 0 0">` +
-    `<div style="font-size:20px;font-weight:bold">🎬 Cinema suggestions${test ? ' ' + badge('TEST', '#6b7280') : ''}</div>` +
+    `<div style="font-size:20px;font-weight:bold">&#127916; Cinema suggestions${test ? ' ' + badge('TEST', '#6b7280') : ''}</div>` +
     `<div style="font-size:13px;color:#d1d5db;margin-top:4px">${fmt(now, 'EEEE d MMMM')} · ${nFilms} film${nFilms === 1 ? '' : 's'} across ${days.length} cinema day${days.length === 1 ? '' : 's'}</div></td></tr>`);
-  if (warnings.length) o.push(`<tr><td bgcolor="#fff7ed" style="background-color:#fff7ed;color:#9a3412;padding:8px 20px;font-size:13px">⚠️ ${esc(warnings.join(' · '))}</td></tr>`);
+  if (warnings.length) o.push(`<tr><td bgcolor="#fff7ed" style="background-color:#fff7ed;color:#9a3412;padding:8px 20px;font-size:13px">&#9888;&#65039; ${esc(warnings.join(' · '))}</td></tr>`);
   o.push('<tr><td style="padding:14px 20px 4px"><div style="font-size:12px;font-weight:bold;color:#6b7280;text-transform:uppercase;margin-bottom:6px">Overview</div><table width="100%" cellpadding="0" cellspacing="0">');
   days.forEach(x => {
     const gent = GENT.includes(x.cinema);
@@ -378,7 +379,8 @@ function main(test) {
   const lines = Object.values(keep).sort((a, b) => a.split(' | ')[2].localeCompare(b.split(' | ')[2]));
 
   const to = Session.getEffectiveUser().getEmail();
-  GmailApp.sendEmail(to, `${test ? '[TEST] ' : ''}🎬 Cinema suggestions – ${fmt(now, 'EEEE d MMMM')}`,
+  // MailApp (not GmailApp): GmailApp garbles emoji in the subject
+  MailApp.sendEmail(to, `${test ? '[TEST] ' : ''}\uD83C\uDFAC Cinema suggestions \u2013 ${fmt(now, 'EEEE d MMMM')}`,
     text.concat(['', 'SENT']).concat(lines).join('\n'), { htmlBody: html, inlineImages, name: 'Cinema suggestions' });
   if (!test) PropertiesService.getScriptProperties().setProperty('sent', JSON.stringify(lines));
   Logger.log(`Sent: ${days.length} days, ${fresh.length} new screenings, ${Object.keys(inlineImages).length} posters.`);
