@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-16T12:07:22.416Z",
+ "generatedAt": "2026-11-16T12:19:11.964Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 41 films",
@@ -7,8 +7,10 @@
    "studio-skoop-gent": "fresh: 10 films"
   },
   "watchlist": "letterboxd: 1126",
-  "watched": "96 films (96 rated, 64 liked); export missing",
-  "errors": []
+  "watched": "96 films (96 rated, 64 liked); source: partial (rss + first page); export not uploaded (optional)",
+  "errors": [
+   "letterboxd watched via browser: https://letterboxd.com/Nyrax/films/page/2/: blocked"
+  ]
  },
  "cinemas": [
   {
