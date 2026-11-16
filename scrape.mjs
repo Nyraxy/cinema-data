@@ -1,5 +1,5 @@
 // Collects cinema showtimes (Pathé Sint-Niklaas via pathe.be, Ghent arthouses via cinebel.dhnet.be) + Letterboxd watchlist/watched films
-// and writes data/cinema.json. No dependencies (Node 20+).
+// and writes data/cinema.json. Dependencies: playwright, sharp.
 import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { parseCinebel } from "./cinebel.mjs";
 
@@ -345,6 +345,51 @@ try {
 }
 
 const watched = await buildWatched(exp, prev.letterboxd?.watched);
+
+// Small poster thumbnails, committed to the repo so the email task can attach them inline
+// (Gmail strips <img> tags that point to external URLs).
+async function makeThumbs() {
+  const { createHash } = await import("node:crypto");
+  const { default: sharp } = await import("sharp");
+  const dir = "data/posters";
+  await mkdir(dir, { recursive: true });
+  const existing = new Set(await readdir(dir));
+  const used = new Set();
+  let page = null, made = 0;
+  for (const c of cinemas) {
+    for (const f of c.films || []) {
+      if (!f.poster) continue;
+      const name = createHash("sha1").update(f.poster).digest("hex").slice(0, 16) + ".jpg";
+      used.add(name);
+      if (!existing.has(name)) {
+        try {
+          let buf = null;
+          try {
+            const r = await fetch(f.poster, { headers: { "User-Agent": HEADERS["User-Agent"] } });
+            if (r.ok) buf = Buffer.from(await r.arrayBuffer());
+          } catch {}
+          if (!buf) {
+            page ??= await newPage();
+            const resp = await page.goto(f.poster, { timeout: 30000 });
+            if (resp?.ok()) buf = await resp.body();
+          }
+          if (!buf) throw new Error("download failed");
+          const out = await sharp(buf).resize(60, 90, { fit: "cover" }).jpeg({ quality: 60, mozjpeg: true }).toBuffer();
+          await writeFile(`${dir}/${name}`, out);
+          existing.add(name);
+          made++;
+        } catch (e) {
+          errors.push(`poster ${f.title}: ${e.message}`);
+          continue;
+        }
+      }
+      f.posterThumb = `${dir}/${name}`;
+    }
+  }
+  for (const n of existing) if (!used.has(n)) await (await import("node:fs/promises")).rm(`${dir}/${n}`);
+  console.log(`poster thumbs: ${used.size} used, ${made} new`);
+}
+try { await makeThumbs(); } catch (e) { errors.push(`thumbs: ${e.message}`); }
 await closeBrowser();
 
 const out = {
