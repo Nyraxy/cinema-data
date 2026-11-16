@@ -1,0 +1,34 @@
+name: Update cinema data
+
+on:
+  schedule:
+    # Every 3 hours (UTC). GitHub may delay scheduled runs a bit.
+    - cron: "7 */3 * * *"
+    # Extra runs on Monday evening, right after Pathé publishes next week's schedule (18:00 Brussels)
+    - cron: "20,50 17 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scrape.mjs
+      - name: Commit data
+        run: |
+          git config user.name "cinema-bot"
+          git config user.email "cinema-bot@users.noreply.github.com"
+          git add data/cinema.json
+          git diff --cached --quiet || git commit -m "Update cinema data"
+          git push
