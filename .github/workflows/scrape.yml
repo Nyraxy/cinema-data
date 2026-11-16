@@ -34,6 +34,10 @@ jobs:
             git rm -q --cached letterboxd-export/*.zip || true
             rm -f letterboxd-export/*.zip
           fi
+          # keep only what the scraper needs (the repo is public)
+          find letterboxd-export -type f ! -name README.md ! -path letterboxd-export/watched.csv \
+            ! -path letterboxd-export/ratings.csv ! -path letterboxd-export/likes/films.csv -delete
+          find letterboxd-export -type d -empty -delete
       - run: npm install --no-audit --no-fund
       - run: npx playwright install --with-deps chrome
       - run: xvfb-run -a node scrape.mjs
