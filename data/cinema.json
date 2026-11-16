@@ -1,39 +1,3508 @@
 {
- "generatedAt": "2026-11-16T11:54:52.523Z",
+ "generatedAt": "2026-11-16T12:07:22.416Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "missing: 0 films",
-   "kinepolis-gent": "missing: 0 films",
+   "pathe-sint-niklaas": "fresh: 41 films",
    "sphinx-gent": "fresh: 15 films",
    "studio-skoop-gent": "fresh: 10 films"
   },
   "watchlist": "letterboxd: 1126",
   "watched": "96 films (96 rated, 64 liked); export missing",
-  "errors": [
-   "cinema Pathé Sint-Niklaas: no films parsed",
-   "cinema Kinepolis Gent: no films parsed"
-  ]
+  "errors": []
  },
  "cinemas": [
   {
-   "id": 996,
    "key": "pathe-sint-niklaas",
    "name": "Pathé Sint-Niklaas",
    "primary": true,
-   "films": null,
-   "source": "missing"
-  },
-  {
-   "id": 993,
-   "key": "kinepolis-gent",
-   "name": "Kinepolis Gent",
-   "films": null,
-   "source": "missing"
+   "source": "pathe.be",
+   "films": [
+    {
+     "title": "Notre-Dame de Paris (Opéra National de Paris)",
+     "originalTitle": "Notre-Dame de Paris (Opéra National de Paris)",
+     "year": 2027,
+     "duration": 90,
+     "directors": [],
+     "genres": [
+      "Ballet"
+     ],
+     "releaseAt": "2027-03-14",
+     "url": "https://www.pathe.be/nl/films/notre-dame-de-paris-opera-national-de-paris-56067",
+     "slug": "notre-dame-de-paris-opera-national-de-paris-56067",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-03-14"
+     ],
+     "showtimes": []
+    },
+    {
+     "title": "La Bayadère (Opéra National de Paris)",
+     "originalTitle": "La Bayadère (Opéra National de Paris)",
+     "year": 2027,
+     "duration": 125,
+     "directors": [
+      "Julien Condemine"
+     ],
+     "genres": [
+      "Ballet"
+     ],
+     "releaseAt": "2027-01-31",
+     "url": "https://www.pathe.be/nl/films/la-bayadere-opera-national-de-paris-56066",
+     "slug": "la-bayadere-opera-national-de-paris-56066",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-01-31"
+     ],
+     "showtimes": []
+    },
+    {
+     "title": "You Can See Everything",
+     "originalTitle": "You Can See Everything",
+     "year": 2026,
+     "duration": 174,
+     "directors": [
+      "Nathan Fielder",
+      "Lance Oppenheim"
+     ],
+     "genres": [
+      "Documentaire"
+     ],
+     "releaseAt": "2026-12-30",
+     "url": "https://www.pathe.be/nl/films/you-can-see-everything-56838",
+     "slug": "you-can-see-everything-56838",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-22 16:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      }
+     ]
+    },
+    {
+     "title": "I Play Rocky",
+     "originalTitle": "I Play Rocky",
+     "year": 2026,
+     "duration": 128,
+     "directors": [],
+     "genres": [
+      "Biopic",
+      "Drame"
+     ],
+     "releaseAt": "2026-12-23",
+     "url": "https://www.pathe.be/nl/films/i-play-rocky-56969",
+     "slug": "i-play-rocky-56969",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-11"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-11 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      }
+     ]
+    },
+    {
+     "title": "Avengers : Doomsday",
+     "originalTitle": "Avengers : Doomsday",
+     "year": 2026,
+     "duration": 165,
+     "directors": [
+      "Joe Russo",
+      "Anthony Russo"
+     ],
+     "genres": [
+      "Action",
+      "Science-Fiction"
+     ],
+     "releaseAt": "2026-12-16",
+     "url": "https://www.pathe.be/nl/films/avengers-doomsday-55265",
+     "slug": "avengers-doomsday-55265",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-16",
+      "2026-12-17",
+      "2026-12-18",
+      "2026-12-19",
+      "2026-12-20",
+      "2026-12-21",
+      "2026-12-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-16 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 16:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 13:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 14:00",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 17:30",
+       "version": "vobe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 21:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Dune Part Three",
+     "originalTitle": "Dune Part Three",
+     "year": 2026,
+     "duration": 150,
+     "directors": [
+      "Denis Villeneuve"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Science-Fiction"
+     ],
+     "releaseAt": "2026-12-16",
+     "url": "https://www.pathe.be/nl/films/dune-part-three-55295",
+     "slug": "dune-part-three-55295",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-16",
+      "2026-12-17",
+      "2026-12-18",
+      "2026-12-19",
+      "2026-12-20",
+      "2026-12-21",
+      "2026-12-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-16 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-16 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-17 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-18 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-19 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-21 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-22 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Dune : Part Three Exclusieve Avant-première",
+     "originalTitle": "Avant-première exceptionnelle Dune : Troisième partie",
+     "year": 2026,
+     "duration": 150,
+     "directors": [
+      "Denis Villeneuve"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Science-Fiction"
+     ],
+     "releaseAt": "2026-12-15",
+     "url": "https://www.pathe.be/nl/films/dune-part-three-exclusieve-avant-premiere-55266",
+     "slug": "dune-part-three-exclusieve-avant-premiere-55266",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-15"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-15 19:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Fan Event : Avengers : Doomsday",
+     "originalTitle": "Fan Event : Avengers : Doomsday",
+     "year": 2026,
+     "duration": 165,
+     "directors": [
+      "Joe Russo",
+      "Anthony Russo"
+     ],
+     "genres": [
+      "Action",
+      "Science-Fiction"
+     ],
+     "releaseAt": "2026-12-15",
+     "url": "https://www.pathe.be/nl/films/fan-event-avengers-doomsday-56069",
+     "slug": "fan-event-avengers-doomsday-56069",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-15"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-15 23:59",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "no-card",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-15 23:59",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "no-card",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Le Lac des Cygnes (Opéra National de Paris)",
+     "originalTitle": "Le Lac des Cygnes (Opéra National de Paris)",
+     "year": 2026,
+     "duration": 140,
+     "directors": [],
+     "genres": [
+      "Ballet"
+     ],
+     "releaseAt": "2026-12-13",
+     "url": "https://www.pathe.be/nl/films/le-lac-des-cygnes-opera-national-de-paris-56065",
+     "slug": "le-lac-des-cygnes-opera-national-de-paris-56065",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-13"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-13 16:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "André Rieu’s 2026 Christmas Concert: Let It Snow",
+     "originalTitle": "André Rieu: Concert de Noël 2026",
+     "year": 2026,
+     "duration": 165,
+     "directors": [],
+     "genres": [
+      "Musical"
+     ],
+     "releaseAt": "2026-12-12",
+     "url": "https://www.pathe.be/nl/films/andre-rieu-s-2026-christmas-concert-let-it-snow-56068",
+     "slug": "andre-rieu-s-2026-christmas-concert-let-it-snow-56068",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-12",
+      "2026-12-13"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-12 19:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-13 16:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Siniclub: Fjord",
+     "originalTitle": "Siniclub: Fjord",
+     "year": 2026,
+     "duration": 146,
+     "directors": [],
+     "genres": [
+      "Drame"
+     ],
+     "releaseAt": "2026-12-09",
+     "url": "https://www.pathe.be/nl/films/siniclub-fjord-56372",
+     "slug": "siniclub-fjord-56372",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-10",
+      "2026-12-13",
+      "2026-12-15"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-10 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-13 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-15 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "2 Aile Arasinda",
+     "originalTitle": "2 Aile Arasinda",
+     "year": 2026,
+     "duration": 138,
+     "directors": [
+      "Ozan Açıktan"
+     ],
+     "genres": [
+      "Comédie",
+      "Famille"
+     ],
+     "releaseAt": "2026-12-03",
+     "url": "https://www.pathe.be/nl/films/2-aile-arasinda-55462",
+     "slug": "2-aile-arasinda-55462",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-04"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-04 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Asterix - Het Koninkrijk Nubië",
+     "originalTitle": "Astérix – Le Royaume de Nubie",
+     "year": 2026,
+     "duration": 86,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Famille"
+     ],
+     "releaseAt": "2026-12-02",
+     "url": "https://www.pathe.be/nl/films/asterix-het-koninkrijk-nubie-56997",
+     "slug": "asterix-het-koninkrijk-nubie-56997",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-28",
+      "2026-11-29"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-28 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      },
+      {
+       "time": "2026-11-28 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      },
+      {
+       "time": "2026-11-29 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      }
+     ]
+    },
+    {
+     "title": "Siniclub: Le Faux Soir",
+     "originalTitle": "Siniclub: Le Faux Soir",
+     "year": 2026,
+     "duration": 134,
+     "directors": [],
+     "genres": [
+      "Drame",
+      "Guerre",
+      "Historique"
+     ],
+     "releaseAt": "2026-12-02",
+     "url": "https://www.pathe.be/nl/films/siniclub-le-faux-soir-56371",
+     "slug": "siniclub-le-faux-soir-56371",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-03",
+      "2026-12-06",
+      "2026-12-08"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-03 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-06 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-08 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Family Day : Disney's Hexed",
+     "originalTitle": "Family Day : Billie, à la croisée des mondes",
+     "year": 2026,
+     "duration": 109,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Aventure",
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-28",
+     "url": "https://www.pathe.be/nl/films/family-day-disney-s-hexed-56721",
+     "slug": "family-day-disney-s-hexed-56721",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-28"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-28 10:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Disney's Hexed",
+     "originalTitle": "Billie, à la croisée des mondes",
+     "year": 2026,
+     "duration": 109,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Aventure",
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-25",
+     "url": "https://www.pathe.be/nl/films/disney-s-hexed-56720",
+     "slug": "disney-s-hexed-56720",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29",
+      "2026-11-30",
+      "2026-12-01"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-25 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-25 14:00",
+       "version": "nlbe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-25 16:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-25 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 16:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 16:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 13:30",
+       "version": "nlbe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 14:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 16:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 19:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 14:00",
+       "version": "nlbe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 16:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 16:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 19:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 16:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Paper Tiger",
+     "originalTitle": "Paper Tiger",
+     "year": 2026,
+     "duration": 115,
+     "directors": [
+      "James Gray"
+     ],
+     "genres": [
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2026-11-25",
+     "url": "https://www.pathe.be/nl/films/paper-tiger-56725",
+     "slug": "paper-tiger-56725",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-26",
+      "2026-11-30",
+      "2026-12-01"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-26 19:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "selected"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 19:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "selected"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 19:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "selected"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Ladies Night : Focker-in-Law",
+     "originalTitle": "Ladies Night : Focker-in-Law",
+     "year": 2026,
+     "duration": 105,
+     "directors": [
+      "John Hamburg"
+     ],
+     "genres": [
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-24",
+     "url": "https://www.pathe.be/nl/films/ladies-night-focker-in-law-56079",
+     "slug": "ladies-night-focker-in-law-56079",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-24 19:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
+     "originalTitle": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
+     "year": 2026,
+     "duration": 195,
+     "directors": [
+      "Jungjae HA"
+     ],
+     "genres": [
+      "Concert"
+     ],
+     "releaseAt": "2026-11-21",
+     "url": "https://www.pathe.be/nl/films/bts-world-tour-arirang-in-kaohsiung-56973",
+     "slug": "bts-world-tour-arirang-in-kaohsiung-56973",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 11:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 16:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Nasza rewolucja",
+     "originalTitle": "Nasza rewolucja",
+     "year": 2026,
+     "duration": 125,
+     "directors": [],
+     "genres": [
+      "Biopic",
+      "Drame"
+     ],
+     "releaseAt": "2026-11-20",
+     "url": "https://www.pathe.be/nl/films/nasza-rewolucja-56957",
+     "slug": "nasza-rewolucja-56957",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-22",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-22 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 19:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Cine Seniors : Digger",
+     "originalTitle": "Cine Seniors : Digger",
+     "year": 2026,
+     "duration": 128,
+     "directors": [
+      "Alejandro González Iñárritu"
+     ],
+     "genres": [
+      "Comédie",
+      "Drame"
+     ],
+     "releaseAt": "2026-11-19",
+     "url": "https://www.pathe.be/nl/films/cine-seniors-digger-55470",
+     "slug": "cine-seniors-digger-55470",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-19",
+      "2026-11-26"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-19 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Fan Event : The Hunger Games : Sunrise on the Reaping",
+     "originalTitle": "Fan Event : Hunger Games - Lever de soleil sur la moisson",
+     "year": 2026,
+     "duration": 157,
+     "directors": [
+      "Francis Lawrence"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Fantastique"
+     ],
+     "releaseAt": "2026-11-18",
+     "url": "https://www.pathe.be/nl/films/fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
+     "slug": "fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 20:00",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "soldout",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Heysel 85",
+     "originalTitle": "Heysel 85",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Teodora Mihai"
+     ],
+     "genres": [
+      "Drame",
+      "Historique",
+      "Sport Event"
+     ],
+     "releaseAt": "2026-11-18",
+     "url": "https://www.pathe.be/nl/films/heysel-85-55068",
+     "slug": "heysel-85-55068",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 22:10",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 22:10",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "The Hunger Games : Sunrise on the Reaping",
+     "originalTitle": "Hunger Games : Lever de soleil sur la moisson",
+     "year": 2026,
+     "duration": 158,
+     "directors": [
+      "Francis Lawrence"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Fantastique"
+     ],
+     "releaseAt": "2026-11-18",
+     "url": "https://www.pathe.be/nl/films/the-hunger-games-sunrise-on-the-reaping-55214",
+     "slug": "the-hunger-games-sunrise-on-the-reaping-55214",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 13:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 13:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 16:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 13:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:00",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 13:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:00",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 20:00",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 13:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 16:45",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:00",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 13:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 16:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "CineLive : Het Zwanenmeer",
+     "originalTitle": "CineLive : Le Lac des Cygnes",
+     "year": 2026,
+     "duration": 90,
+     "directors": [],
+     "genres": [
+      "Ballet",
+      "Show"
+     ],
+     "releaseAt": "2026-11-16",
+     "url": "https://www.pathe.be/nl/films/cinelive-het-zwanenmeer-54758",
+     "slug": "cinelive-het-zwanenmeer-54758",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2027-01-29"
+     ],
+     "showtimes": []
+    },
+    {
+     "title": "Ebenezer",
+     "originalTitle": "Scrooge",
+     "year": 2026,
+     "duration": 117,
+     "directors": [
+      "Ti West"
+     ],
+     "genres": [
+      "Drame",
+      "Fantastique"
+     ],
+     "releaseAt": "2026-11-11",
+     "url": "https://www.pathe.be/nl/films/ebenezer-56410",
+     "slug": "ebenezer-56410",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:15",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "How to Rob a Bank",
+     "originalTitle": "Comment braquer une banque",
+     "year": 2026,
+     "duration": 122,
+     "directors": [
+      "David Leitch"
+     ],
+     "genres": [
+      "Action",
+      "Thriller"
+     ],
+     "releaseAt": "2026-11-11",
+     "url": "https://www.pathe.be/nl/films/how-to-rob-a-bank-56420",
+     "slug": "how-to-rob-a-bank-56420",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Carnaval",
+     "originalTitle": "Carnaval",
+     "year": 2026,
+     "duration": 94,
+     "directors": [
+      "Flip van der Kuil"
+     ],
+     "genres": [
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-11",
+     "url": "https://www.pathe.be/nl/films/carnaval-56963",
+     "slug": "carnaval-56963",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 19:45",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Godzilla Minus Zero",
+     "originalTitle": "Godzilla Minus Zero",
+     "year": 2026,
+     "duration": 136,
+     "directors": [
+      "Takashi Yamazaki"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Drame"
+     ],
+     "releaseAt": "2026-11-04",
+     "url": "https://www.pathe.be/nl/films/godzilla-minus-zero-56150",
+     "slug": "godzilla-minus-zero-56150",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Wild Horse Nine",
+     "originalTitle": "Wild Horse Nine",
+     "year": 2026,
+     "duration": 116,
+     "directors": [],
+     "genres": [
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2026-11-04",
+     "url": "https://www.pathe.be/nl/films/wild-horse-nine-56722",
+     "slug": "wild-horse-nine-56722",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-17 19:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "selected"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Fall 2 : Deadpoint",
+     "originalTitle": "Fall 2 : Deadpoint",
+     "year": 2026,
+     "duration": 98,
+     "directors": [
+      "Michael Spierig",
+      "Peter Spierig"
+     ],
+     "genres": [
+      "Aventure",
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2026-10-28",
+     "url": "https://www.pathe.be/nl/films/fall-2-deadpoint-55217",
+     "slug": "fall-2-deadpoint-55217",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Clayface",
+     "originalTitle": "Clayface",
+     "year": 2026,
+     "duration": 108,
+     "directors": [
+      "James Watkins"
+     ],
+     "genres": [
+      "Epouvante-Horreur",
+      "Thriller"
+     ],
+     "releaseAt": "2026-10-21",
+     "url": "https://www.pathe.be/nl/films/clayface-56038",
+     "slug": "clayface-56038",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 20:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Coward",
+     "originalTitle": "Coward",
+     "year": 2026,
+     "duration": 125,
+     "directors": [],
+     "genres": [
+      "Drame",
+      "Guerre"
+     ],
+     "releaseAt": "2026-10-21",
+     "url": "https://www.pathe.be/nl/films/coward-56342",
+     "slug": "coward-56342",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 13:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 16:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 19:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Other Mommy",
+     "originalTitle": "Malfaisante",
+     "year": 2026,
+     "duration": 94,
+     "directors": [
+      "Rob Savage"
+     ],
+     "genres": [
+      "Epouvante-Horreur"
+     ],
+     "releaseAt": "2026-10-14",
+     "url": "https://www.pathe.be/nl/films/other-mommy-55475",
+     "slug": "other-mommy-55475",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Siniclub: Fausse Note",
+     "originalTitle": "Siniclub: Fausse Note",
+     "year": 2026,
+     "duration": 89,
+     "directors": [],
+     "genres": [
+      "Comédie",
+      "Drame"
+     ],
+     "releaseAt": "2026-10-07",
+     "url": "https://www.pathe.be/nl/films/siniclub-fausse-note-56368",
+     "slug": "siniclub-fausse-note-56368",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-17 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Siniclub: 500 Miles",
+     "originalTitle": "Siniclub: 500 Miles",
+     "year": 2026,
+     "duration": 101,
+     "directors": [],
+     "genres": [
+      "Drame"
+     ],
+     "releaseAt": "2026-09-30",
+     "url": "https://www.pathe.be/nl/films/siniclub-500-miles-56370",
+     "slug": "siniclub-500-miles-56370",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-26",
+      "2026-11-29",
+      "2026-12-01"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-26 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Heart of the Beast",
+     "originalTitle": "Heart of the Beast",
+     "year": 2026,
+     "duration": 101,
+     "directors": [
+      "David Ayer"
+     ],
+     "genres": [
+      "Aventure",
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2026-09-23",
+     "url": "https://www.pathe.be/nl/films/heart-of-the-beast-55219",
+     "slug": "heart-of-the-beast-55219",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-16 19:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Resident Evil",
+     "originalTitle": "Resident Evil",
+     "year": 2026,
+     "duration": 89,
+     "directors": [
+      "Zach Cregger"
+     ],
+     "genres": [
+      "Epouvante-Horreur"
+     ],
+     "releaseAt": "2026-09-16",
+     "url": "https://www.pathe.be/nl/films/resident-evil-55085",
+     "slug": "resident-evil-55085",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Spider-Man : Brand New Day",
+     "originalTitle": "Spider-Man : Brand New Day",
+     "year": 2026,
+     "duration": 145,
+     "directors": [
+      "Destin Daniel Cretton"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Fantastique"
+     ],
+     "releaseAt": "2026-07-29",
+     "url": "https://www.pathe.be/nl/films/spider-man-brand-new-day-54409",
+     "slug": "spider-man-brand-new-day-54409",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 17:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 17:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "Siniclub: The Christophers",
+     "originalTitle": "Siniclub: The Christophers",
+     "year": 2026,
+     "duration": 100,
+     "directors": [],
+     "genres": [
+      "Comédie",
+      "Drame"
+     ],
+     "releaseAt": "2026-07-29",
+     "url": "https://www.pathe.be/nl/films/siniclub-the-christophers-56369",
+     "slug": "siniclub-the-christophers-56369",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-19",
+      "2026-11-22",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-19 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
+     "title": "The Odyssey",
+     "originalTitle": "L'Odyssée",
+     "year": 2026,
+     "duration": 172,
+     "directors": [],
+     "genres": [
+      "Drame"
+     ],
+     "releaseAt": "2026-07-15",
+     "url": "https://www.pathe.be/nl/films/the-odyssey-52999",
+     "slug": "the-odyssey-52999",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-16",
+      "2026-11-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-16 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-17 13:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    }
+   ],
+   "state": "fresh"
   },
   {
    "id": 994,
    "key": "sphinx-gent",
    "name": "Sphinx Cinema Gent",
+   "source": "cinebel (next ~2 days only)",
    "films": [
     {
      "title": "A Family",
@@ -405,12 +3874,13 @@
      ]
     }
    ],
-   "source": "fresh"
+   "state": "fresh"
   },
   {
    "id": 995,
    "key": "studio-skoop-gent",
    "name": "Studio Skoop Gent",
+   "source": "cinebel (next ~2 days only)",
    "films": [
     {
      "title": "Club Kid",
@@ -723,7 +4193,7 @@
      ]
     }
    ],
-   "source": "fresh"
+   "state": "fresh"
   }
  ],
  "letterboxd": {
