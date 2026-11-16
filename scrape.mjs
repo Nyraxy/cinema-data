@@ -126,6 +126,7 @@ async function scrapePathe() {
         genres: detail.genres || [],
         releaseAt: release,
         url: `https://www.pathe.be/nl/films/${slug}`,
+        poster: detail.posterPath?.md || detail.posterPath?.lg || detail.posterPath?.sm || null,
         slug,
         isNew: !!meta.isNew,
         isComingSoon: !!meta.isComingSoon,

@@ -28,6 +28,7 @@ export function parseCinebel(html, now = new Date()) {
     const title = strip(head.replace(/<span[^>]*class="originalTitle"[\s\S]*?<\/span>/, ""));
     const filmLink = b.match(/href="\s*(\/film\/(\d+)\/[^"]*?)\s*"/);
     const infos = b.match(/class="scheduleMovieInfos"[\s\S]*?<\/ul>/)?.[0] || "";
+    const poster = infos.match(/<img[^>]+src="([^"]+)"/)?.[1] || null;
     const year = Number(infos.match(/-\s*(\d{4})\s*</)?.[1]) || null;
     const runtime = infos.match(/<li>\s*(\d+)h(\d{2})\s*<\/li>/);
     const directors = [...(b.match(/<p>\s*de\s+([\s\S]*?)(?:avec|<\/p>)/)?.[1] || "").matchAll(/>([^<]+)<\/a>/g)].map(
@@ -56,6 +57,7 @@ export function parseCinebel(html, now = new Date()) {
       year,
       duration: runtime ? Number(runtime[1]) * 60 + Number(runtime[2]) : null,
       directors,
+      poster,
       cinebelId: filmLink ? Number(filmLink[2]) : null,
       cinebelUrl: filmLink ? `https://cinebel.dhnet.be${encodeURI(decodeURI(filmLink[1].trim()))}` : null,
       showtimes,
