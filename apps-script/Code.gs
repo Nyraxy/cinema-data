@@ -1,0 +1,385 @@
+/**
+ * Daily cinema suggestions — Google Apps Script version.
+ *
+ * Reads the cinema + Letterboxd data that the GitHub Action publishes in this repo, checks your
+ * Google Calendar, plans back-to-back cinema evenings and emails you (with posters) when there
+ * are screenings you haven't been sent before. Runs in your own Google account: no other services.
+ *
+ * Setup: paste this file into a new project at https://script.google.com, then run setup() once.
+ *   testRun()  sends a [TEST] email right away (ignores the "already sent" check).
+ *   run()      what the daily trigger calls.
+ *   reset()    forgets which screenings were sent.
+ *
+ * Calendar colours: Sage (2) = film ticket (that film is never suggested), Graphite (8) = ignored,
+ * everything else is busy. Events marked "free" are ignored.
+ */
+
+const REPO_RAW = 'https://raw.githubusercontent.com/Nyraxy/cinema-data/main/';
+const TZ = 'Europe/Brussels';
+const RUN_HOUR = 5;
+const GENT = ['sphinx-gent', 'studio-skoop-gent', 'kinepolis-gent'];
+const SHORT = { 'pathe-sint-niklaas': 'Pathé', 'sphinx-gent': 'Sphinx Gent', 'studio-skoop-gent': 'Skoop Gent' };
+const OFFICE_DAYS = [1, 2, 4]; // Mon, Tue, Thu (JS getUTCDay)
+const MAX_POSTERS = 15;
+const PREFIX = /^\s*(fan event|cine ?seniors|cin[eé] ?seniors|siniclub|cin[eé][ -]?club|film ?marathon|avant[ -]premi[eè]re|preview|sneak preview|re-?release|classics?|cult)\s*[:\-–]\s*/i;
+const MIN = 60 * 1000;
+
+// ---------- entry points ----------
+function setup() {
+  ScriptApp.getProjectTriggers().forEach(t => { if (t.getHandlerFunction() === 'run') ScriptApp.deleteTrigger(t); });
+  ScriptApp.newTrigger('run').timeBased().everyDays(1).atHour(RUN_HOUR).inTimezone(TZ).create();
+  Logger.log('Daily trigger created (between %s:00 and %s:00).', RUN_HOUR, RUN_HOUR + 1);
+}
+function run() { main(false); }
+function testRun() { main(true); }
+function reset() { PropertiesService.getScriptProperties().deleteProperty('sent'); }
+
+// ---------- time helpers: all times are "Brussels wall clock as UTC" milliseconds ----------
+function parseLocal(s) { // "YYYY-MM-DD HH:MM"
+  const m = s.match(/^(\d{4})-(\d\d)-(\d\d)[ T](\d\d):(\d\d)/);
+  return Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+}
+function toLocal(date) { return parseLocal(Utilities.formatDate(date, TZ, 'yyyy-MM-dd HH:mm')); }
+function fmt(ms, pattern) { return Utilities.formatDate(new Date(ms), 'UTC', pattern); }
+function dow(ms) { return new Date(ms).getUTCDay(); }
+function dayKey(ms) { return fmt(ms, 'yyyy-MM-dd'); }
+function durTxt(m) { return m ? Math.floor(m / 60) + 'h' + String(m % 60).padStart(2, '0') : ''; }
+
+// ---------- text helpers ----------
+function norm(s) {
+  s = (s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^\x00-\x7f]/g, '').toLowerCase();
+  s = s.replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim();
+  return s.replace(/^(the|a|an|le|la|les|de|het) /, '');
+}
+function stripPrefix(t) { return (t || '').replace(PREFIX, '').trim(); }
+function lbSplit(name) {
+  const m = (name || '').match(/^(.*) \((\d{4})\)$/);
+  return m ? [m[1], +m[2]] : [name, null];
+}
+function keyOf(title, cinema, time) { return norm(stripPrefix(title)) + '|' + cinema + '|' + time; }
+function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+
+// ---------- inputs ----------
+function fetchText(path) {
+  const r = UrlFetchApp.fetch(REPO_RAW + path + '?t=' + Date.now(), { muteHttpExceptions: true });
+  if (r.getResponseCode() !== 200) throw new Error(path + ': HTTP ' + r.getResponseCode());
+  return r.getContentText('UTF-8');
+}
+
+function readExcludes() {
+  const names = [];
+  try {
+    fetchText('exclude.txt').split('\n').forEach(l => { l = l.trim(); if (l && !l.startsWith('#')) names.push(l); });
+  } catch (e) { Logger.log('exclude.txt: ' + e); }
+  // replies like "exclude: Film A, Film B" to a suggestions email
+  GmailApp.search('in:sent subject:"Cinema suggestions" exclude', 0, 50).forEach(th => th.getMessages().forEach(m => {
+    if (!/^re:/i.test(m.getSubject())) return;
+    const first = m.getPlainBody().split('\n').map(l => l.trim()).find(l => l);
+    const mm = first && first.match(/^exclude\s*:?\s*(.+)$/i);
+    if (mm) mm[1].split(',').forEach(n => { n = n.trim(); if (n) names.push(n); });
+  }));
+  return names.map(n => { const [t, y] = lbSplit(n); return [norm(stripPrefix(t)), y]; });
+}
+
+function readSent(now) {
+  const props = PropertiesService.getScriptProperties();
+  let lines = JSON.parse(props.getProperty('sent') || 'null');
+  if (!lines) { // first run: continue from the last email sent by the previous (Claude) version
+    lines = [];
+    const th = GmailApp.search('in:sent subject:"Cinema suggestions" -subject:Fwd -subject:Re', 0, 1)[0];
+    if (th) {
+      const body = th.getMessages().pop().getPlainBody();
+      const idx = body.search(/^(SENT|SUGGESTIONS)\s*$/m);
+      if (idx >= 0) body.slice(idx).split('\n').forEach(l => {
+        const p = l.split('|').map(x => x.trim());
+        if (p.length === 3 && /^\d{4}-\d\d-\d\d \d\d:\d\d$/.test(p[2])) lines.push(p.join(' | '));
+      });
+    }
+  }
+  const nowStr = fmt(now, 'yyyy-MM-dd HH:mm');
+  lines = lines.filter(l => l.split(' | ')[2] >= nowStr);
+  const keys = new Set(lines.map(l => { const p = l.split(' | '); return keyOf(p[0], p[1], p[2]); }));
+  return { lines, keys };
+}
+
+function readCalendar(from, to) {
+  const busy = [], sage = [];
+  CalendarApp.getDefaultCalendar().getEvents(new Date(from - 3600000 * 2), new Date(to + 3600000 * 2)).forEach(ev => {
+    try { if (ev.getTransparency && String(ev.getTransparency()) === 'TRANSPARENT') return; } catch (e) {}
+    const color = String(ev.getColor() || '');
+    if (color === '8') return;
+    let s, e;
+    if (ev.isAllDayEvent()) { s = toLocal(ev.getAllDayStartDate()); e = toLocal(ev.getAllDayEndDate()); }
+    else { s = toLocal(ev.getStartTime()); e = toLocal(ev.getEndTime()); }
+    busy.push({ s, e, title: ev.getTitle() });
+    if (color === '2') sage.push(norm(ev.getTitle()));
+  });
+  return { busy, sage };
+}
+
+// ---------- planning ----------
+function wantedFilms(data, excludes, now) {
+  const year = new Date(now).getUTCFullYear();
+  const lb = data.letterboxd;
+  const watched = lb.watched || [];
+  const watchedSlugs = new Set(watched.map(w => w.slug).filter(Boolean));
+  const watchedKeys = new Set(watched.map(w => { const [t, y] = lbSplit(w.name); return norm(t) + '|' + y; }));
+  const wl = {}, fav = {};
+  (lb.watchlist || []).forEach(w => {
+    const [t, y] = lbSplit(w.name);
+    if (watchedSlugs.has(w.slug) || watchedKeys.has(norm(t) + '|' + y)) return;
+    (wl[norm(t)] = wl[norm(t)] || []).push([t, y]);
+  });
+  watched.forEach(w => {
+    const [t, y] = lbSplit(w.name);
+    if (y && y <= year - 2 && ((w.rating || 0) >= 3.5 || w.liked)) (fav[norm(t)] = fav[norm(t)] || []).push([t, y, w.rating, w.liked]);
+  });
+  const out = [];
+  data.cinemas.forEach(c => (c.films || []).forEach(f => {
+    const title = f.title || '';
+    const special = PREFIX.test(title) || !!f.specialEvent || (f.showtimes || []).some(s => s.special);
+    const names = [norm(stripPrefix(title)), norm(stripPrefix(f.originalTitle || ''))].filter(Boolean);
+    if (names.some(n => excludes.some(([e]) => n === e))) return;
+    const fy = f.year;
+    let match = null;
+    for (const n of names) {
+      for (const [t, y] of wl[n] || []) {
+        if (!fy || !y || Math.abs(fy - y) <= 1 || (special && y < fy)) { match = { kind: 'watchlist', lbName: y ? `${t} (${y})` : t }; break; }
+      }
+      if (match) break;
+    }
+    if (!match) for (const n of names) {
+      for (const [t, y, rating, liked] of fav[n] || []) {
+        if (special || (fy && Math.abs(fy - y) <= 1)) { match = { kind: 'rerelease', lbName: `${t} (${y})`, rating, liked }; break; }
+      }
+      if (match) break;
+    }
+    if (!match) return;
+    const display = lbSplit(match.lbName)[0];
+    out.push(Object.assign(match, { film: f, cinema: c.key, cinemaName: c.name || c.key, norm: norm(match.lbName),
+      display, names: names.concat([norm(display)]) }));
+  }));
+  return out;
+}
+
+function allScreenings(wf, now) {
+  const out = [], dubbed = new Set();
+  wf.forEach(w => {
+    const f = w.film, dur = f.duration || 120, gent = GENT.includes(w.cinema);
+    (f.showtimes || []).forEach(s => {
+      const t = parseLocal(s.time);
+      if (t < now + 45 * MIN) return;
+      if (!String(s.version || '').toLowerCase().startsWith('vo')) { dubbed.add(w); return; }
+      const d = dow(t), mins = Number(s.time.slice(11, 13)) * 60 + Number(s.time.slice(14, 16));
+      let ok = false;
+      if (OFFICE_DAYS.includes(d)) ok = mins >= (gent ? 17 * 60 : 16 * 60);
+      else if (d === 0 || d === 6) ok = true;
+      out.push({ w, t, time: s.time, dur, gent, ok, key: keyOf(w.display, w.cinema, s.time) });
+    });
+  });
+  return { scs: out, dubbed };
+}
+
+function windowOf(s) { const travel = s.gent ? 45 : 30; return [s.t - travel * MIN, s.t + (15 + s.dur + 15) * MIN]; }
+function clash(a, b, busy) { const ev = busy.find(e => e.s < b && e.e > a); return ev ? (ev.title || 'busy') : null; }
+function hasTicket(w, sage) {
+  return sage.some(ev => w.names.some(n => n.length >= 3 &&
+    (new RegExp('\\b' + n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(ev) || (ev.length >= 3 && n.includes(ev)))));
+}
+
+function bestChain(scs) {
+  scs = scs.slice().sort((a, b) => a.t - b.t);
+  let best = null, bestScore = null;
+  function better(sc) { if (!bestScore) return true; for (let i = 0; i < 3; i++) { if (sc[i] !== bestScore[i]) return sc[i] > bestScore[i]; } return false; }
+  function dfs(chain, used, wait) {
+    if (chain.length) { const sc = [chain.length, -wait, -chain[0].t]; if (better(sc)) { bestScore = sc; best = chain.slice(); } }
+    const last = chain[chain.length - 1];
+    for (const s of scs) {
+      if (used.has(s.w.norm)) continue;
+      let gap = 0;
+      if (last) {
+        if (s.t <= last.t || s.t < last.t + (last.dur - 5) * MIN) continue;
+        gap = Math.max(0, Math.floor((s.t - (last.t + last.dur * MIN)) / MIN));
+      }
+      chain.push(s); used.add(s.w.norm);
+      dfs(chain, used, wait + gap);
+      chain.pop(); used.delete(s.w.norm);
+    }
+  }
+  dfs([], new Set(), 0);
+  return best || [];
+}
+
+function plan(scs, busy) {
+  const fit = scs.filter(s => { if (!s.ok) return false; const [a, b] = windowOf(s); return !clash(a, b, busy); });
+  const groups = {};
+  fit.forEach(s => { const k = dayKey(s.t) + '|' + s.w.cinema; (groups[k] = groups[k] || []).push(s); });
+  const chainOk = ch => !clash(windowOf(ch[0])[0], windowOf(ch[ch.length - 1])[1], busy);
+  const isWeekday = k => { const d = dow(parseLocal(k.split('|')[0] + ' 12:00')); return d >= 1 && d <= 5; };
+  const isGent = k => GENT.includes(k.split('|')[1]);
+  const tiers = [k => !isGent(k) && isWeekday(k), k => !isGent(k) && !isWeekday(k), k => isGent(k) && isWeekday(k), k => isGent(k) && !isWeekday(k)];
+  const covered = new Set(), days = [], usedGroups = new Set();
+  tiers.forEach(tier => {
+    for (;;) {
+      let pick = null, pickScore = null;
+      Object.keys(groups).forEach(k => {
+        if (!tier(k) || usedGroups.has(k)) return;
+        let pool = groups[k].filter(s => !covered.has(s.w.norm));
+        let ch = bestChain(pool);
+        while (ch.length && !chainOk(ch)) { const lastS = ch[ch.length - 1]; pool = pool.filter(s => s !== lastS); ch = bestChain(pool); }
+        if (!ch.length) return;
+        let wait = 0; for (let i = 1; i < ch.length; i++) wait += Math.max(0, (ch[i].t - ch[i - 1].t) / MIN - ch[i - 1].dur);
+        const d = dow(ch[0].t);
+        const score = [ch.length, -wait, d === 1 ? 1 : 0, -ch[0].t];
+        let isBetter = !pickScore;
+        if (pickScore) for (let i = 0; i < score.length; i++) { if (score[i] !== pickScore[i]) { isBetter = score[i] > pickScore[i]; break; } }
+        if (isBetter) { pick = { k, ch }; pickScore = score; }
+      });
+      if (!pick) break;
+      usedGroups.add(pick.k);
+      days.push({ date: pick.ch[0].t, cinema: pick.k.split('|')[1], chain: pick.ch });
+      pick.ch.forEach(s => covered.add(s.w.norm));
+    }
+  });
+  days.sort((a, b) => (GENT.includes(a.cinema) - GENT.includes(b.cinema)) || (a.date - b.date));
+  const chosen = new Set(days.flatMap(x => x.chain.map(s => s.key)));
+  const also = {};
+  fit.slice().sort((a, b) => (a.gent - b.gent) || (a.t - b.t)).forEach(s => {
+    const n = s.w.norm;
+    if (covered.has(n) && !chosen.has(s.key) && (also[n] || []).length < 3) (also[n] = also[n] || []).push(s);
+  });
+  return { days, also, covered };
+}
+
+// ---------- email ----------
+function badge(text, color, extra) {
+  return `<span style="background-color:${color};color:#ffffff;border-radius:4px;padding:1px 6px;font-size:11px;font-weight:bold${extra || ''}">${esc(text)}</span>`;
+}
+
+function render(now, days, also, others, sentKeys, test, posterCid, warnings) {
+  const nFilms = days.reduce((n, x) => n + x.chain.length, 0);
+  const o = [];
+  o.push('<div style="background-color:#f3f4f6;padding:12px 0;font-family:Arial,Helvetica,sans-serif;color:#111827">' +
+    '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="max-width:600px;margin:0 auto;background-color:#ffffff;border-radius:12px">');
+  o.push(`<tr><td bgcolor="#111827" style="background-color:#111827;color:#ffffff;padding:16px 20px;border-radius:12px 12px 0 0">` +
+    `<div style="font-size:20px;font-weight:bold">🎬 Cinema suggestions${test ? ' ' + badge('TEST', '#6b7280') : ''}</div>` +
+    `<div style="font-size:13px;color:#d1d5db;margin-top:4px">${fmt(now, 'EEEE d MMMM')} · ${nFilms} film${nFilms === 1 ? '' : 's'} across ${days.length} cinema day${days.length === 1 ? '' : 's'}</div></td></tr>`);
+  if (warnings.length) o.push(`<tr><td bgcolor="#fff7ed" style="background-color:#fff7ed;color:#9a3412;padding:8px 20px;font-size:13px">⚠️ ${esc(warnings.join(' · '))}</td></tr>`);
+  o.push('<tr><td style="padding:14px 20px 4px"><div style="font-size:12px;font-weight:bold;color:#6b7280;text-transform:uppercase;margin-bottom:6px">Overview</div><table width="100%" cellpadding="0" cellspacing="0">');
+  days.forEach(x => {
+    const gent = GENT.includes(x.cinema);
+    const [bg, fg] = gent ? ['#e6f7f4', '#0b6b5e'] : ['#eef2ff', '#3730a3'];
+    const chips = x.chain.map(s => `<span style="display:inline-block;background-color:${bg};color:${fg};border-radius:999px;padding:3px 9px;font-size:12px;margin:0 4px 4px 0">${fmt(s.t, 'HH:mm')} ${esc(s.w.display)}</span>`).join('');
+    o.push(`<tr><td width="120" style="padding:5px 0;font-size:13px;font-weight:bold;vertical-align:top">${fmt(x.date, 'EEE d MMM')}<br><span style="font-weight:normal;color:#6b7280;font-size:12px">${esc(SHORT[x.cinema] || x.cinema)}</span></td><td style="padding:5px 0;vertical-align:top">${chips}</td></tr>`);
+  });
+  o.push('</table></td></tr>');
+  days.forEach(x => {
+    const gent = GENT.includes(x.cinema), ch = x.chain, last = ch[ch.length - 1];
+    const home = last.t + (15 + last.dur + (gent ? 20 : 30)) * MIN;
+    const d = dow(x.date);
+    const tags = (d === 0 || d === 6 ? badge('WEEKEND', '#f76b15', ';margin-left:6px') : '') + (gent ? badge('GENT', '#12a594', ';margin-left:6px') : '');
+    o.push(`<tr><td style="padding:12px 20px 0"><table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb;border-radius:10px">` +
+      `<tr><td colspan="3" bgcolor="#f9fafb" style="background-color:#f9fafb;padding:9px 12px;border-bottom:1px solid #e5e7eb;border-radius:10px 10px 0 0">` +
+      `<b style="font-size:15px">${fmt(x.date, 'EEEE d MMMM')}</b><span style="font-size:13px;color:#6b7280"> · ${esc(ch[0].w.cinemaName)} · ${ch.length} film${ch.length === 1 ? '' : 's'} · home ~${fmt(home, 'HH:mm')}</span>${tags}</td></tr>`);
+    ch.forEach((s, i) => {
+      if (i) {
+        const prev = ch[i - 1], wait = Math.floor((s.t - prev.t) / MIN) - prev.dur;
+        if (wait > 30) o.push(`<tr><td colspan="3" style="padding:0 12px"><div style="border-top:1px dashed #e5e7eb;font-size:11px;color:#9ca3af;padding:3px 0 0 52px">${wait >= 60 ? durTxt(wait) : wait + ' min'} wait</div></td></tr>`);
+      }
+      const f = s.w.film, w = s.w, end = s.t + (15 + s.dur) * MIN;
+      const cid = posterCid[f.posterThumb];
+      const img = cid ? `<img src="cid:${cid}" width="54" height="80" alt="" style="display:block;border-radius:4px">`
+        : '<div style="width:54px;height:80px;border-radius:4px;background-color:#e5e7eb"></div>';
+      const meta = [f.year || '', durTxt(f.duration), (f.directors || []).join(', ')].filter(Boolean).join(' · ');
+      const kb = w.kind === 'watchlist' ? badge('Watchlist', '#3e63dd')
+        : badge(w.rating ? `Re-release · you rated ★${w.rating}` : 'Re-release · ♥ liked', '#8e4ec6');
+      const isNew = !test && !sentKeys.has(s.key);
+      const al = also[w.norm] || [];
+      const alsoTxt = al.length ? `<div style="font-size:12px;color:#6b7280;margin-top:5px">Also: ${esc(al.map(a =>
+        fmt(a.t, 'EEE d HH:mm') + (a.w.cinema === w.cinema ? '' : ` (${SHORT[a.w.cinema] || ''})`) + (!test && !sentKeys.has(a.key) ? ' new' : '')).join(' · '))}</div>` : '';
+      o.push(`<tr><td width="58" style="padding:9px 0 9px 12px;vertical-align:top;text-align:center"><div style="font-size:16px;font-weight:bold">${fmt(s.t, 'HH:mm')}</div>` +
+        `<div style="font-size:11px;color:#6b7280">until ~${fmt(end, 'HH:mm')}</div></td><td width="62" style="padding:9px 8px;vertical-align:top">${img}</td>` +
+        `<td style="padding:9px 12px 9px 0;vertical-align:top"><a href="${esc(f.url || f.cinebelUrl || '#')}" style="font-size:15px;font-weight:bold;color:#111827;text-decoration:none">${esc(w.display)}</a>` +
+        `${isNew ? badge('NEW', '#e5484d', ';margin-left:4px') : ''}<div style="font-size:12px;color:#6b7280;margin-top:3px">${esc(meta)}</div><div style="margin-top:5px">${kb}</div>${alsoTxt}</td></tr>`);
+    });
+    o.push('</table></td></tr>');
+  });
+  if (others.length) {
+    o.push('<tr><td style="padding:14px 20px 0"><div style="font-size:12px;font-weight:bold;color:#6b7280;text-transform:uppercase;margin-bottom:4px">Other options</div>');
+    others.forEach(([t, why]) => o.push(`<div style="font-size:13px;padding:4px 0;border-bottom:1px solid #f3f4f6"><b>${esc(t)}</b> <span style="color:#6b7280">· ${esc(why)}</span></div>`));
+    o.push('</td></tr>');
+  }
+  o.push('<tr><td style="padding:14px 20px 16px;font-size:11px;color:#9ca3af">Don\'t want a film suggested? Reply "exclude: &lt;title&gt;" or add it to exclude.txt in the cinema-data repo.</td></tr></table></div>');
+  return o.join('');
+}
+
+// ---------- main ----------
+function main(test) {
+  const now = toLocal(new Date());
+  const data = JSON.parse(fetchText('data/cinema.json'));
+  const warnings = [];
+  const age = Date.now() - new Date(data.generatedAt).getTime();
+  if (age > 24 * 3600000) warnings.push(`cinema data is ${Math.round(age / 3600000)}h old`);
+  data.cinemas.forEach(c => { if (c.state === 'stale' || c.state === 'missing') warnings.push(`${c.name || c.key} data is ${c.state}`); });
+
+  const sent = readSent(now);
+  const wf = wantedFilms(data, readExcludes(), now);
+  let { scs, dubbed } = allScreenings(wf, now);
+
+  const unsent = scs.filter(s => s.ok && !sent.keys.has(s.key));
+  if (!unsent.length && !test) { Logger.log('Nothing unsent: no email.'); return; }
+
+  const last = scs.reduce((m, s) => Math.max(m, s.t), now) + 24 * 3600000;
+  const fixedCal = readCalendar(now, last);
+  const ticket = new Set(wf.filter(w => hasTicket(w, fixedCal.sage)).map(w => w.norm));
+  scs = scs.filter(s => !ticket.has(s.w.norm));
+  const { days, also, covered } = plan(scs, fixedCal.busy);
+
+  // other options
+  const others = [], seen = new Set([...covered, ...ticket]);
+  scs.slice().sort((a, b) => (a.gent - b.gent) || (a.t - b.t)).forEach(s => {
+    const n = s.w.norm;
+    if (seen.has(n)) return;
+    seen.add(n);
+    const mine = scs.filter(x => x.w.norm === n), okT = mine.filter(x => x.ok);
+    let why;
+    if (okT.length) { const [a, b] = windowOf(okT[0]); why = `${fmt(okT[0].t, 'EEE d HH:mm')} (${SHORT[okT[0].w.cinema] || ''}) clashes with “${clash(a, b, fixedCal.busy)}”`; }
+    else why = 'only during work hours: ' + mine.slice(0, 2).map(x => fmt(x.t, 'EEE d HH:mm')).join(', ');
+    others.push([s.w.display, why]);
+  });
+  wf.forEach(w => { if (dubbed.has(w) && !seen.has(w.norm)) { seen.add(w.norm); others.push([w.display, `only dubbed at ${SHORT[w.cinema] || w.cinema}`]); } });
+
+  const shown = days.flatMap(x => x.chain).concat(Object.values(also).flat());
+  const fresh = shown.filter(s => !sent.keys.has(s.key));
+  if (!fresh.length && !test) { Logger.log('No new screenings fit: no email.'); return; }
+
+  // posters
+  const inlineImages = {}, posterCid = {};
+  days.flatMap(x => x.chain).forEach(s => {
+    const rel = s.w.film.posterThumb;
+    if (!rel || posterCid[rel] || Object.keys(inlineImages).length >= MAX_POSTERS) return;
+    try {
+      const r = UrlFetchApp.fetch(REPO_RAW + rel, { muteHttpExceptions: true });
+      if (r.getResponseCode() !== 200) return;
+      const id = 'p' + Object.keys(inlineImages).length;
+      inlineImages[id] = r.getBlob().setName(id + '.jpg');
+      posterCid[rel] = id;
+    } catch (e) { Logger.log('poster ' + rel + ': ' + e); }
+  });
+
+  const html = render(now, days, also, others.slice(0, 10), sent.keys, test, posterCid, warnings);
+  const text = ['Cinema suggestions, ' + fmt(now, 'EEE d MMM') + ':']
+    .concat(days.map(x => `${fmt(x.date, 'EEE d MMM')} (${SHORT[x.cinema] || x.cinema}): ` + x.chain.map(s => `${fmt(s.t, 'HH:mm')} ${s.w.display}`).join(', ')));
+
+  // remember what was shown (future screenings only)
+  const keep = {};
+  sent.lines.forEach(l => { const p = l.split(' | '); keep[keyOf(p[0], p[1], p[2])] = l; });
+  shown.forEach(s => { keep[s.key] = `${s.w.display} | ${s.w.cinema} | ${s.time}`; });
+  const lines = Object.values(keep).sort((a, b) => a.split(' | ')[2].localeCompare(b.split(' | ')[2]));
+
+  const to = Session.getEffectiveUser().getEmail();
+  GmailApp.sendEmail(to, `${test ? '[TEST] ' : ''}🎬 Cinema suggestions – ${fmt(now, 'EEEE d MMMM')}`,
+    text.concat(['', 'SENT']).concat(lines).join('\n'), { htmlBody: html, inlineImages, name: 'Cinema suggestions' });
+  if (!test) PropertiesService.getScriptProperties().setProperty('sent', JSON.stringify(lines));
+  Logger.log(`Sent: ${days.length} days, ${fresh.length} new screenings, ${Object.keys(inlineImages).length} posters.`);
+}
