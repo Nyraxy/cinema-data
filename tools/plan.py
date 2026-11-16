@@ -17,7 +17,7 @@ cal.txt    : one calendar event per line: start|end|colorId|title
 """
 import argparse
 import datetime as dt
-import hashlib
+import base64
 import html
 import json
 import os
@@ -38,6 +38,7 @@ PREFIX = re.compile(
     r"preview|sneak preview|re-?release|classics?|cult)\s*[:\-–]\s*",
     re.I,
 )
+MAX_POSTERS = 12
 NOW = dt.datetime.now(TZ).replace(tzinfo=None)
 
 
@@ -423,6 +424,7 @@ def main():
     ap.add_argument("--calendar")
     ap.add_argument("--exclude", action="append", default=[])
     ap.add_argument("--test", action="store_true")
+    ap.add_argument("--no-posters", action="store_true")
     a = ap.parse_args()
 
     data = load()
@@ -491,11 +493,10 @@ def main():
         for s in x["chain"]:
             rel = s["w"]["film"].get("posterThumb")
             path = os.path.join(REPO, rel) if rel else None
-            if rel and rel not in poster_cid and os.path.isfile(path) and len(attachments) < 20:
-                digest = hashlib.sha256(open(path, "rb").read()).hexdigest()
+            if rel and rel not in poster_cid and os.path.isfile(path) and len(attachments) < MAX_POSTERS and not a.no_posters:
                 poster_cid[rel] = f"cid:att{len(attachments)}"
-                attachments.append({"content": f"sha256:{digest}:{path}", "filename": os.path.basename(path),
-                                    "mimeType": "image/jpeg", "inline": True})
+                attachments.append({"content": base64.b64encode(open(path, "rb").read()).decode(),
+                                    "filename": f"poster{len(attachments)}.jpg", "mimeType": "image/jpeg", "inline": True})
 
     os.makedirs(OUT, exist_ok=True)
     htm = render(days, also, others, sent_keys, a.test, poster_cid)
