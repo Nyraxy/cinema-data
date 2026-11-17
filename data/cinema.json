@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T10:02:45.623Z",
+ "generatedAt": "2026-11-17T13:02:46.456Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
@@ -2441,6 +2441,17 @@
        "special": null
       },
       {
+       "time": "2026-11-20 18:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
        "time": "2026-11-20 20:00",
        "version": "vobe",
        "tags": [
@@ -2502,6 +2513,17 @@
        "version": "vobe",
        "tags": [
         "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 19:15",
+       "version": "vobe",
+       "tags": [
         "DEFAULT",
         "pmr",
         "relaxseats"
@@ -2921,17 +2943,6 @@
        "special": null
       },
       {
-       "time": "2026-11-21 22:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-22 20:00",
        "version": "vobe",
        "tags": [
@@ -3109,17 +3120,6 @@
        "special": null
       },
       {
-       "time": "2026-11-20 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-20 20:15",
        "version": "vobe",
        "tags": [
@@ -3131,7 +3131,7 @@
        "special": null
       },
       {
-       "time": "2026-11-21 17:30",
+       "time": "2026-11-21 17:05",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -3284,7 +3284,7 @@
        "special": null
       },
       {
-       "time": "2026-11-20 17:45",
+       "time": "2026-11-20 16:45",
        "version": "nlbe",
        "tags": [
         "DEFAULT",
@@ -3306,7 +3306,7 @@
        "special": null
       },
       {
-       "time": "2026-11-21 20:15",
+       "time": "2026-11-21 19:40",
        "version": "nlbe",
        "tags": [
         "DEFAULT",
@@ -3437,7 +3437,7 @@
        "special": null
       },
       {
-       "time": "2026-11-20 20:15",
+       "time": "2026-11-20 19:15",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -3448,7 +3448,7 @@
        "special": null
       },
       {
-       "time": "2026-11-21 19:15",
+       "time": "2026-11-21 21:50",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -3778,18 +3778,7 @@
        "special": null
       },
       {
-       "time": "2026-11-20 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 19:00",
+       "time": "2026-11-20 14:30",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -3939,7 +3928,7 @@
        "special": null
       },
       {
-       "time": "2026-11-20 14:30",
+       "time": "2026-11-20 14:00",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -4116,7 +4105,7 @@
        "special": null
       },
       {
-       "time": "2026-11-21 13:30",
+       "time": "2026-11-21 13:15",
        "version": "nlbe",
        "tags": [
         "DEFAULT",
@@ -4127,7 +4116,7 @@
        "special": null
       },
       {
-       "time": "2026-11-21 15:30",
+       "time": "2026-11-21 15:10",
        "version": "nlbe",
        "tags": [
         "DEFAULT",
@@ -4843,6 +4832,17 @@
        "special": null
       },
       {
+       "time": "2026-11-20 22:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
        "time": "2026-11-21 19:15",
        "version": "vobe",
        "tags": [
@@ -5033,7 +5033,7 @@
        "special": null
       },
       {
-       "time": "2026-11-20 16:00",
+       "time": "2026-11-20 17:15",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -5198,7 +5198,7 @@
        "special": null
       },
       {
-       "time": "2026-11-20 17:00",
+       "time": "2026-11-20 16:45",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -7931,7 +7931,7 @@
    },
    {
     "slug": "narnia-the-magicians-nephew",
-    "name": "Narnia: The Magician's Nephew (2027)"
+    "name": "Narnia: The Magician's Nephew (2026)"
    },
    {
     "slug": "little-women-2019",
