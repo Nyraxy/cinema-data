@@ -171,7 +171,10 @@ function readCalendar(from, to) {
     if (title.trim().startsWith('?')) { holds.push({ s, e, title: title.trim().replace(/^\?\s*/, '') || 'placeholder' }); return; }
     let loc = ''; try { loc = ev.getLocation() || ''; } catch (x) {}
     busy.push({ s, e, title, loc });
-    if (color === '2') sage.push(norm(ev.getTitle()));
+  });
+  // tickets: look wider than the planning range (far-ahead tickets, recently seen but not yet logged)
+  CalendarApp.getDefaultCalendar().getEvents(new Date(from - 60 * 864e5), new Date(from + 365 * 864e5)).forEach(ev => {
+    if (String(ev.getColor() || '') === '2') sage.push(norm(ev.getTitle()));
   });
   return { busy, sage, holds };
 }
