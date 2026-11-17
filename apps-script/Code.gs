@@ -13,7 +13,8 @@
  *
  * Calendar colours: Sage (2) = film ticket (that film is never suggested), Graphite (8) = ignored,
  * everything else is busy. Events marked "free" are ignored. Titles starting with "?" are placeholders:
- * not blocking, but a suggestion that overlaps one gets a note.
+ * not blocking, but a suggestion that overlaps one gets a note. Events with a location also block the
+ * driving time between the cinema and that location (Google Maps, cached).
  */
 
 const REPO_RAW = 'https://raw.githubusercontent.com/Nyraxy/cinema-data/main/';
@@ -25,6 +26,30 @@ const OFFICE_DAYS = [1, 2, 4]; // Mon, Tue, Thu (JS getUTCDay)
 const MAX_POSTERS = 15;
 const PREFIX = /^\s*(fan event|cine ?seniors|cin[eé] ?seniors|siniclub|cin[eé][ -]?club|film ?marathon|avant[ -]premi[eè]re|preview|sneak preview|re-?release|classics?|cult)\s*[:\-–]\s*/i;
 const MIN = 60 * 1000;
+const CINEMA_ADDR = { 'pathe-sint-niklaas': 'Pathé Sint-Niklaas, 9100 Sint-Niklaas, Belgium',
+  'sphinx-gent': 'Sint-Michielshelling 3, 9000 Gent, Belgium', 'studio-skoop-gent': 'Sint-Annaplein 63, 9000 Gent, Belgium' };
+const DRIVE_FAIL = new Set();
+let DRIVE = null;
+
+// driving minutes between a cinema and an event location (+10% margin), cached forever in script properties
+function driveMin(cinema, loc) {
+  loc = (loc || '').trim();
+  if (!loc || !CINEMA_ADDR[cinema]) return 0;
+  const props = PropertiesService.getScriptProperties();
+  if (!DRIVE) DRIVE = JSON.parse(props.getProperty('drive') || '{}');
+  const k = cinema + '|' + loc.toLowerCase();
+  if (DRIVE_FAIL.has(loc)) return 0; // not saved: retried next run
+  if (DRIVE[k] === undefined) {
+    try {
+      const r = Maps.newDirectionFinder().setOrigin(CINEMA_ADDR[cinema]).setDestination(loc)
+        .setMode(Maps.DirectionFinder.Mode.DRIVING).getDirections();
+      if (!r.routes || !r.routes.length) throw new Error(r.status || 'no route');
+      DRIVE[k] = Math.ceil(r.routes[0].legs[0].duration.value / 60 * 1.1);
+      props.setProperty('drive', JSON.stringify(DRIVE));
+    } catch (e) { Logger.log('drive ' + loc + ': ' + e); DRIVE_FAIL.add(loc); return 0; }
+  }
+  return DRIVE[k];
+}
 
 // ---------- entry points ----------
 function setup() {
@@ -115,7 +140,8 @@ function readCalendar(from, to) {
     else { s = toLocal(ev.getStartTime()); e = toLocal(ev.getEndTime()); }
     const title = ev.getTitle() || '';
     if (title.trim().startsWith('?')) { holds.push({ s, e, title: title.trim().replace(/^\?\s*/, '') || 'placeholder' }); return; }
-    busy.push({ s, e, title });
+    let loc = ''; try { loc = ev.getLocation() || ''; } catch (x) {}
+    busy.push({ s, e, title, loc });
     if (color === '2') sage.push(norm(ev.getTitle()));
   });
   return { busy, sage, holds };
@@ -185,7 +211,15 @@ function allScreenings(wf, now) {
 }
 
 function windowOf(s) { const travel = s.gent ? 45 : 30; return [s.t - travel * MIN, s.t + (15 + s.dur + 15) * MIN]; }
-function clash(a, b, busy) { const ev = busy.find(e => e.s < b && e.e > a); return ev ? (ev.title || 'busy') : null; }
+// a..b = the screening's window (travel from home, film, 15 min to leave); events with a location
+// also need the drive between the cinema and that place before/after them
+function clash(a, b, busy, cinema) {
+  for (const ev of busy) {
+    const d = cinema && ev.loc ? driveMin(cinema, ev.loc) * MIN : 0;
+    if (ev.s - d < b && ev.e + d > a) return (ev.title || 'busy') + (d >= 30 * MIN ? ` (${durTxt(d / MIN)} drive)` : '');
+  }
+  return null;
+}
 function hasTicket(w, sage) {
   return sage.some(ev => w.names.some(n => n.length >= 3 &&
     (new RegExp('\\b' + n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b').test(ev) || (ev.length >= 3 && n.includes(ev)))));
@@ -215,10 +249,10 @@ function bestChain(scs) {
 }
 
 function plan(scs, busy) {
-  const fit = scs.filter(s => { if (!s.ok) return false; const [a, b] = windowOf(s); return !clash(a, b, busy); });
+  const fit = scs.filter(s => { if (!s.ok) return false; const [a, b] = windowOf(s); return !clash(a, b, busy, s.w.cinema); });
   const groups = {};
   fit.forEach(s => { const k = dayKey(s.t) + '|' + s.w.cinema; (groups[k] = groups[k] || []).push(s); });
-  const chainOk = ch => !clash(windowOf(ch[0])[0], windowOf(ch[ch.length - 1])[1], busy);
+  const chainOk = ch => !clash(windowOf(ch[0])[0], windowOf(ch[ch.length - 1])[1], busy, ch[0].w.cinema);
   const isWeekday = k => { const d = dow(parseLocal(k.split('|')[0] + ' 12:00')); return d >= 1 && d <= 5; };
   const isGent = k => GENT.includes(k.split('|')[1]);
   const tiers = [k => !isGent(k) && isWeekday(k), k => !isGent(k) && !isWeekday(k), k => isGent(k) && isWeekday(k), k => isGent(k) && !isWeekday(k)];
@@ -350,7 +384,7 @@ function main(test) {
     seen.add(n);
     const mine = scs.filter(x => x.w.norm === n), okT = mine.filter(x => x.ok);
     let why;
-    if (okT.length) { const [a, b] = windowOf(okT[0]); why = `${fmt(okT[0].t, 'EEE d HH:mm')} (${SHORT[okT[0].w.cinema] || ''}) clashes with “${clash(a, b, fixedCal.busy)}”`; }
+    if (okT.length) { const [a, b] = windowOf(okT[0]); why = `${fmt(okT[0].t, 'EEE d HH:mm')} (${SHORT[okT[0].w.cinema] || ''}) clashes with “${clash(a, b, fixedCal.busy, okT[0].w.cinema)}”`; }
     else why = 'only during work hours: ' + mine.slice(0, 2).map(x => fmt(x.t, 'EEE d HH:mm')).join(', ');
     others.push([s.w.display, why]);
   });
@@ -374,6 +408,7 @@ function main(test) {
     } catch (e) { Logger.log('poster ' + rel + ': ' + e); }
   });
 
+  if (DRIVE_FAIL.size) warnings.push('couldn\'t find a route to ' + [...DRIVE_FAIL].map(l => '“' + l + '”').join(', ') + ' (driving time ignored)');
   const html = render(now, days, also, others.slice(0, 10), sent.keys, test, posterCid, warnings, fixedCal.holds);
   const text = ['Cinema suggestions, ' + fmt(now, 'EEE d MMM') + ':']
     .concat(days.map(x => `${fmt(x.date, 'EEE d MMM')} (${SHORT[x.cinema] || x.cinema}): ` + x.chain.map(s => { const [a, b] = windowOf(s), h = clash(a, b, fixedCal.holds); return `${fmt(s.t, 'HH:mm')} ${s.w.display}` + (h ? ` [overlaps placeholder ?${h}]` : ''); }).join(', ')));
