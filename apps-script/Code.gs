@@ -11,6 +11,8 @@
  *   run()      what the daily trigger calls.
  *   reset()    forgets which screenings were sent.
  *
+ * Wanted: Letterboxd watchlist, re-releases of films rated ★3.5+ or liked, and new films in a series
+ * where you rated an earlier film ★3.5+ or liked it.
  * Calendar colours: Sage (2) = film ticket (that film is never suggested), Graphite (8) = ignored,
  * everything else is busy. Events marked "free" are ignored. Titles starting with "?" are placeholders:
  * not blocking, but a suggestion that overlaps one gets a note. Events with a location also block the
@@ -24,7 +26,7 @@ const GENT = ['sphinx-gent', 'studio-skoop-gent', 'kinepolis-gent'];
 const SHORT = { 'pathe-sint-niklaas': 'Pathé', 'sphinx-gent': 'Sphinx Gent', 'studio-skoop-gent': 'Skoop Gent' };
 const OFFICE_DAYS = [1, 2, 4]; // Mon, Tue, Thu (JS getUTCDay)
 const MAX_POSTERS = 15;
-const PREFIX = /^\s*(fan event|cine ?seniors|cin[eé] ?seniors|siniclub|cin[eé][ -]?club|film ?marathon|avant[ -]premi[eè]re|preview|sneak preview|re-?release|classics?|cult)\s*[:\-–]\s*/i;
+const PREFIX = /^\s*(fan event|ladies night|family day|mini movie club|cine ?seniors|cin[eé] ?seniors|siniclub|cin[eé][ -]?club|film ?marathon|avant[ -]premi[eè]re|preview|sneak preview|re-?release|classics?|cult)\s*[:\-–]\s*/i;
 const MIN = 60 * 1000;
 const CINEMA_ADDR = { 'pathe-sint-niklaas': 'Pathé Sint-Niklaas, 9100 Sint-Niklaas, Belgium',
   'sphinx-gent': 'Sint-Michielshelling 3, 9000 Gent, Belgium', 'studio-skoop-gent': 'Sint-Annaplein 63, 9000 Gent, Belgium' };
@@ -49,6 +51,32 @@ function driveMin(cinema, loc) {
     } catch (e) { Logger.log('drive ' + loc + ': ' + e); DRIVE_FAIL.add(loc); return 0; }
   }
   return DRIVE[k];
+}
+
+// series detection: "Avengers: Doomsday" continues "The Avengers"; "Focker-in-Law" continues "Meet the Fockers"
+const SERIES_PREFIX = /^\s*(fan event|ladies night|family day|cine ?seniors|cin[eé] ?seniors|siniclub|mini movie club|cin[eé][ -]?club|film ?marathon|avant[ -]premi[eè]re|preview|sneak preview|re-?release|classics?|cult)\s*[:\-–]\s*/i;
+const COMMON = new Set(('about after again against alone always angel angels another back bad beast beauty before best big black blood blue body boys brother brothers ' +
+  'children christmas city club cold dark daughter days dead death devil dream dreams earth every everything evil family father fire first friend friends ' +
+  'game games ghost ghosts girl girls gold good great happy heart hearts heaven hell holiday home house hunter inside island jungle killer killers kings ' +
+  'land last life light little lost love lovers magic master mother monster monsters money moon mountain murder music never night nights nothing ocean ' +
+  'other others outside paradise party people perfect place power queen rain river road room school secret secrets sense shadow shadows silence sister ' +
+  'sisters snow space spring star stars stone story stories street summer the their there things three time together tomorrow tonight town ' +
+  'true truth under water wedding white wild winter woman women world young').split(' '));
+function words(t) { return (t || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().match(/[a-z0-9]+/g) || []; }
+function seriesName(t) {
+  t = (t || '').replace(SERIES_PREFIX, '').replace(SUFFIX, '').split(/\s*[:–]\s|\s-\s/)[0];
+  let w = words(t);
+  while (w.length && ['the', 'a', 'an'].includes(w[0])) w = w.slice(1);
+  while (w.length && (/^(\d+|[ivx]+)$/.test(w[w.length - 1]) || ['part', 'chapter', 'two', 'three', 'four', 'exclusieve'].includes(w[w.length - 1]))) w = w.slice(0, -1);
+  return w;
+}
+function stemW(x) { return x.length > 4 && x.endsWith('s') ? x.slice(0, -1) : x; }
+function seriesMatch(newTitle, likedTitle) {
+  const s = seriesName(newTitle), ls = seriesName(likedTitle);
+  if (!s.length || !ls.length) return false;
+  if (ls.length <= s.length && ls.join(' ').length >= 4 && ls.every((x, i) => s[i] === x) && words(newTitle).join(' ') !== words(likedTitle).join(' ')) return true;
+  const w = stemW(s[0]);
+  return ls.length >= 2 && s[0].length >= 5 && !COMMON.has(s[0]) && !COMMON.has(w) && w === stemW(ls[ls.length - 1]);
 }
 
 // ---------- entry points ----------
@@ -78,7 +106,8 @@ function norm(s) {
   s = s.replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').trim();
   return s.replace(/^(the|a|an|le|la|les|de|het) /, '');
 }
-function stripPrefix(t) { return (t || '').replace(PREFIX, '').trim(); }
+const SUFFIX = /\s*[-–:]?\s*(exclusieve\s+)?(avant[ -]premi[eè]re|preview)\s*$/i;
+function stripPrefix(t) { return (t || '').replace(PREFIX, '').replace(SUFFIX, '').trim(); }
 function lbSplit(name) {
   const m = (name || '').match(/^(.*) \((\d{4})\)$/);
   return m ? [m[1], +m[2]] : [name, null];
@@ -164,6 +193,10 @@ function wantedFilms(data, excludes, now) {
     const [t, y] = lbSplit(w.name);
     if (y && y <= year - 2 && ((w.rating || 0) >= 3.5 || w.liked)) (fav[norm(t)] = fav[norm(t)] || []).push([t, y, w.rating, w.liked]);
   });
+  const watchedNames = new Set(watched.map(w => norm(lbSplit(w.name)[0])));
+  const likedAll = [];
+  watched.forEach(w => { const [t, y] = lbSplit(w.name); if (y && ((w.rating || 0) >= 3.5 || w.liked)) likedAll.push([t, y, w.rating, w.liked]); });
+  likedAll.sort((a, b) => b[1] - a[1]); // mention the most recent film of the series
   const out = [];
   data.cinemas.forEach(c => (c.films || []).forEach(f => {
     const title = f.title || '';
@@ -183,6 +216,13 @@ function wantedFilms(data, excludes, now) {
         if (special || (fy && Math.abs(fy - y) <= 1)) { match = { kind: 'rerelease', lbName: `${t} (${y})`, rating, liked }; break; }
       }
       if (match) break;
+    }
+    // new film in a series you liked (not a film you've already seen)
+    if (!match && fy && fy >= year - 1 && !names.some(n => watchedNames.has(n))) {
+      for (const [t, y, rating, liked] of likedAll) {
+        if (y >= fy) continue;
+        if ([title, f.originalTitle].some(x => x && seriesMatch(x, t))) { match = { kind: 'series', lbName: `${stripPrefix(title)}`, prev: `${t} (${y})`, rating, liked }; break; }
+      }
     }
     if (!match) return;
     const display = lbSplit(match.lbName)[0];
@@ -331,6 +371,7 @@ function render(now, days, also, others, sentKeys, test, posterCid, warnings, ho
         : '<div style="width:54px;height:80px;border-radius:4px;background-color:#e5e7eb"></div>';
       const meta = [f.year || '', durTxt(f.duration), (f.directors || []).join(', ')].filter(Boolean).join(' · ');
       const kb = w.kind === 'watchlist' ? badge('Watchlist', '#3e63dd')
+        : w.kind === 'series' ? badge(`Series · you ${w.liked ? '♥ liked' : 'rated ★' + w.rating} ${w.prev}`, '#d6409f')
         : badge(w.rating ? `Re-release · you rated ★${w.rating}` : 'Re-release · ♥ liked', '#8e4ec6');
       const isNew = !test && !sentKeys.has(s.key);
       const al = also[w.norm] || [];
