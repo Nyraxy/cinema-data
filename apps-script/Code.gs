@@ -12,7 +12,8 @@
  *   reset()    forgets which screenings were sent.
  *
  * Calendar colours: Sage (2) = film ticket (that film is never suggested), Graphite (8) = ignored,
- * everything else is busy. Events marked "free" are ignored.
+ * everything else is busy. Events marked "free" are ignored. Titles starting with "?" are placeholders:
+ * not blocking, but a suggestion that overlaps one gets a note.
  */
 
 const REPO_RAW = 'https://raw.githubusercontent.com/Nyraxy/cinema-data/main/';
@@ -104,7 +105,7 @@ function readSent(now) {
 }
 
 function readCalendar(from, to) {
-  const busy = [], sage = [];
+  const busy = [], sage = [], holds = [];
   CalendarApp.getDefaultCalendar().getEvents(new Date(from - 3600000 * 2), new Date(to + 3600000 * 2)).forEach(ev => {
     try { if (ev.getTransparency && String(ev.getTransparency()) === 'TRANSPARENT') return; } catch (e) {}
     const color = String(ev.getColor() || '');
@@ -112,10 +113,12 @@ function readCalendar(from, to) {
     let s, e;
     if (ev.isAllDayEvent()) { s = toLocal(ev.getAllDayStartDate()); e = toLocal(ev.getAllDayEndDate()); }
     else { s = toLocal(ev.getStartTime()); e = toLocal(ev.getEndTime()); }
-    busy.push({ s, e, title: ev.getTitle() });
+    const title = ev.getTitle() || '';
+    if (title.trim().startsWith('?')) { holds.push({ s, e, title: title.trim().replace(/^\?\s*/, '') || 'placeholder' }); return; }
+    busy.push({ s, e, title });
     if (color === '2') sage.push(norm(ev.getTitle()));
   });
-  return { busy, sage };
+  return { busy, sage, holds };
 }
 
 // ---------- planning ----------
@@ -257,7 +260,8 @@ function badge(text, color, extra) {
   return `<span style="background-color:${color};color:#ffffff;border-radius:4px;padding:1px 6px;font-size:11px;font-weight:bold${extra || ''}">${esc(text)}</span>`;
 }
 
-function render(now, days, also, others, sentKeys, test, posterCid, warnings) {
+function render(now, days, also, others, sentKeys, test, posterCid, warnings, holds) {
+  const holdOf = s => { const [a, b] = windowOf(s); return clash(a, b, holds || []); };
   const nFilms = days.reduce((n, x) => n + x.chain.length, 0);
   const o = [];
   o.push('<div style="background-color:#f3f4f6;padding:12px 0;font-family:Arial,Helvetica,sans-serif;color:#111827">' +
@@ -297,11 +301,13 @@ function render(now, days, also, others, sentKeys, test, posterCid, warnings) {
       const isNew = !test && !sentKeys.has(s.key);
       const al = also[w.norm] || [];
       const alsoTxt = al.length ? `<div style="font-size:12px;color:#6b7280;margin-top:5px">Also: ${esc(al.map(a =>
-        fmt(a.t, 'EEE d HH:mm') + (a.w.cinema === w.cinema ? '' : ` (${SHORT[a.w.cinema] || ''})`) + (!test && !sentKeys.has(a.key) ? ' new' : '')).join(' · '))}</div>` : '';
+        fmt(a.t, 'EEE d HH:mm') + (a.w.cinema === w.cinema ? '' : ` (${SHORT[a.w.cinema] || ''})`) + (!test && !sentKeys.has(a.key) ? ' new' : '') + (holdOf(a) ? ' (placeholder)' : '')).join(' · '))}</div>` : '';
+      const hold = holdOf(s);
+      const holdTxt = hold ? `<div style="font-size:12px;color:#9a3412;background-color:#fff7ed;border-radius:4px;padding:3px 6px;margin-top:5px;display:inline-block">&#9888;&#65039; Overlaps placeholder “?${esc(hold)}”</div>` : '';
       o.push(`<tr><td width="58" style="padding:9px 0 9px 12px;vertical-align:top;text-align:center"><div style="font-size:16px;font-weight:bold">${fmt(s.t, 'HH:mm')}</div>` +
         `<div style="font-size:11px;color:#6b7280">until ~${fmt(end, 'HH:mm')}</div></td><td width="62" style="padding:9px 8px;vertical-align:top">${img}</td>` +
         `<td style="padding:9px 12px 9px 0;vertical-align:top"><a href="${esc(f.url || f.cinebelUrl || '#')}" style="font-size:15px;font-weight:bold;color:#111827;text-decoration:none">${esc(w.display)}</a>` +
-        `${isNew ? badge('NEW', '#e5484d', ';margin-left:4px') : ''}<div style="font-size:12px;color:#6b7280;margin-top:3px">${esc(meta)}</div><div style="margin-top:5px">${kb}</div>${alsoTxt}</td></tr>`);
+        `${isNew ? badge('NEW', '#e5484d', ';margin-left:4px') : ''}<div style="font-size:12px;color:#6b7280;margin-top:3px">${esc(meta)}</div><div style="margin-top:5px">${kb}</div>${holdTxt}${alsoTxt}</td></tr>`);
     });
     o.push('</table></td></tr>');
   });
@@ -368,9 +374,9 @@ function main(test) {
     } catch (e) { Logger.log('poster ' + rel + ': ' + e); }
   });
 
-  const html = render(now, days, also, others.slice(0, 10), sent.keys, test, posterCid, warnings);
+  const html = render(now, days, also, others.slice(0, 10), sent.keys, test, posterCid, warnings, fixedCal.holds);
   const text = ['Cinema suggestions, ' + fmt(now, 'EEE d MMM') + ':']
-    .concat(days.map(x => `${fmt(x.date, 'EEE d MMM')} (${SHORT[x.cinema] || x.cinema}): ` + x.chain.map(s => `${fmt(s.t, 'HH:mm')} ${s.w.display}`).join(', ')));
+    .concat(days.map(x => `${fmt(x.date, 'EEE d MMM')} (${SHORT[x.cinema] || x.cinema}): ` + x.chain.map(s => { const [a, b] = windowOf(s), h = clash(a, b, fixedCal.holds); return `${fmt(s.t, 'HH:mm')} ${s.w.display}` + (h ? ` [overlaps placeholder ?${h}]` : ''); }).join(', ')));
 
   // remember what was shown (future screenings only)
   const keep = {};
