@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-16T21:50:09.839Z",
+ "generatedAt": "2026-11-17T01:01:56.765Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
-   "sphinx-gent": "fresh: 25 films",
+   "sphinx-gent": "fresh: 24 films",
    "studio-skoop-gent": "fresh: 18 films"
   },
-  "watchlist": "letterboxd: 1126",
+  "watchlist": "letterboxd: 1127",
   "watched": "1972 films (1831 rated, 1172 liked); history from export + new watches added automatically",
   "errors": [
    "poster A Family: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/static/img/movie/poster/small/default.png\", waiting until \"load\"\n"
@@ -5451,18 +5451,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
       {
-       "time": "2026-11-16 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5527,18 +5515,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
       {
-       "time": "2026-11-16 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5600,28 +5576,6 @@
       }
      ],
      "posterThumb": "data/posters/02728bda7d3329e1.jpg"
-    },
-    {
-     "title": "Digger",
-     "originalTitle": null,
-     "year": 2026,
-     "duration": 129,
-     "directors": [
-      "Alejandro González Iñárritu"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1027125_fr__1789055749193.jpg",
-     "cinebelId": 1027125,
-     "url": "https://cinebel.dhnet.be/film/1027125/Digger",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1027125/Digger",
-     "showtimes": [
-      {
-       "time": "2026-11-16 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/9e26554c8ea5c369.jpg"
     },
     {
      "title": "Donnie Darko",
@@ -5793,12 +5747,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-16 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5844,18 +5792,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-16 14:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 20:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 17:15",
        "version": "VO",
@@ -5955,12 +5891,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/14375/Marie-Antoinette",
      "showtimes": [
       {
-       "time": "2026-11-16 17:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 14:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -5994,12 +5924,6 @@
      "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
-      {
-       "time": "2026-11-16 17:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:15",
        "version": "VO",
@@ -6082,12 +6006,6 @@
      "url": "https://cinebel.dhnet.be/film/1028023/Moulin",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028023/Moulin",
      "showtimes": [
-      {
-       "time": "2026-11-16 14:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 17:15",
        "version": "VO",
@@ -6196,12 +6114,6 @@
      "url": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "showtimes": [
-      {
-       "time": "2026-11-16 17:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:15",
        "version": "VO",
@@ -6363,12 +6275,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028064/The%20Six",
      "showtimes": [
       {
-       "time": "2026-11-16 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -6448,12 +6354,6 @@
      "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
-      {
-       "time": "2026-11-16 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "VO",
@@ -6574,12 +6474,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
       {
-       "time": "2026-11-16 17:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -6631,18 +6525,6 @@
      "url": "https://cinebel.dhnet.be/film/1027586/Coward",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
-      {
-       "time": "2026-11-16 14:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 20:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "VO",
@@ -6972,12 +6854,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-16 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 22:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -7029,18 +6905,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-16 14:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 19:45",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "VO",
@@ -7146,12 +7010,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "showtimes": [
       {
-       "time": "2026-11-16 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:15",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -7204,12 +7062,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
      "showtimes": [
       {
-       "time": "2026-11-16 17:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -7231,24 +7083,6 @@
      "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
-      {
-       "time": "2026-11-16 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 17:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 19:45",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "VO",
@@ -7506,12 +7340,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "showtimes": [
       {
-       "time": "2026-11-16 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -7576,12 +7404,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
       {
-       "time": "2026-11-16 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -7621,18 +7443,6 @@
      "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
-      {
-       "time": "2026-11-16 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-16 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-17 14:30",
        "version": "VO",
@@ -7779,6 +7589,10 @@
  "letterboxd": {
   "user": "Nyrax",
   "watchlist": [
+   {
+    "slug": "la-gradiva",
+    "name": "La Gradiva (2026)"
+   },
    {
     "slug": "ebenezer-2026",
     "name": "Ebenezer (2026)"
