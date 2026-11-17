@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-17T13:02:46.456Z",
+ "generatedAt": "2026-11-17T15:58:13.167Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 50 films",
+   "pathe-sint-niklaas": "fresh: 53 films",
    "sphinx-gent": "fresh: 24 films",
    "studio-skoop-gent": "fresh: 18 films"
   },
-  "watchlist": "letterboxd: 1127",
-  "watched": "1972 films (1831 rated, 1172 liked); history from export + new watches added automatically",
+  "watchlist": "letterboxd: 1260",
+  "watched": "1973 films (1832 rated, 1173 liked); history from export + new watches added automatically",
   "errors": [
    "poster A Family: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/static/img/movie/poster/small/default.png\", waiting until \"load\"\n"
   ]
@@ -932,6 +932,89 @@
      "posterThumb": "data/posters/76d910bd155df6f9.jpg"
     },
     {
+     "title": "Home Alone",
+     "originalTitle": "Maman, j'ai raté l'avion",
+     "year": 2026,
+     "duration": 103,
+     "directors": [
+      "Chris Columbus"
+     ],
+     "genres": [
+      "Comédie",
+      "Famille"
+     ],
+     "releaseAt": "2026-12-16",
+     "url": "https://www.pathe.be/nl/films/home-alone-50280",
+     "poster": "https://media.pathe.be/movie/alex/HO00003099/poster/md/3/movie&uuid=46D06DDA-A449-4050-8240-9408802E42DF",
+     "slug": "home-alone-50280",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-20"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-20 17:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/cea502b9ac2fd4f0.jpg"
+    },
+    {
+     "title": "Mini Movie Club: Dikkie Dik krijgt bezoek",
+     "originalTitle": "Mini Movie Club: Dikkie Dik krijgt bezoek",
+     "year": 2026,
+     "duration": 60,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Famille"
+     ],
+     "releaseAt": "2026-12-16",
+     "url": "https://www.pathe.be/nl/films/mini-movie-club-dikkie-dik-krijgt-bezoek-57003",
+     "poster": null,
+     "slug": "mini-movie-club-dikkie-dik-krijgt-bezoek-57003",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-19",
+      "2026-12-20"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-19 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-20 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
+    },
+    {
      "title": "Dune : Part Three Exclusieve Avant-première",
      "originalTitle": "Avant-première exceptionnelle Dune : Troisième partie",
      "year": 2026,
@@ -1101,6 +1184,41 @@
       }
      ],
      "posterThumb": "data/posters/f1cdaa30705abb8d.jpg"
+    },
+    {
+     "title": "Mini Movie Club: Nijntje en vriendjes: Winterpret",
+     "originalTitle": "Mini Movie Club: Nijntje en vriendjes: Winterpret",
+     "year": 2026,
+     "duration": 42,
+     "directors": [
+      "Jean Christophe Roger"
+     ],
+     "genres": [
+      "Animation"
+     ],
+     "releaseAt": "2026-12-09",
+     "url": "https://www.pathe.be/nl/films/mini-movie-club-nijntje-en-vriendjes-winterpret-56999",
+     "poster": null,
+     "slug": "mini-movie-club-nijntje-en-vriendjes-winterpret-56999",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-13"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-13 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ]
     },
     {
      "title": "Siniclub: Fjord",
@@ -2797,18 +2915,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-17 14:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:30",
        "version": "vobe",
        "tags": [
@@ -3053,17 +3159,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-17 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 17:30",
        "version": "vobe",
@@ -3393,17 +3488,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-17 14:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-17 20:15",
        "version": "vobe",
        "tags": [
@@ -3723,17 +3807,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-17 14:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:45",
        "version": "vobe",
        "tags": [
@@ -3883,28 +3956,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-17 13:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 16:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 19:15",
        "version": "vobe",
@@ -4191,17 +4242,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-17 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-17 22:00",
        "version": "vobe",
@@ -4743,17 +4783,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-17 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-17 17:15",
        "version": "vobe",
        "tags": [
@@ -5155,7 +5184,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-17",
       "2026-11-18",
       "2026-11-19",
       "2026-11-20",
@@ -5164,17 +5192,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-17 13:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-18 17:15",
        "version": "vobe",
@@ -7590,6 +7607,482 @@
   "user": "Nyrax",
   "watchlist": [
    {
+    "slug": "police-story-3-super-cop",
+    "name": "Police Story 3: Super Cop (1992)"
+   },
+   {
+    "slug": "richard-iii-1995",
+    "name": "Richard III (1995)"
+   },
+   {
+    "slug": "thelma-2017",
+    "name": "Thelma (2017)"
+   },
+   {
+    "slug": "the-phantom-of-the-opera-2004",
+    "name": "The Phantom of the Opera (2004)"
+   },
+   {
+    "slug": "the-kid-detective",
+    "name": "The Kid Detective (2020)"
+   },
+   {
+    "slug": "mr-nobody",
+    "name": "Mr. Nobody (2009)"
+   },
+   {
+    "slug": "monster",
+    "name": "Monster (2003)"
+   },
+   {
+    "slug": "good-morning-vietnam",
+    "name": "Good Morning, Vietnam (1987)"
+   },
+   {
+    "slug": "bring-her-back",
+    "name": "Bring Her Back (2025)"
+   },
+   {
+    "slug": "boy-a",
+    "name": "Boy A (2007)"
+   },
+   {
+    "slug": "the-woman-king",
+    "name": "The Woman King (2022)"
+   },
+   {
+    "slug": "national-theatre-live-hangmen",
+    "name": "National Theatre Live: Hangmen (2016)"
+   },
+   {
+    "slug": "jane-eyre-2011",
+    "name": "Jane Eyre (2011)"
+   },
+   {
+    "slug": "detroit",
+    "name": "Detroit (2017)"
+   },
+   {
+    "slug": "an-american-in-paris-the-musical",
+    "name": "An American in Paris: The Musical (2018)"
+   },
+   {
+    "slug": "the-hate-u-give",
+    "name": "The Hate U Give (2018)"
+   },
+   {
+    "slug": "the-experiment",
+    "name": "The Experiment (2001)"
+   },
+   {
+    "slug": "kajillionaire",
+    "name": "Kajillionaire (2020)"
+   },
+   {
+    "slug": "grindhouse",
+    "name": "Grindhouse (2007)"
+   },
+   {
+    "slug": "gilbert",
+    "name": "Gilbert (2017)"
+   },
+   {
+    "slug": "elle",
+    "name": "Elle (2016)"
+   },
+   {
+    "slug": "demolition",
+    "name": "Demolition (2015)"
+   },
+   {
+    "slug": "brick",
+    "name": "Brick (2005)"
+   },
+   {
+    "slug": "three-identical-strangers",
+    "name": "Three Identical Strangers (2018)"
+   },
+   {
+    "slug": "miss-sloane",
+    "name": "Miss Sloane (2016)"
+   },
+   {
+    "slug": "brawl-in-cell-block-99",
+    "name": "Brawl in Cell Block 99 (2017)"
+   },
+   {
+    "slug": "big-trouble-in-little-china",
+    "name": "Big Trouble in Little China (1986)"
+   },
+   {
+    "slug": "the-abyss",
+    "name": "The Abyss (1989)"
+   },
+   {
+    "slug": "the-abyss",
+    "name": "The Abyss (1989)"
+   },
+   {
+    "slug": "queen-slim",
+    "name": "Queen & Slim (2019)"
+   },
+   {
+    "slug": "national-theatre-live-rosencrantz-guildenstern-are-dead",
+    "name": "National Theatre Live: Rosencrantz & Guildenstern Are Dead (2017)"
+   },
+   {
+    "slug": "monkey-man",
+    "name": "Monkey Man (2024)"
+   },
+   {
+    "slug": "emma-2020",
+    "name": "Emma. (2020)"
+   },
+   {
+    "slug": "coherence",
+    "name": "Coherence (2013)"
+   },
+   {
+    "slug": "black-hawk-down",
+    "name": "Black Hawk Down (2001)"
+   },
+   {
+    "slug": "sorry-to-bother-you",
+    "name": "Sorry to Bother You (2018)"
+   },
+   {
+    "slug": "roadrunner-a-film-about-anthony-bourdain",
+    "name": "Roadrunner: A Film About Anthony Bourdain (2021)"
+   },
+   {
+    "slug": "pig-2021",
+    "name": "Pig (2021)"
+   },
+   {
+    "slug": "leave-no-trace",
+    "name": "Leave No Trace (2018)"
+   },
+   {
+    "slug": "a-monster-calls",
+    "name": "A Monster Calls (2016)"
+   },
+   {
+    "slug": "they-live",
+    "name": "They Live (1988)"
+   },
+   {
+    "slug": "still-alice",
+    "name": "Still Alice (2014)"
+   },
+   {
+    "slug": "national-theatre-live-hedda-gabler-2017",
+    "name": "National Theatre Live: Hedda Gabler (2017)"
+   },
+   {
+    "slug": "gone-baby-gone",
+    "name": "Gone Baby Gone (2007)"
+   },
+   {
+    "slug": "the-ice-storm",
+    "name": "The Ice Storm (1997)"
+   },
+   {
+    "slug": "national-theatre-live-julius-caesar",
+    "name": "National Theatre Live: Julius Caesar (2018)"
+   },
+   {
+    "slug": "i-origins",
+    "name": "I Origins (2014)"
+   },
+   {
+    "slug": "blackberry-2023",
+    "name": "BlackBerry (2023)"
+   },
+   {
+    "slug": "beasts-of-the-southern-wild",
+    "name": "Beasts of the Southern Wild (2012)"
+   },
+   {
+    "slug": "the-artist",
+    "name": "The Artist (2011)"
+   },
+   {
+    "slug": "milk-2008",
+    "name": "Milk (2008)"
+   },
+   {
+    "slug": "captain-phillips",
+    "name": "Captain Phillips (2013)"
+   },
+   {
+    "slug": "body-heat",
+    "name": "Body Heat (1981)"
+   },
+   {
+    "slug": "anything-goes-2021",
+    "name": "Anything Goes (2021)"
+   },
+   {
+    "slug": "justice-league-the-flashpoint-paradox",
+    "name": "Justice League: The Flashpoint Paradox (2013)"
+   },
+   {
+    "slug": "honey-boy",
+    "name": "Honey Boy (2019)"
+   },
+   {
+    "slug": "drunken-master",
+    "name": "Drunken Master (1978)"
+   },
+   {
+    "slug": "28-years-later-the-bone-temple",
+    "name": "28 Years Later: The Bone Temple (2026)"
+   },
+   {
+    "slug": "rebel-without-a-cause",
+    "name": "Rebel Without a Cause (1955)"
+   },
+   {
+    "slug": "kinky-boots-the-musical",
+    "name": "Kinky Boots: The Musical (2019)"
+   },
+   {
+    "slug": "diary-of-a-wimpy-kid-rodrick-rules",
+    "name": "Diary of a Wimpy Kid: Rodrick Rules (2011)"
+   },
+   {
+    "slug": "end-of-watch",
+    "name": "End of Watch (2012)"
+   },
+   {
+    "slug": "yuni",
+    "name": "Yuni (2021)"
+   },
+   {
+    "slug": "val",
+    "name": "Val (2021)"
+   },
+   {
+    "slug": "the-tree-of-life-2011",
+    "name": "The Tree of Life (2011)"
+   },
+   {
+    "slug": "nine-days",
+    "name": "Nine Days (2020)"
+   },
+   {
+    "slug": "his-three-daughters",
+    "name": "His Three Daughters (2023)"
+   },
+   {
+    "slug": "the-crow",
+    "name": "The Crow (1994)"
+   },
+   {
+    "slug": "national-theatre-live-small-island-2019",
+    "name": "National Theatre Live: Small Island (2019)"
+   },
+   {
+    "slug": "wick-is-pain",
+    "name": "Wick Is Pain (2025)"
+   },
+   {
+    "slug": "the-peanut-butter-falcon",
+    "name": "The Peanut Butter Falcon (2019)"
+   },
+   {
+    "slug": "riders-of-justice",
+    "name": "Riders of Justice (2020)"
+   },
+   {
+    "slug": "west-side-story",
+    "name": "West Side Story (1961)"
+   },
+   {
+    "slug": "the-zone-of-interest",
+    "name": "The Zone of Interest (2023)"
+   },
+   {
+    "slug": "national-theatre-live-twelfth-night-2017",
+    "name": "National Theatre Live: Twelfth Night (2017)"
+   },
+   {
+    "slug": "big-night",
+    "name": "Big Night (1996)"
+   },
+   {
+    "slug": "the-brutalist",
+    "name": "The Brutalist (2024)"
+   },
+   {
+    "slug": "paterson",
+    "name": "Paterson (2016)"
+   },
+   {
+    "slug": "the-boy-and-the-heron",
+    "name": "The Boy and the Heron (2023)"
+   },
+   {
+    "slug": "national-theatre-live-follies-2017",
+    "name": "National Theatre Live: Follies (2017)"
+   },
+   {
+    "slug": "if-beale-street-could-talk",
+    "name": "If Beale Street Could Talk (2018)"
+   },
+   {
+    "slug": "victoria-2015",
+    "name": "Victoria (2015)"
+   },
+   {
+    "slug": "all-of-us-strangers",
+    "name": "All of Us Strangers (2023)"
+   },
+   {
+    "slug": "lion",
+    "name": "Lion (2016)"
+   },
+   {
+    "slug": "ariana-grande-excuse-me-i-love-you",
+    "name": "ariana grande: excuse me, i love you (2020)"
+   },
+   {
+    "slug": "naked",
+    "name": "Naked (1993)"
+   },
+   {
+    "slug": "exit-through-the-gift-shop",
+    "name": "Exit Through the Gift Shop (2010)"
+   },
+   {
+    "slug": "slumdog-millionaire",
+    "name": "Slumdog Millionaire (2008)"
+   },
+   {
+    "slug": "olivia-rodrigo-driving-home-2-u-a-sour-film",
+    "name": "OLIVIA RODRIGO: driving home 2 u (a SOUR film) (2022)"
+   },
+   {
+    "slug": "national-theatre-live-nye",
+    "name": "National Theatre Live: Nye (2024)"
+   },
+   {
+    "slug": "national-theatre-live-frankenstein-2011",
+    "name": "National Theatre Live: Frankenstein (2011)"
+   },
+   {
+    "slug": "funny-girl",
+    "name": "Funny Girl (1968)"
+   },
+   {
+    "slug": "planet-of-the-apes",
+    "name": "Planet of the Apes (1968)"
+   },
+   {
+    "slug": "the-chaser",
+    "name": "The Chaser (2008)"
+   },
+   {
+    "slug": "silence",
+    "name": "Silence (2016)"
+   },
+   {
+    "slug": "national-theatre-live-a-streetcar-named-desire",
+    "name": "National Theatre Live: A Streetcar Named Desire (2014)"
+   },
+   {
+    "slug": "music-by-john-williams",
+    "name": "Music by John Williams (2024)"
+   },
+   {
+    "slug": "the-verdict-1982",
+    "name": "The Verdict (1982)"
+   },
+   {
+    "slug": "cache",
+    "name": "Caché (2005)"
+   },
+   {
+    "slug": "hunt-for-the-wilderpeople",
+    "name": "Hunt for the Wilderpeople (2016)"
+   },
+   {
+    "slug": "crouching-tiger-hidden-dragon",
+    "name": "Crouching Tiger, Hidden Dragon (2000)"
+   },
+   {
+    "slug": "blindspotting",
+    "name": "Blindspotting (2018)"
+   },
+   {
+    "slug": "jfk",
+    "name": "JFK (1991)"
+   },
+   {
+    "slug": "mass-2021",
+    "name": "Mass (2021)"
+   },
+   {
+    "slug": "apollo-11-2019",
+    "name": "Apollo 11 (2019)"
+   },
+   {
+    "slug": "whats-up-doc-1972",
+    "name": "What's Up, Doc? (1972)"
+   },
+   {
+    "slug": "the-banshees-of-inisherin",
+    "name": "The Banshees of Inisherin (2022)"
+   },
+   {
+    "slug": "anatomy-of-a-fall",
+    "name": "Anatomy of a Fall (2023)"
+   },
+   {
+    "slug": "the-wind-rises",
+    "name": "The Wind Rises (2013)"
+   },
+   {
+    "slug": "wild-tales",
+    "name": "Wild Tales (2014)"
+   },
+   {
+    "slug": "butch-cassidy-and-the-sundance-kid",
+    "name": "Butch Cassidy and the Sundance Kid (1969)"
+   },
+   {
+    "slug": "woodstock",
+    "name": "Woodstock (1970)"
+   },
+   {
+    "slug": "gaga-chromatica-ball-2024",
+    "name": "Gaga Chromatica Ball (2024)"
+   },
+   {
+    "slug": "national-theatre-live-prima-facie",
+    "name": "National Theatre Live: Prima Facie (2022)"
+   },
+   {
+    "slug": "homecoming-a-film-by-beyonce",
+    "name": "HOMECOMING: A film by Beyoncé (2019)"
+   },
+   {
+    "slug": "how-to-make-millions-before-grandma-dies",
+    "name": "How to Make Millions Before Grandma Dies (2024)"
+   },
+   {
+    "slug": "national-theatre-live-fleabag",
+    "name": "National Theatre Live: Fleabag (2019)"
+   },
+   {
+    "slug": "the-first-time-2012",
+    "name": "The First Time (2012)"
+   },
+   {
+    "slug": "focker-in-law",
+    "name": "Focker-in-Law (2026)"
+   },
+   {
     "slug": "la-gradiva",
     "name": "La Gradiva (2026)"
    },
@@ -7780,6 +8273,10 @@
    {
     "slug": "the-flood-2028",
     "name": "The Flood (2028)"
+   },
+   {
+    "slug": "lets-have-kids",
+    "name": "Let's Have Kids! (2026)"
    },
    {
     "slug": "lets-have-kids",
@@ -8342,6 +8839,10 @@
     "name": "Naughty (2027)"
    },
    {
+    "slug": "naughty-2027",
+    "name": "Naughty (2027)"
+   },
+   {
     "slug": "the-green-mile",
     "name": "The Green Mile (1999)"
    },
@@ -8440,6 +8941,14 @@
    {
     "slug": "cure",
     "name": "Cure (1997)"
+   },
+   {
+    "slug": "love-basketball",
+    "name": "Love & Basketball (2000)"
+   },
+   {
+    "slug": "ella-enchanted",
+    "name": "Ella Enchanted (2004)"
    },
    {
     "slug": "love-basketball",
@@ -8554,6 +9063,14 @@
     "name": "Wildflower (2022)"
    },
    {
+    "slug": "moxie-2021",
+    "name": "Moxie (2021)"
+   },
+   {
+    "slug": "wildflower-2022",
+    "name": "Wildflower (2022)"
+   },
+   {
     "slug": "blow-out",
     "name": "Blow Out (1981)"
    },
@@ -8652,6 +9169,10 @@
    {
     "slug": "ready-or-not-2019",
     "name": "Ready or Not (2019)"
+   },
+   {
+    "slug": "the-raid-2",
+    "name": "The Raid 2 (2014)"
    },
    {
     "slug": "the-raid-2",
@@ -8760,6 +9281,10 @@
    {
     "slug": "bedazzled-2000",
     "name": "Bedazzled (2000)"
+   },
+   {
+    "slug": "ps-i-love-you",
+    "name": "P.S. I Love You (2007)"
    },
    {
     "slug": "ps-i-love-you",
@@ -9546,6 +10071,10 @@
     "name": "My Fair Lady (1964)"
    },
    {
+    "slug": "my-fair-lady",
+    "name": "My Fair Lady (1964)"
+   },
+   {
     "slug": "calendar-girls",
     "name": "Calendar Girls (2003)"
    },
@@ -9644,6 +10173,14 @@
    {
     "slug": "everybody-wants-to-fck-me",
     "name": "Everybody Wants to F*ck Me (2026)"
+   },
+   {
+    "slug": "no-time-to-die-2021",
+    "name": "No Time to Die (2021)"
+   },
+   {
+    "slug": "irma-vep",
+    "name": "Irma Vep (1996)"
    },
    {
     "slug": "no-time-to-die-2021",
@@ -9758,6 +10295,10 @@
     "name": "20th Century Women (2016)"
    },
    {
+    "slug": "20th-century-women",
+    "name": "20th Century Women (2016)"
+   },
+   {
     "slug": "sex-lies-and-videotape",
     "name": "sex, lies, and videotape (1989)"
    },
@@ -9860,6 +10401,10 @@
    {
     "slug": "signs",
     "name": "Signs (2002)"
+   },
+   {
+    "slug": "life-or-something-like-it",
+    "name": "Life or Something Like It (2002)"
    },
    {
     "slug": "life-or-something-like-it",
@@ -9974,6 +10519,10 @@
     "name": "Videoheaven (2025)"
    },
    {
+    "slug": "videoheaven",
+    "name": "Videoheaven (2025)"
+   },
+   {
     "slug": "city-lights",
     "name": "City Lights (1931)"
    },
@@ -10082,6 +10631,14 @@
     "name": "Spirit: Stallion of the Cimarron (2002)"
    },
    {
+    "slug": "weapons-2025",
+    "name": "Weapons (2025)"
+   },
+   {
+    "slug": "spirit-stallion-of-the-cimarron",
+    "name": "Spirit: Stallion of the Cimarron (2002)"
+   },
+   {
     "slug": "the-prince-of-egypt-the-musical",
     "name": "The Prince of Egypt: The Musical (2023)"
    },
@@ -10176,6 +10733,14 @@
    {
     "slug": "stuck-in-love",
     "name": "Stuck in Love (2012)"
+   },
+   {
+    "slug": "the-great-gatsby-2013",
+    "name": "The Great Gatsby (2013)"
+   },
+   {
+    "slug": "pawn-sacrifice",
+    "name": "Pawn Sacrifice (2014)"
    },
    {
     "slug": "the-great-gatsby-2013",
@@ -10962,6 +11527,10 @@
     "name": "Catch Me If You Can (2002)"
    },
    {
+    "slug": "catch-me-if-you-can-2002",
+    "name": "Catch Me If You Can (2002)"
+   },
+   {
     "slug": "malcolm-x-1992",
     "name": "Malcolm X (1992)"
    },
@@ -11064,6 +11633,10 @@
    {
     "slug": "the-aviator",
     "name": "The Aviator (2004)"
+   },
+   {
+    "slug": "killers-of-the-flower-moon",
+    "name": "Killers of the Flower Moon (2023)"
    },
    {
     "slug": "killers-of-the-flower-moon",
@@ -11178,6 +11751,10 @@
     "name": "The Evil Dead (1981)"
    },
    {
+    "slug": "the-evil-dead",
+    "name": "The Evil Dead (1981)"
+   },
+   {
     "slug": "the-great-dictator",
     "name": "The Great Dictator (1940)"
    },
@@ -11280,6 +11857,10 @@
    {
     "slug": "amelie",
     "name": "Amélie (2001)"
+   },
+   {
+    "slug": "moonlight-2016",
+    "name": "Moonlight (2016)"
    },
    {
     "slug": "moonlight-2016",
@@ -11394,6 +11975,10 @@
     "name": "Gran Torino (2008)"
    },
    {
+    "slug": "gran-torino",
+    "name": "Gran Torino (2008)"
+   },
+   {
     "slug": "jackie-2016",
     "name": "Jackie (2016)"
    },
@@ -11502,6 +12087,14 @@
     "name": "Artificial (2026)"
    },
    {
+    "slug": "dogtooth",
+    "name": "Dogtooth (2009)"
+   },
+   {
+    "slug": "artificial-2026",
+    "name": "Artificial (2026)"
+   },
+   {
     "slug": "voyagers-2021",
     "name": "Voyagers (2021)"
    },
@@ -11600,6 +12193,10 @@
    {
     "slug": "gods-and-monsters",
     "name": "Gods and Monsters (1998)"
+   },
+   {
+    "slug": "a-league-of-their-own",
+    "name": "A League of Their Own (1992)"
    },
    {
     "slug": "a-league-of-their-own",
@@ -12048,54 +12645,6 @@
    {
     "slug": "jodorowskys-dune",
     "name": "Jodorowsky's Dune (2013)"
-   },
-   {
-    "slug": "the-color-purple-2023",
-    "name": "The Color Purple (2023)"
-   },
-   {
-    "slug": "the-broken-circle-breakdown",
-    "name": "The Broken Circle Breakdown (2012)"
-   },
-   {
-    "slug": "the-pursuit-of-happyness",
-    "name": "The Pursuit of Happyness (2006)"
-   },
-   {
-    "slug": "kiss-kiss-bang-bang-2005",
-    "name": "Kiss Kiss Bang Bang (2005)"
-   },
-   {
-    "slug": "taxi-driver",
-    "name": "Taxi Driver (1976)"
-   },
-   {
-    "slug": "all-the-presidents-men",
-    "name": "All the President's Men (1976)"
-   },
-   {
-    "slug": "fearless",
-    "name": "Fearless (1993)"
-   },
-   {
-    "slug": "almost-friends",
-    "name": "Almost Friends (2016)"
-   },
-   {
-    "slug": "garden-state",
-    "name": "Garden State (2004)"
-   },
-   {
-    "slug": "priscilla",
-    "name": "Priscilla (2023)"
-   },
-   {
-    "slug": "tar-2022",
-    "name": "TÁR (2022)"
-   },
-   {
-    "slug": "red-eye",
-    "name": "Red Eye (2005)"
    }
   ],
   "watched": [
@@ -23930,6 +24479,12 @@
     "slug": "adolescence-2025",
     "rating": 3.5,
     "liked": false
+   },
+   {
+    "name": "East of Eden (2026)",
+    "slug": "east-of-eden-2026",
+    "rating": 3.5,
+    "liked": true
    }
   ]
  }
