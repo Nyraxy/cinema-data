@@ -14,7 +14,7 @@
  * Wanted: Letterboxd watchlist, re-releases of films rated ★3.5+ or liked, and new films in a series
  * where you rated an earlier film ★3.5+ or liked it.
  * Calendar colours: Sage (2) = film ticket (that film is never suggested), Graphite (8) = ignored,
- * everything else is busy (also events marked "free"). Titles starting with "?" are placeholders:
+ * everything else is busy. Events marked "free" are ignored. Titles starting with "?" are placeholders:
  * not blocking, but a suggestion that overlaps one gets a note. Events with a location also block the
  * driving time between the cinema and that location (Google Maps, cached).
  */
@@ -161,6 +161,7 @@ function readSent(now) {
 function readCalendar(from, to) {
   const busy = [], sage = [], holds = [];
   CalendarApp.getDefaultCalendar().getEvents(new Date(from - 3600000 * 2), new Date(to + 3600000 * 2)).forEach(ev => {
+    try { if (ev.getTransparency && String(ev.getTransparency()) === 'TRANSPARENT') return; } catch (e) {}
     const color = String(ev.getColor() || '');
     if (color === '8') return;
     let s, e;
