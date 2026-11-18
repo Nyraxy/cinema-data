@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-17T21:54:55.258Z",
+ "generatedAt": "2026-11-18T01:12:11.027Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 49 films",
-   "sphinx-gent": "fresh: 24 films",
-   "studio-skoop-gent": "fresh: 18 films"
+   "sphinx-gent": "fresh: 22 films",
+   "studio-skoop-gent": "fresh: 17 films"
   },
   "watchlist": "letterboxd: 1344",
   "watched": "1974 films (1833 rated, 1174 liked); history from export + new watches added automatically",
@@ -1486,6 +1486,56 @@
      "posterThumb": "data/posters/e2a1e667d88eee4b.jpg"
     },
     {
+     "title": "Focker-in-Law",
+     "originalTitle": "Mon beau-père, ma belle-fille et moi",
+     "year": 2026,
+     "duration": 105,
+     "directors": [
+      "John Hamburg"
+     ],
+     "genres": [
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-25",
+     "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
+     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/3/movie&uuid=D4ED47A6-F604-4780-842C-FD4B313B2F18",
+     "slug": "focker-in-law-56078",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21",
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      },
+      {
+       "time": "2026-11-22 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Avant-premiere"
+      }
+     ],
+     "posterThumb": "data/posters/e4614629b99c034d.jpg"
+    },
+    {
      "title": "Disney's Hexed",
      "originalTitle": "Billie, à la croisée des mondes",
      "year": 2026,
@@ -1796,56 +1846,6 @@
      "posterThumb": "data/posters/3b4288ee2b00c9d5.jpg"
     },
     {
-     "title": "Focker-in-Law",
-     "originalTitle": "Mon beau-père, ma belle-fille et moi",
-     "year": 2026,
-     "duration": 105,
-     "directors": [
-      "John Hamburg"
-     ],
-     "genres": [
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-25",
-     "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
-     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/3/movie&uuid=D4ED47A6-F604-4780-842C-FD4B313B2F18",
-     "slug": "focker-in-law-56078",
-     "isNew": false,
-     "isComingSoon": true,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-21",
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-21 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Avant-premiere"
-      },
-      {
-       "time": "2026-11-22 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Avant-premiere"
-      }
-     ],
-     "posterThumb": "data/posters/e4614629b99c034d.jpg"
-    },
-    {
      "title": "Paper Tiger",
      "originalTitle": "Paper Tiger",
      "year": 2026,
@@ -1924,8 +1924,8 @@
      "url": "https://www.pathe.be/nl/films/ladies-night-focker-in-law-56079",
      "poster": "https://media.pathe.be/movie/alex/HO00003740/poster/md/4/movie&uuid=0DCFDB4E-0558-4291-9635-22E27D569C6D",
      "slug": "ladies-night-focker-in-law-56079",
-     "isNew": false,
-     "isComingSoon": true,
+     "isNew": true,
+     "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
       "2026-11-24"
@@ -1961,8 +1961,8 @@
      "url": "https://www.pathe.be/nl/films/bts-world-tour-arirang-in-kaohsiung-56973",
      "poster": "https://media.pathe.be/movie/alex/HO00003824/poster/md/2/movie&uuid=BB70A246-ADF0-4716-836D-39959BBD2ADE",
      "slug": "bts-world-tour-arirang-in-kaohsiung-56973",
-     "isNew": false,
-     "isComingSoon": true,
+     "isNew": true,
+     "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
       "2026-11-21"
@@ -2007,8 +2007,8 @@
      "url": "https://www.pathe.be/nl/films/nasza-rewolucja-56957",
      "poster": "https://media.pathe.be/movie/alex/HO00003815/poster/md/1/movie&uuid=E4994A62-1CC6-4727-B69D-7520237874EB",
      "slug": "nasza-rewolucja-56957",
-     "isNew": false,
-     "isComingSoon": true,
+     "isNew": true,
+     "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
       "2026-11-22",
@@ -2056,8 +2056,8 @@
      "url": "https://www.pathe.be/nl/films/cine-seniors-digger-55470",
      "poster": "https://media.pathe.be/movie/alex/HO00003681/poster/md/5/movie&uuid=5A1865CF-8E0E-4465-85EB-A238B1542552",
      "slug": "cine-seniors-digger-55470",
-     "isNew": false,
-     "isComingSoon": true,
+     "isNew": true,
+     "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
       "2026-11-19",
@@ -2090,342 +2090,6 @@
      "posterThumb": "data/posters/bc68360e3132aa74.jpg"
     },
     {
-     "title": "Fan Event : The Hunger Games : Sunrise on the Reaping",
-     "originalTitle": "Fan Event : Hunger Games - Lever de soleil sur la moisson",
-     "year": 2026,
-     "duration": 157,
-     "directors": [
-      "Francis Lawrence"
-     ],
-     "genres": [
-      "Action",
-      "Aventure",
-      "Fantastique"
-     ],
-     "releaseAt": "2026-11-18",
-     "url": "https://www.pathe.be/nl/films/fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
-     "poster": "https://media.pathe.be/movie/alex/HO00003761/poster/md/5/movie&uuid=C283F36F-B66C-400B-9288-CC48650C42D0",
-     "slug": "fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
-     "isNew": false,
-     "isComingSoon": true,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-18 20:00",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "soldout",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/c11932176babfd25.jpg"
-    },
-    {
-     "title": "Heysel 85",
-     "originalTitle": "Heysel 85",
-     "year": 2026,
-     "duration": 91,
-     "directors": [
-      "Teodora Mihai"
-     ],
-     "genres": [
-      "Drame",
-      "Historique",
-      "Sport Event"
-     ],
-     "releaseAt": "2026-11-18",
-     "url": "https://www.pathe.be/nl/films/heysel-85-55068",
-     "poster": "https://media.pathe.be/movie/alex/HO00003609/poster/md/2/movie&uuid=904709F1-7535-475B-A81F-4042EF169B08",
-     "slug": "heysel-85-55068",
-     "isNew": false,
-     "isComingSoon": true,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18",
-      "2026-11-19",
-      "2026-11-20",
-      "2026-11-21",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-18 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-18 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 19:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 13:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 15:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 17:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 17:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bffe6aacdb747497.jpg"
-    },
-    {
      "title": "The Hunger Games : Sunrise on the Reaping",
      "originalTitle": "Hunger Games : Lever de soleil sur la moisson",
      "year": 2026,
@@ -2442,8 +2106,8 @@
      "url": "https://www.pathe.be/nl/films/the-hunger-games-sunrise-on-the-reaping-55214",
      "poster": "https://media.pathe.be/movie/alex/HO00003637/poster/md/5/movie&uuid=FD170D1D-E201-4567-B67F-9573C3729449",
      "slug": "the-hunger-games-sunrise-on-the-reaping-55214",
-     "isNew": false,
-     "isComingSoon": true,
+     "isNew": true,
+     "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
       "2026-11-18",
@@ -2814,6 +2478,342 @@
      "posterThumb": "data/posters/319cc7c70e451585.jpg"
     },
     {
+     "title": "Heysel 85",
+     "originalTitle": "Heysel 85",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Teodora Mihai"
+     ],
+     "genres": [
+      "Drame",
+      "Historique",
+      "Sport Event"
+     ],
+     "releaseAt": "2026-11-18",
+     "url": "https://www.pathe.be/nl/films/heysel-85-55068",
+     "poster": "https://media.pathe.be/movie/alex/HO00003609/poster/md/2/movie&uuid=904709F1-7535-475B-A81F-4042EF169B08",
+     "slug": "heysel-85-55068",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 19:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 13:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 15:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 17:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 17:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/bffe6aacdb747497.jpg"
+    },
+    {
+     "title": "Fan Event : The Hunger Games : Sunrise on the Reaping",
+     "originalTitle": "Fan Event : Hunger Games - Lever de soleil sur la moisson",
+     "year": 2026,
+     "duration": 157,
+     "directors": [
+      "Francis Lawrence"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Fantastique"
+     ],
+     "releaseAt": "2026-11-18",
+     "url": "https://www.pathe.be/nl/films/fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
+     "poster": "https://media.pathe.be/movie/alex/HO00003761/poster/md/5/movie&uuid=C283F36F-B66C-400B-9288-CC48650C42D0",
+     "slug": "fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 20:00",
+       "version": "vobe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "soldout",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/c11932176babfd25.jpg"
+    },
+    {
      "title": "CineLive : Het Zwanenmeer",
      "originalTitle": "CineLive : Le Lac des Cygnes",
      "year": 2026,
@@ -2827,7 +2827,7 @@
      "url": "https://www.pathe.be/nl/films/cinelive-het-zwanenmeer-54758",
      "poster": "https://media.pathe.be/movie/alex/HO00003551/poster/md/2/movie&uuid=702E7C47-E63A-49EB-8A68-FF5345FFCDF4",
      "slug": "cinelive-het-zwanenmeer-54758",
-     "isNew": true,
+     "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
@@ -2849,7 +2849,7 @@
      "url": "https://www.pathe.be/nl/films/mini-movie-club-peppa-s-kerst-56171",
      "poster": "https://media.pathe.be/movie/alex/HO00003746/poster/md/2/movie&uuid=7E3C1BE7-4365-45D9-BD08-80EAD87FD04E",
      "slug": "mini-movie-club-peppa-s-kerst-56171",
-     "isNew": true,
+     "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
@@ -2885,147 +2885,6 @@
      "posterThumb": "data/posters/4e5c528e7d59ebbf.jpg"
     },
     {
-     "title": "Carnaval",
-     "originalTitle": "Carnaval",
-     "year": 2026,
-     "duration": 94,
-     "directors": [
-      "Flip van der Kuil"
-     ],
-     "genres": [
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-11",
-     "url": "https://www.pathe.be/nl/films/carnaval-56963",
-     "poster": "https://media.pathe.be/movie/alex/HO00003819/poster/md/2/movie&uuid=B5D20544-16B0-4E31-B799-E141A948524C",
-     "slug": "carnaval-56963",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18",
-      "2026-11-19",
-      "2026-11-20",
-      "2026-11-21",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 19:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 14:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 18:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 16:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 20:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 19:40",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 19:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 14:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 20:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 19:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/e08515e1947351de.jpg"
-    },
-    {
      "title": "Ebenezer",
      "originalTitle": "Scrooge",
      "year": 2026,
@@ -3041,7 +2900,7 @@
      "url": "https://www.pathe.be/nl/films/ebenezer-56410",
      "poster": "https://media.pathe.be/movie/alex/HO00003776/poster/md/2/movie&uuid=B32C794E-C3CE-40A2-BC5B-3148E22EF394",
      "slug": "ebenezer-56410",
-     "isNew": true,
+     "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
@@ -3261,7 +3120,7 @@
      "url": "https://www.pathe.be/nl/films/how-to-rob-a-bank-56420",
      "poster": "https://media.pathe.be/movie/alex/HO00003777/poster/md/2/movie&uuid=264AB579-CBFB-4F7A-870C-338EF8A0E40E",
      "slug": "how-to-rob-a-bank-56420",
-     "isNew": true,
+     "isNew": false,
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
@@ -3397,6 +3256,147 @@
       }
      ],
      "posterThumb": "data/posters/2624fef1e879eb01.jpg"
+    },
+    {
+     "title": "Carnaval",
+     "originalTitle": "Carnaval",
+     "year": 2026,
+     "duration": 94,
+     "directors": [
+      "Flip van der Kuil"
+     ],
+     "genres": [
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-11",
+     "url": "https://www.pathe.be/nl/films/carnaval-56963",
+     "poster": "https://media.pathe.be/movie/alex/HO00003819/poster/md/2/movie&uuid=B5D20544-16B0-4E31-B799-E141A948524C",
+     "slug": "carnaval-56963",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18",
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 19:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 14:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-19 18:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 16:45",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 20:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 19:40",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 19:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/e08515e1947351de.jpg"
     },
     {
      "title": "Godzilla Minus Zero",
@@ -3761,6 +3761,121 @@
      "posterThumb": "data/posters/1256ef3d53255aae.jpg"
     },
     {
+     "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+     "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
+     "year": 2026,
+     "duration": 81,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Comédie",
+      "Famille"
+     ],
+     "releaseAt": "2026-10-21",
+     "url": "https://www.pathe.be/nl/films/shaun-het-schaap-het-beest-van-de-boerderij-56216",
+     "poster": "https://media.pathe.be/movie/alex/HO00003754/poster/md/2/movie&uuid=AE120E90-FF45-41D4-BD15-17FDFDE01E1F",
+     "slug": "shaun-het-schaap-het-beest-van-de-boerderij-56216",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-18",
+      "2026-11-21",
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-18 13:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-18 15:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 13:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 15:10",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 15:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/28c9cde16feba11a.jpg"
+    },
+    {
      "title": "Coward",
      "originalTitle": "Coward",
      "year": 2026,
@@ -3915,121 +4030,6 @@
       }
      ],
      "posterThumb": "data/posters/6f966442039e823f.jpg"
-    },
-    {
-     "title": "Shaun Het Schaap: Het Beest van de Boerderij",
-     "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
-     "year": 2026,
-     "duration": 81,
-     "directors": [],
-     "genres": [
-      "Animation",
-      "Comédie",
-      "Famille"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/shaun-het-schaap-het-beest-van-de-boerderij-56216",
-     "poster": "https://media.pathe.be/movie/alex/HO00003754/poster/md/2/movie&uuid=AE120E90-FF45-41D4-BD15-17FDFDE01E1F",
-     "slug": "shaun-het-schaap-het-beest-van-de-boerderij-56216",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18",
-      "2026-11-21",
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-18 15:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 15:10",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/28c9cde16feba11a.jpg"
     },
     {
      "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
@@ -4722,65 +4722,6 @@
      "posterThumb": "data/posters/020fb9097c9b3d3d.jpg"
     },
     {
-     "title": "Siniclub: The Christophers",
-     "originalTitle": "Siniclub: The Christophers",
-     "year": 2026,
-     "duration": 100,
-     "directors": [],
-     "genres": [
-      "Comédie",
-      "Drame"
-     ],
-     "releaseAt": "2026-07-29",
-     "url": "https://www.pathe.be/nl/films/siniclub-the-christophers-56369",
-     "poster": "https://media.pathe.be/movie/alex/HO00003768/poster/md/1/movie&uuid=79ABA875-CC11-4BB2-822B-3B14ED6C20FD",
-     "slug": "siniclub-the-christophers-56369",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-19",
-      "2026-11-22",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-19 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 11:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/33fd18cc3a2379ac.jpg"
-    },
-    {
      "title": "Spider-Man : Brand New Day",
      "originalTitle": "Spider-Man : Brand New Day",
      "year": 2026,
@@ -4877,6 +4818,65 @@
       }
      ],
      "posterThumb": "data/posters/e6649e5a65dd7dba.jpg"
+    },
+    {
+     "title": "Siniclub: The Christophers",
+     "originalTitle": "Siniclub: The Christophers",
+     "year": 2026,
+     "duration": 100,
+     "directors": [],
+     "genres": [
+      "Comédie",
+      "Drame"
+     ],
+     "releaseAt": "2026-07-29",
+     "url": "https://www.pathe.be/nl/films/siniclub-the-christophers-56369",
+     "poster": "https://media.pathe.be/movie/alex/HO00003768/poster/md/1/movie&uuid=79ABA875-CC11-4BB2-822B-3B14ED6C20FD",
+     "slug": "siniclub-the-christophers-56369",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-19",
+      "2026-11-22",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-19 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/33fd18cc3a2379ac.jpg"
     },
     {
      "title": "The Odyssey",
@@ -5130,40 +5130,12 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028075/A%20Family",
      "showtimes": [
       {
-       "time": "2026-11-17 13:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-20 13:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
       }
      ]
-    },
-    {
-     "title": "Alphaville, une étrange aventure de Lemmy Caution",
-     "originalTitle": null,
-     "year": 1965,
-     "duration": 98,
-     "directors": [
-      "Jean-Luc Godard"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1002298_fr_alphaville_1315557841736.jpg",
-     "cinebelId": 1002298,
-     "url": "https://cinebel.dhnet.be/film/1002298/Alphaville,%20une%20%C3%A9trange%20aventure%20de%20Lemmy%20Caution",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1002298/Alphaville,%20une%20%C3%A9trange%20aventure%20de%20Lemmy%20Caution",
-     "showtimes": [
-      {
-       "time": "2026-11-17 20:00",
-       "version": "VO",
-       "subtitles": "S.t. ang",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/8f6bd68d3daa8ce7.jpg"
     },
     {
      "title": "Club Kid",
@@ -5178,12 +5150,6 @@
      "url": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
-      {
-       "time": "2026-11-17 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 20:30",
        "version": "VO",
@@ -5242,12 +5208,6 @@
      "url": "https://cinebel.dhnet.be/film/1027586/Coward",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
-      {
-       "time": "2026-11-17 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 17:30",
        "version": "VO",
@@ -5475,12 +5435,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-17 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5520,18 +5474,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-17 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 20:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 20:15",
        "version": "VO",
@@ -5653,18 +5595,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
       {
-       "time": "2026-11-17 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 20:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 14:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5722,28 +5652,6 @@
      "posterThumb": "data/posters/c2c152df6d64a95f.jpg"
     },
     {
-     "title": "Moulin",
-     "originalTitle": null,
-     "year": 2026,
-     "duration": 134,
-     "directors": [
-      "László Nemes"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1028023_fr__1791988107923.jpg",
-     "cinebelId": 1028023,
-     "url": "https://cinebel.dhnet.be/film/1028023/Moulin",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1028023/Moulin",
-     "showtimes": [
-      {
-       "time": "2026-11-17 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/7b02b3f7d1958745.jpg"
-    },
-    {
      "title": "Mumbo",
      "originalTitle": null,
      "year": 2026,
@@ -5791,12 +5699,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028012/Naza",
      "showtimes": [
       {
-       "time": "2026-11-17 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-19 20:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5842,12 +5744,6 @@
      "url": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "showtimes": [
-      {
-       "time": "2026-11-17 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-20 17:15",
        "version": "VO",
@@ -6031,12 +5927,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
       {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-19 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -6082,18 +5972,6 @@
      "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
-      {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 17:30",
        "version": "VO",
@@ -6202,18 +6080,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
       {
-       "time": "2026-11-17 17:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 22:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -6253,24 +6119,6 @@
      "url": "https://cinebel.dhnet.be/film/1027586/Coward",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
-      {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 20:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 14:30",
        "version": "VO",
@@ -6634,18 +6482,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
       {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 19:45",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 17:00",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -6738,12 +6574,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "showtimes": [
       {
-       "time": "2026-11-17 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 22:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -6777,28 +6607,6 @@
      "posterThumb": "data/posters/ee2ad72e5449b0af.jpg"
     },
     {
-     "title": "Massacre à la tronçonneuse",
-     "originalTitle": "The Texas Chainsaw Massacre",
-     "year": 1974,
-     "duration": 83,
-     "directors": [
-      "Tobe Hooper"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/11736_fr_massacre_a_la_tron_onneuse__1974__1425209170058.jpg",
-     "cinebelId": 11736,
-     "url": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/11736/The%20Texas%20Chainsaw%20Massacre",
-     "showtimes": [
-      {
-       "time": "2026-11-17 17:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/9512e01254fb952e.jpg"
-    },
-    {
      "title": "Minotaure",
      "originalTitle": "Minotaur",
      "year": 2026,
@@ -6811,18 +6619,6 @@
      "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
-      {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 19:45",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 14:30",
        "version": "VO",
@@ -7068,12 +6864,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "showtimes": [
       {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -7132,12 +6922,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027890/Wicker",
      "showtimes": [
       {
-       "time": "2026-11-17 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-18 17:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -7171,18 +6955,6 @@
      "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
-      {
-       "time": "2026-11-17 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-17 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-18 17:15",
        "version": "VO",
