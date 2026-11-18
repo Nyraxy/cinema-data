@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-18T07:13:46.183Z",
+ "generatedAt": "2026-11-18T10:02:20.912Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 49 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
-  "watchlist": "letterboxd: 1344",
+  "watchlist": "letterboxd: 1346",
   "watched": "1974 films (1833 rated, 1174 liked); history from export + new watches added automatically",
   "errors": [
    "poster A Family: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"/static/img/movie/poster/small/default.png\", waiting until \"load\"\n"
@@ -7090,6 +7090,10 @@
   "user": "Nyrax",
   "watchlist": [
    {
+    "slug": "heysel-85",
+    "name": "Heysel 85 (2026)"
+   },
+   {
     "slug": "a-quiet-place-part-ii",
     "name": "A Quiet Place Part II (2020)"
    },
@@ -11900,6 +11904,10 @@
    {
     "slug": "sovereign-2025",
     "name": "Sovereign (2025)"
+   },
+   {
+    "slug": "winter-games-1",
+    "name": "Winter Games"
    },
    {
     "slug": "the-queen-of-my-dreams-2023",
