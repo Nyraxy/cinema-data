@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-18T18:56:21.834Z",
+ "generatedAt": "2026-11-18T21:54:09.432Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 49 films",
+   "pathe-sint-niklaas": "fresh: 48 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
@@ -2110,7 +2110,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -2119,17 +2118,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 20:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 13:30",
        "version": "vobe",
@@ -2474,7 +2462,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -2483,28 +2470,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-18 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 14:30",
        "version": "vobe",
@@ -2729,56 +2694,6 @@
      "posterThumb": "data/posters/bffe6aacdb747497.jpg"
     },
     {
-     "title": "Fan Event : The Hunger Games : Sunrise on the Reaping",
-     "originalTitle": "Fan Event : Hunger Games - Lever de soleil sur la moisson",
-     "year": 2026,
-     "duration": 157,
-     "directors": [
-      "Francis Lawrence"
-     ],
-     "genres": [
-      "Action",
-      "Aventure",
-      "Fantastique"
-     ],
-     "releaseAt": "2026-11-18",
-     "url": "https://www.pathe.be/nl/films/fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
-     "poster": "https://media.pathe.be/movie/alex/HO00003761/poster/md/5/movie&uuid=C283F36F-B66C-400B-9288-CC48650C42D0",
-     "slug": "fan-event-the-hunger-games-sunrise-on-the-reaping-56315",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-18 20:00",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "soldout",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/c11932176babfd25.jpg"
-    },
-    {
      "title": "CineLive : Het Zwanenmeer",
      "originalTitle": "CineLive : Le Lac des Cygnes",
      "year": 2026,
@@ -2869,7 +2784,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -2878,17 +2792,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 14:00",
        "version": "vobe",
@@ -3078,7 +2981,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -3087,17 +2989,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 20:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 14:00",
        "version": "vobe",
@@ -3361,24 +3252,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-20",
       "2026-11-21",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-20 14:00",
        "version": "vobe",
@@ -3904,114 +3783,6 @@
      "posterThumb": "data/posters/6f966442039e823f.jpg"
     },
     {
-     "title": "Other Mommy",
-     "originalTitle": "Malfaisante",
-     "year": 2026,
-     "duration": 94,
-     "directors": [
-      "Rob Savage"
-     ],
-     "genres": [
-      "Epouvante-Horreur"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/other-mommy-55475",
-     "poster": "https://media.pathe.be/movie/alex/HO00003682/poster/md/4/movie&uuid=87F88132-EE82-4E63-809C-31D3676768DF",
-     "slug": "other-mommy-55475",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18",
-      "2026-11-19",
-      "2026-11-20",
-      "2026-11-21",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 22:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
-    },
-    {
      "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
      "originalTitle": "De Club Van Sinterklaas : Paniek in het Pietendorp",
      "year": 2026,
@@ -4100,6 +3871,102 @@
       }
      ],
      "posterThumb": "data/posters/c74193e7ea020753.jpg"
+    },
+    {
+     "title": "Other Mommy",
+     "originalTitle": "Malfaisante",
+     "year": 2026,
+     "duration": 94,
+     "directors": [
+      "Rob Savage"
+     ],
+     "genres": [
+      "Epouvante-Horreur"
+     ],
+     "releaseAt": "2026-10-14",
+     "url": "https://www.pathe.be/nl/films/other-mommy-55475",
+     "poster": "https://media.pathe.be/movie/alex/HO00003682/poster/md/4/movie&uuid=87F88132-EE82-4E63-809C-31D3676768DF",
+     "slug": "other-mommy-55475",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-19",
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-19 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-20 22:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 22:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
     },
     {
      "title": "Yugly",
