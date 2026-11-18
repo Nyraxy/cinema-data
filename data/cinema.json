@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T16:00:44.221Z",
+ "generatedAt": "2026-11-18T18:56:21.834Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 49 films",
@@ -2120,18 +2120,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-18 16:45",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-18 20:45",
        "version": "vobe",
        "tags": [
@@ -2495,17 +2483,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-18 19:50",
        "version": "vobe",
@@ -2902,17 +2879,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-18 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-18 20:15",
        "version": "vobe",
        "tags": [
@@ -3264,7 +3230,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -3273,17 +3238,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 19:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 14:15",
        "version": "nlbe",
@@ -3614,7 +3568,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -3623,17 +3576,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 17:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 21:45",
        "version": "vobe",
@@ -3962,108 +3904,6 @@
      "posterThumb": "data/posters/6f966442039e823f.jpg"
     },
     {
-     "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
-     "originalTitle": "De Club Van Sinterklaas : Paniek in het Pietendorp",
-     "year": 2026,
-     "duration": 81,
-     "directors": [],
-     "genres": [
-      "Famille"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
-     "poster": "https://media.pathe.be/movie/alex/HO00003729/poster/md/1/movie&uuid=7E2D1671-C69A-475B-AF5B-C82622BB6298",
-     "slug": "de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-18",
-      "2026-11-21",
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-18 17:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/c74193e7ea020753.jpg"
-    },
-    {
      "title": "Other Mommy",
      "originalTitle": "Malfaisante",
      "year": 2026,
@@ -4170,6 +4010,96 @@
       }
      ],
      "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
+    },
+    {
+     "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
+     "originalTitle": "De Club Van Sinterklaas : Paniek in het Pietendorp",
+     "year": 2026,
+     "duration": 81,
+     "directors": [],
+     "genres": [
+      "Famille"
+     ],
+     "releaseAt": "2026-10-14",
+     "url": "https://www.pathe.be/nl/films/de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
+     "poster": "https://media.pathe.be/movie/alex/HO00003729/poster/md/1/movie&uuid=7E2D1671-C69A-475B-AF5B-C82622BB6298",
+     "slug": "de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21",
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 15:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 15:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/c74193e7ea020753.jpg"
     },
     {
      "title": "Yugly",
@@ -4405,7 +4335,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -4414,17 +4343,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 13:45",
        "version": "vobe",
@@ -4604,7 +4522,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-22",
@@ -4612,17 +4529,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 17:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 17:00",
        "version": "vobe",
@@ -4757,7 +4663,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-18",
       "2026-11-19",
       "2026-11-20",
       "2026-11-21",
@@ -4765,17 +4670,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 16:45",
        "version": "vobe",
