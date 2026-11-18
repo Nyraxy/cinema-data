@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T10:02:20.912Z",
+ "generatedAt": "2026-11-18T13:07:24.846Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 49 films",
@@ -2120,18 +2120,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-18 13:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-18 16:45",
        "version": "vobe",
        "tags": [
@@ -3540,17 +3528,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-18 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-18 15:30",
        "version": "nlbe",
        "tags": [
@@ -3784,17 +3761,6 @@
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-18 15:15",
        "version": "nlbe",
@@ -4054,17 +4020,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-18 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-18 15:30",
        "version": "nlbe",
        "tags": [
@@ -4289,17 +4244,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-18 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-18 15:15",
        "version": "nlbe",
        "tags": [
@@ -4395,17 +4339,6 @@
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-18 15:30",
        "version": "nlbe",
@@ -4997,17 +4930,6 @@
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-18 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-18 15:20",
        "version": "nlbe",
