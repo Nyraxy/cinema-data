@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T19:00:21.610Z",
+ "generatedAt": "2026-11-19T21:52:37.401Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 48 films",
@@ -2098,7 +2098,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-19",
       "2026-11-20",
       "2026-11-21",
       "2026-11-22",
@@ -2106,28 +2105,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-19 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-19 20:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-20 13:30",
        "version": "vobe",
@@ -2716,7 +2693,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-19",
       "2026-11-20",
       "2026-11-21",
       "2026-11-22",
@@ -2724,17 +2700,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-19 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-20 14:15",
        "version": "vobe",
@@ -3333,7 +3298,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-19",
       "2026-11-20",
       "2026-11-21",
       "2026-11-22",
@@ -3341,17 +3305,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-19 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-20 14:30",
        "version": "vobe",
@@ -3431,100 +3384,6 @@
       }
      ],
      "posterThumb": "data/posters/1256ef3d53255aae.jpg"
-    },
-    {
-     "title": "Coward",
-     "originalTitle": "Coward",
-     "year": 2026,
-     "duration": 125,
-     "directors": [],
-     "genres": [
-      "Drame",
-      "Guerre"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/coward-56342",
-     "poster": "https://media.pathe.be/movie/alex/HO00003764/poster/md/2/movie&uuid=E00DC734-0BA1-4B3D-BD68-DC4653F796B9",
-     "slug": "coward-56342",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-19",
-      "2026-11-20",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-19 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 14:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 19:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 14:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
     },
     {
      "title": "Shaun Het Schaap: Het Beest van de Boerderij",
@@ -3617,6 +3476,88 @@
       }
      ],
      "posterThumb": "data/posters/28c9cde16feba11a.jpg"
+    },
+    {
+     "title": "Coward",
+     "originalTitle": "Coward",
+     "year": 2026,
+     "duration": 125,
+     "directors": [],
+     "genres": [
+      "Drame",
+      "Guerre"
+     ],
+     "releaseAt": "2026-10-21",
+     "url": "https://www.pathe.be/nl/films/coward-56342",
+     "poster": "https://media.pathe.be/movie/alex/HO00003764/poster/md/2/movie&uuid=E00DC734-0BA1-4B3D-BD68-DC4653F796B9",
+     "slug": "coward-56342",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-20",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-20 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
     },
     {
      "title": "Coyote vs. Acme",
@@ -3777,7 +3718,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-19",
       "2026-11-20",
       "2026-11-21",
       "2026-11-22",
@@ -3785,17 +3725,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-19 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-20 22:15",
        "version": "vobe",
