@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-19T10:05:44.235Z",
+ "generatedAt": "2026-11-19T13:11:04.476Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 48 films",
@@ -2119,17 +2119,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-19 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-19 16:45",
        "version": "vobe",
        "tags": [
@@ -4210,18 +4199,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-19 13:45",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-19 17:15",
        "version": "vobe",
