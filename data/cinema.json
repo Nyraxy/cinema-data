@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T18:59:43.273Z",
+ "generatedAt": "2026-11-20T21:50:27.813Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 48 films",
@@ -2093,47 +2093,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-20 20:00",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 20:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-20 21:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 11:00",
        "version": "vobe",
@@ -2365,24 +2330,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-20 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 17:50",
        "version": "vobe",
@@ -2620,24 +2573,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-20 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 17:15",
        "version": "vobe",
@@ -2761,24 +2702,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-20 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 17:05",
        "version": "vobe",
@@ -2878,24 +2807,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-20 20:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 19:40",
        "version": "nlbe",
@@ -2975,7 +2892,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-23",
       "2026-11-24"
@@ -3129,102 +3045,6 @@
      ]
     },
     {
-     "title": "Clayface",
-     "originalTitle": "Clayface",
-     "year": 2026,
-     "duration": 108,
-     "directors": [
-      "James Watkins"
-     ],
-     "genres": [
-      "Epouvante-Horreur",
-      "Thriller"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/clayface-56038",
-     "poster": "https://media.pathe.be/movie/alex/HO00003731/poster/md/2/movie&uuid=F0F03E17-6AFD-4D9A-9AC1-C7A597A3BBFA",
-     "slug": "clayface-56038",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-20",
-      "2026-11-21",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-20 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 19:20",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 21:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/1256ef3d53255aae.jpg"
-    },
-    {
      "title": "Shaun Het Schaap: Het Beest van de Boerderij",
      "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
      "year": 2026,
@@ -3315,6 +3135,90 @@
       }
      ],
      "posterThumb": "data/posters/28c9cde16feba11a.jpg"
+    },
+    {
+     "title": "Clayface",
+     "originalTitle": "Clayface",
+     "year": 2026,
+     "duration": 108,
+     "directors": [
+      "James Watkins"
+     ],
+     "genres": [
+      "Epouvante-Horreur",
+      "Thriller"
+     ],
+     "releaseAt": "2026-10-21",
+     "url": "https://www.pathe.be/nl/films/clayface-56038",
+     "poster": "https://media.pathe.be/movie/alex/HO00003731/poster/md/2/movie&uuid=F0F03E17-6AFD-4D9A-9AC1-C7A597A3BBFA",
+     "slug": "clayface-56038",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 22:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 19:20",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 21:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/1256ef3d53255aae.jpg"
     },
     {
      "title": "Coward",
@@ -3527,90 +3431,6 @@
      "posterThumb": "data/posters/c74193e7ea020753.jpg"
     },
     {
-     "title": "Other Mommy",
-     "originalTitle": "Malfaisante",
-     "year": 2026,
-     "duration": 94,
-     "directors": [
-      "Rob Savage"
-     ],
-     "genres": [
-      "Epouvante-Horreur"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/other-mommy-55475",
-     "poster": "https://media.pathe.be/movie/alex/HO00003682/poster/md/4/movie&uuid=87F88132-EE82-4E63-809C-31D3676768DF",
-     "slug": "other-mommy-55475",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-20",
-      "2026-11-21",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-20 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 22:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
-    },
-    {
      "title": "Yugly",
      "originalTitle": "Mochy",
      "year": 2026,
@@ -3691,6 +3511,78 @@
       }
      ],
      "posterThumb": "data/posters/bb7e1c804714c3f7.jpg"
+    },
+    {
+     "title": "Other Mommy",
+     "originalTitle": "Malfaisante",
+     "year": 2026,
+     "duration": 94,
+     "directors": [
+      "Rob Savage"
+     ],
+     "genres": [
+      "Epouvante-Horreur"
+     ],
+     "releaseAt": "2026-10-14",
+     "url": "https://www.pathe.be/nl/films/other-mommy-55475",
+     "poster": "https://media.pathe.be/movie/alex/HO00003682/poster/md/4/movie&uuid=87F88132-EE82-4E63-809C-31D3676768DF",
+     "slug": "other-mommy-55475",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 22:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
     },
     {
      "title": "Het Vergeten Eiland",
@@ -3844,24 +3736,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-20",
       "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-20 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 19:15",
        "version": "vobe",
