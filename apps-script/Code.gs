@@ -398,6 +398,23 @@ function render(now, days, also, others, sentKeys, test, posterCid, warnings, ho
   return o.join('');
 }
 
+// short "it ran, nothing new" email so you know the automation works
+function noNews(now, data, wf, scs, sent, warnings, reason) {
+  const films = new Set(wf.map(w => w.norm)).size;
+  const updated = Utilities.formatDate(new Date(data.generatedAt), TZ, 'EEE d MMM HH:mm');
+  const html = '<div style="background-color:#f3f4f6;padding:12px 0;font-family:Arial,Helvetica,sans-serif;color:#111827">' +
+    '<table role="presentation" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="max-width:600px;margin:0 auto;background-color:#ffffff;border-radius:12px">' +
+    `<tr><td bgcolor="#111827" style="background-color:#111827;color:#ffffff;padding:16px 20px;border-radius:12px 12px 0 0"><div style="font-size:20px;font-weight:bold">&#127916; No new suggestions</div>` +
+    `<div style="font-size:13px;color:#d1d5db;margin-top:4px">${fmt(now, 'EEEE d MMMM')}</div></td></tr>` +
+    (warnings.length ? `<tr><td bgcolor="#fff7ed" style="background-color:#fff7ed;color:#9a3412;padding:8px 20px;font-size:13px">&#9888;&#65039; ${esc(warnings.join(' · '))}</td></tr>` : '') +
+    `<tr><td style="padding:14px 20px 16px;font-size:14px;line-height:1.5">${esc(reason)}<br><span style="color:#6b7280;font-size:13px">Checked ${films} wanted film${films === 1 ? '' : 's'} and ${scs.length} screening${scs.length === 1 ? '' : 's'} · cinema data from ${esc(updated)}. Earlier suggestions still stand.</span></td></tr></table></div>`;
+  MailApp.sendEmail(Session.getEffectiveUser().getEmail(), `🎬 Cinema suggestions – ${fmt(now, 'EEEE d MMMM')}: nothing new`,
+    [reason, `Checked ${films} films, ${scs.length} screenings. Cinema data from ${updated}.`].concat(warnings).concat(['', 'SENT']).concat(sent.lines).join('\n'),
+    { htmlBody: html, name: 'Cinema suggestions' });
+  PropertiesService.getScriptProperties().setProperty('sent', JSON.stringify(sent.lines));
+  Logger.log('No news: ' + reason);
+}
+
 // ---------- main ----------
 function main(test) {
   const now = toLocal(new Date());
@@ -412,7 +429,7 @@ function main(test) {
   let { scs, dubbed } = allScreenings(wf, now);
 
   const unsent = scs.filter(s => s.ok && !sent.keys.has(s.key));
-  if (!unsent.length && !test) { Logger.log('Nothing unsent: no email.'); return; }
+  if (!unsent.length && !test) return noNews(now, data, wf, scs, sent, warnings, 'No new screenings of your films since the last email.');
 
   const last = scs.reduce((m, s) => Math.max(m, s.t), now) + 24 * 3600000;
   const fixedCal = readCalendar(now, last);
@@ -436,7 +453,7 @@ function main(test) {
 
   const shown = days.flatMap(x => x.chain).concat(Object.values(also).flat());
   const fresh = shown.filter(s => !sent.keys.has(s.key));
-  if (!fresh.length && !test) { Logger.log('No new screenings fit: no email.'); return; }
+  if (!fresh.length && !test) return noNews(now, data, wf, scs, sent, warnings, 'No new screenings that fit your calendar since the last email.');
 
   // posters
   const inlineImages = {}, posterCid = {};
