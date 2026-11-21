@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T15:46:30.583Z",
+ "generatedAt": "2026-11-21T18:45:23.995Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 47 films",
@@ -2051,29 +2051,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-21 16:45",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 19:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-21 20:00",
        "version": "vobe",
        "tags": [
@@ -2264,17 +2241,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 17:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 20:00",
        "version": "vobe",
@@ -2495,17 +2461,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-21 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-21 20:00",
        "version": "vobe",
        "tags": [
@@ -2617,23 +2572,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 17:05",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 17:30",
        "version": "vobe",
@@ -3487,17 +3430,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-21 19:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-22 18:00",
        "version": "vobe",
        "tags": [
@@ -3703,22 +3635,10 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 17:05",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-23 17:00",
        "version": "vobe",
