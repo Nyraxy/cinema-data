@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T09:49:52.767Z",
+ "generatedAt": "2026-11-21T12:54:29.404Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 48 films",
@@ -1962,17 +1962,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-21 11:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-21 16:00",
        "version": "vobe",
        "tags": [
@@ -2097,29 +2086,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 11:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 16:45",
        "version": "vobe",
@@ -2520,22 +2486,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 11:00",
        "version": "nlbe",
@@ -2975,28 +2928,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-21 15:10",
        "version": "nlbe",
        "tags": [
@@ -3041,98 +2972,6 @@
        "special": null
       }
      ]
-    },
-    {
-     "title": "Shaun Het Schaap: Het Beest van de Boerderij",
-     "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
-     "year": 2026,
-     "duration": 81,
-     "directors": [],
-     "genres": [
-      "Animation",
-      "Comédie",
-      "Famille"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/shaun-het-schaap-het-beest-van-de-boerderij-56216",
-     "poster": "https://media.pathe.be/movie/alex/HO00003754/poster/md/2/movie&uuid=AE120E90-FF45-41D4-BD15-17FDFDE01E1F",
-     "slug": "shaun-het-schaap-het-beest-van-de-boerderij-56216",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-21",
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 15:10",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/28c9cde16feba11a.jpg"
     },
     {
      "title": "Clayface",
@@ -3289,6 +3128,76 @@
      "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
     },
     {
+     "title": "Shaun Het Schaap: Het Beest van de Boerderij",
+     "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
+     "year": 2026,
+     "duration": 81,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Comédie",
+      "Famille"
+     ],
+     "releaseAt": "2026-10-21",
+     "url": "https://www.pathe.be/nl/films/shaun-het-schaap-het-beest-van-de-boerderij-56216",
+     "poster": "https://media.pathe.be/movie/alex/HO00003754/poster/md/2/movie&uuid=AE120E90-FF45-41D4-BD15-17FDFDE01E1F",
+     "slug": "shaun-het-schaap-het-beest-van-de-boerderij-56216",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21",
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 15:10",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 15:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/28c9cde16feba11a.jpg"
+    },
+    {
      "title": "Coyote vs. Acme",
      "originalTitle": "Coyote vs. Acme",
      "year": 2026,
@@ -3360,28 +3269,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-21 15:30",
        "version": "nlbe",
        "tags": [
@@ -3427,88 +3314,6 @@
       }
      ],
      "posterThumb": "data/posters/c74193e7ea020753.jpg"
-    },
-    {
-     "title": "Yugly",
-     "originalTitle": "Mochy",
-     "year": 2026,
-     "duration": 85,
-     "directors": [
-      "Jérémie Degruson",
-      "Yanis Belaïd"
-     ],
-     "genres": [
-      "Animation"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/yugly-56033",
-     "poster": "https://media.pathe.be/movie/alex/HO00003726/poster/md/2/movie&uuid=6C67312C-36F6-42C9-B53E-2FF727705796",
-     "slug": "yugly-56033",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-21",
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 13:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 15:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 13:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bb7e1c804714c3f7.jpg"
     },
     {
      "title": "Other Mommy",
@@ -3583,6 +3388,77 @@
      "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
     },
     {
+     "title": "Yugly",
+     "originalTitle": "Mochy",
+     "year": 2026,
+     "duration": 85,
+     "directors": [
+      "Jérémie Degruson",
+      "Yanis Belaïd"
+     ],
+     "genres": [
+      "Animation"
+     ],
+     "releaseAt": "2026-10-14",
+     "url": "https://www.pathe.be/nl/films/yugly-56033",
+     "poster": "https://media.pathe.be/movie/alex/HO00003726/poster/md/2/movie&uuid=6C67312C-36F6-42C9-B53E-2FF727705796",
+     "slug": "yugly-56033",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-21",
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-21 13:45",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-21 15:45",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:45",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 15:45",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/bb7e1c804714c3f7.jpg"
+    },
+    {
      "title": "Het Vergeten Eiland",
      "originalTitle": "L'île des souvenirs",
      "year": 2026,
@@ -3608,17 +3484,6 @@
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-21 13:45",
        "version": "nlbe",
