@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-21T12:54:29.404Z",
+ "generatedAt": "2026-11-21T15:46:30.583Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 48 films",
+   "pathe-sint-niklaas": "fresh: 47 films",
    "sphinx-gent": "fresh: 19 films",
    "studio-skoop-gent": "fresh: 15 films"
   },
@@ -1940,42 +1940,6 @@
      "posterThumb": "data/posters/cf8a4469be4b860a.jpg"
     },
     {
-     "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
-     "originalTitle": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG",
-     "year": 2026,
-     "duration": 195,
-     "directors": [
-      "Jungjae HA"
-     ],
-     "genres": [
-      "Concert"
-     ],
-     "releaseAt": "2026-11-21",
-     "url": "https://www.pathe.be/nl/films/bts-world-tour-arirang-in-kaohsiung-56973",
-     "poster": "https://media.pathe.be/movie/alex/HO00003824/poster/md/2/movie&uuid=BB70A246-ADF0-4716-836D-39959BBD2ADE",
-     "slug": "bts-world-tour-arirang-in-kaohsiung-56973",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-21"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-21 16:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/c6a3089766a3a7bc.jpg"
-    },
-    {
      "title": "Nasza rewolucja",
      "originalTitle": "Nasza rewolucja",
      "year": 2026,
@@ -2923,21 +2887,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 15:10",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 11:00",
        "version": "nlbe",
@@ -3146,21 +3098,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 15:10",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 11:00",
        "version": "nlbe",
@@ -3218,21 +3158,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 16:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 16:15",
        "version": "nlbe",
@@ -3246,74 +3174,6 @@
       }
      ],
      "posterThumb": "data/posters/6f966442039e823f.jpg"
-    },
-    {
-     "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
-     "originalTitle": "De Club Van Sinterklaas : Paniek in het Pietendorp",
-     "year": 2026,
-     "duration": 81,
-     "directors": [],
-     "genres": [
-      "Famille"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
-     "poster": "https://media.pathe.be/movie/alex/HO00003729/poster/md/1/movie&uuid=7E2D1671-C69A-475B-AF5B-C82622BB6298",
-     "slug": "de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-21",
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-21 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/c74193e7ea020753.jpg"
     },
     {
      "title": "Other Mommy",
@@ -3388,6 +3248,62 @@
      "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
     },
     {
+     "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
+     "originalTitle": "De Club Van Sinterklaas : Paniek in het Pietendorp",
+     "year": 2026,
+     "duration": 81,
+     "directors": [],
+     "genres": [
+      "Famille"
+     ],
+     "releaseAt": "2026-10-14",
+     "url": "https://www.pathe.be/nl/films/de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
+     "poster": "https://media.pathe.be/movie/alex/HO00003729/poster/md/1/movie&uuid=7E2D1671-C69A-475B-AF5B-C82622BB6298",
+     "slug": "de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-22"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-22 11:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 15:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/c74193e7ea020753.jpg"
+    },
+    {
      "title": "Yugly",
      "originalTitle": "Mochy",
      "year": 2026,
@@ -3407,32 +3323,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 13:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 15:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 13:45",
        "version": "nlbe",
@@ -3480,21 +3373,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 13:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 11:00",
        "version": "nlbe",
@@ -3883,21 +3764,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 14:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 11:00",
        "version": "nlbe",
