@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T18:45:23.995Z",
+ "generatedAt": "2026-11-21T21:41:02.372Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 47 films",
@@ -1502,22 +1502,9 @@
      "isComingSoon": true,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Avant-premiere"
-      },
       {
        "time": "2026-11-22 14:30",
        "version": "vobe",
@@ -2024,6 +2011,156 @@
      "posterThumb": "data/posters/bc68360e3132aa74.jpg"
     },
     {
+     "title": "Heysel 85",
+     "originalTitle": "Heysel 85",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Teodora Mihai"
+     ],
+     "genres": [
+      "Drame",
+      "Historique",
+      "Sport Event"
+     ],
+     "releaseAt": "2026-11-18",
+     "url": "https://www.pathe.be/nl/films/heysel-85-55068",
+     "poster": "https://media.pathe.be/movie/alex/HO00003609/poster/md/2/movie&uuid=904709F1-7535-475B-A81F-4042EF169B08",
+     "slug": "heysel-85-55068",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-22 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-22 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 17:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-23 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 17:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 19:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-24 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/bffe6aacdb747497.jpg"
+    },
+    {
      "title": "The Hunger Games : Sunrise on the Reaping",
      "originalTitle": "Hunger Games : Lever de soleil sur la moisson",
      "year": 2026,
@@ -2044,46 +2181,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 20:00",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 20:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-21 21:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 11:00",
        "version": "vobe",
@@ -2215,168 +2317,6 @@
      "posterThumb": "data/posters/319cc7c70e451585.jpg"
     },
     {
-     "title": "Heysel 85",
-     "originalTitle": "Heysel 85",
-     "year": 2026,
-     "duration": 91,
-     "directors": [
-      "Teodora Mihai"
-     ],
-     "genres": [
-      "Drame",
-      "Historique",
-      "Sport Event"
-     ],
-     "releaseAt": "2026-11-18",
-     "url": "https://www.pathe.be/nl/films/heysel-85-55068",
-     "poster": "https://media.pathe.be/movie/alex/HO00003609/poster/md/2/movie&uuid=904709F1-7535-475B-A81F-4042EF169B08",
-     "slug": "heysel-85-55068",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-21",
-      "2026-11-22",
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-21 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-23 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bffe6aacdb747497.jpg"
-    },
-    {
      "title": "CineLive : Het Zwanenmeer",
      "originalTitle": "CineLive : Le Lac des Cygnes",
      "year": 2026,
@@ -2454,23 +2394,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 20:00",
        "version": "vobe",
@@ -2665,23 +2593,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 19:40",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 19:30",
        "version": "nlbe",
@@ -2750,22 +2666,10 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 21:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-23 13:30",
        "version": "vobe",
@@ -2888,23 +2792,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-21 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 21:45",
        "version": "vobe",
@@ -3423,7 +3315,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-21",
       "2026-11-22",
       "2026-11-23",
       "2026-11-24"
