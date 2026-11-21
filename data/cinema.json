@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-21T07:04:43.462Z",
+ "generatedAt": "2026-11-21T09:49:52.767Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 48 films",
    "sphinx-gent": "fresh: 19 films",
    "studio-skoop-gent": "fresh: 15 films"
   },
-  "watchlist": "letterboxd: 1346",
+  "watchlist": "letterboxd: 1347",
   "watched": "1974 films (1833 rated, 1174 liked); history from export + new watches added automatically",
   "errors": []
  },
@@ -5407,6 +5407,10 @@
  "letterboxd": {
   "user": "Nyrax",
   "watchlist": [
+   {
+    "slug": "possible-love",
+    "name": "Possible Love (2026)"
+   },
    {
     "slug": "heysel-85",
     "name": "Heysel 85 (2026)"
