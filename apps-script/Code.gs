@@ -8,7 +8,7 @@
  * Setup: put Loader.gs (not this file) in a project at https://script.google.com and run install() once.
  * The loader fetches this file from GitHub on every run, so changes pushed here go live automatically.
  *   testRun()  sends a [TEST] email right away (ignores the "already sent" check).
- *   run()      what the daily trigger calls.
+ *   run()      what the triggers call (exactly 18:00, backup 19:00-20:00).
  *   reset()    forgets which screenings were sent.
  *
  * Wanted: Letterboxd watchlist, re-releases of films rated ★3.5+ or liked, and new films in a series
@@ -21,7 +21,8 @@
 
 const REPO_RAW = 'https://raw.githubusercontent.com/Nyraxy/cinema-data/main/';
 const TZ = 'Europe/Brussels';
-const RUN_HOUR = 5;
+const RUN_AT = 18;     // email at exactly 18:00 (one-off trigger, re-booked every run)
+const BACKUP_HOUR = 19; // daily backup run between 19:00 and 20:00, only sends if the 18:00 run didn't
 const GENT = ['sphinx-gent', 'studio-skoop-gent', 'kinepolis-gent'];
 const SHORT = { 'pathe-sint-niklaas': 'Pathé', 'sphinx-gent': 'Sphinx Gent', 'studio-skoop-gent': 'Skoop Gent' };
 const OFFICE_DAYS = [1, 2, 4]; // Mon, Tue, Thu (JS getUTCDay)
@@ -81,10 +82,24 @@ function seriesMatch(newTitle, likedTitle) {
 
 // ---------- entry points ----------
 function setup() {
-  ScriptApp.getProjectTriggers().forEach(t => { if (t.getHandlerFunction() === 'run') ScriptApp.deleteTrigger(t); });
-  ScriptApp.newTrigger('run').timeBased().everyDays(1).atHour(RUN_HOUR).inTimezone(TZ).create();
-  Logger.log('Daily trigger created (between %s:00 and %s:00).', RUN_HOUR, RUN_HOUR + 1);
+  schedule_();
+  Logger.log('Next run: %s:00 (backup between %s:00 and %s:00).', RUN_AT, BACKUP_HOUR, BACKUP_HOUR + 1);
 }
+// Brussels wall-clock time -> real Date
+function brussels_(day, hour) {
+  const off = Utilities.formatDate(new Date(day + 'T12:00:00Z'), TZ, 'XXX');
+  return new Date(`${day}T${String(hour).padStart(2, '0')}:00:00${off}`);
+}
+function today18_() { return brussels_(Utilities.formatDate(new Date(), TZ, 'yyyy-MM-dd'), RUN_AT).getTime(); }
+// (re)book the next exact 18:00 run and the daily backup
+function schedule_() {
+  ScriptApp.getProjectTriggers().forEach(t => { if (t.getHandlerFunction() === 'run') ScriptApp.deleteTrigger(t); });
+  let next = today18_();
+  if (next < Date.now() + 10 * MIN) next = brussels_(Utilities.formatDate(new Date(Date.now() + 864e5), TZ, 'yyyy-MM-dd'), RUN_AT).getTime();
+  ScriptApp.newTrigger('run').timeBased().at(new Date(next)).create();
+  ScriptApp.newTrigger('run').timeBased().everyDays(1).atHour(BACKUP_HOUR).inTimezone(TZ).create();
+}
+function done_() { PropertiesService.getScriptProperties().setProperty('lastRun', String(Date.now())); }
 function run() { main(false); }
 function testRun() { main(true); }
 function reset() { PropertiesService.getScriptProperties().deleteProperty('sent'); }
@@ -412,11 +427,17 @@ function noNews(now, data, wf, scs, sent, warnings, reason) {
     [reason, `Checked ${films} films, ${scs.length} screenings. Cinema data from ${updated}.`].concat(warnings).concat(['', 'SENT']).concat(sent.lines).join('\n'),
     { htmlBody: html, name: 'Cinema suggestions' });
   PropertiesService.getScriptProperties().setProperty('sent', JSON.stringify(sent.lines));
+  done_();
   Logger.log('No news: ' + reason);
 }
 
 // ---------- main ----------
 function main(test) {
+  if (!test) {
+    schedule_();
+    const last = Number(PropertiesService.getScriptProperties().getProperty('lastRun') || 0);
+    if (last >= today18_() && Date.now() >= today18_()) { Logger.log('Already sent today after 18:00.'); return; }
+  }
   const now = toLocal(new Date());
   const data = JSON.parse(fetchText('data/cinema.json'));
   const warnings = [];
@@ -484,6 +505,6 @@ function main(test) {
   // MailApp (not GmailApp): GmailApp garbles emoji in the subject
   MailApp.sendEmail(to, `${test ? '[TEST] ' : ''}\uD83C\uDFAC Cinema suggestions \u2013 ${fmt(now, 'EEEE d MMMM')}`,
     text.concat(['', 'SENT']).concat(lines).join('\n'), { htmlBody: html, inlineImages, name: 'Cinema suggestions' });
-  if (!test) PropertiesService.getScriptProperties().setProperty('sent', JSON.stringify(lines));
+  if (!test) { PropertiesService.getScriptProperties().setProperty('sent', JSON.stringify(lines)); done_(); }
   Logger.log(`Sent: ${days.length} days, ${fresh.length} new screenings, ${Object.keys(inlineImages).length} posters.`);
 }
