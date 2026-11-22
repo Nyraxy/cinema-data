@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-22T15:45:00.881Z",
+ "generatedAt": "2026-11-22T18:46:35.592Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 38 films",
+   "pathe-sint-niklaas": "fresh: 37 films",
    "sphinx-gent": "fresh: 18 films",
    "studio-skoop-gent": "fresh: 14 films"
   },
@@ -1869,21 +1869,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-22",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-22 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-24 19:10",
        "version": "vobe",
@@ -1961,17 +1949,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-22 17:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 19:50",
        "version": "vobe",
@@ -2111,18 +2088,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-22 16:45",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 20:00",
        "version": "vobe",
@@ -2372,17 +2337,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-22 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-22 20:15",
        "version": "vobe",
@@ -2674,22 +2628,10 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-22 19:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-23 14:15",
        "version": "vobe",
@@ -2725,32 +2667,6 @@
       }
      ],
      "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
-    },
-    {
-     "title": "Coyote vs. Acme",
-     "originalTitle": "Coyote vs. Acme",
-     "year": 2026,
-     "duration": 101,
-     "directors": [
-      "Dave Green"
-     ],
-     "genres": [
-      "Action",
-      "Animation",
-      "Aventure"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/coyote-vs-acme-56037",
-     "poster": "https://media.pathe.be/movie/alex/HO00003730/poster/md/2/movie&uuid=A12CCE1A-141A-4466-9F66-661ADD109EEC",
-     "slug": "coyote-vs-acme-56037",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [],
-     "posterThumb": "data/posters/6f966442039e823f.jpg"
     },
     {
      "title": "Other Mommy",
@@ -2897,17 +2813,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-22 18:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-22 20:15",
        "version": "vobe",
        "tags": [
@@ -2997,22 +2902,10 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-22",
       "2026-11-23",
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-22 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-23 16:20",
        "version": "vobe",
