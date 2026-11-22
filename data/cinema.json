@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-22T12:52:44.726Z",
+ "generatedAt": "2026-11-22T15:45:00.881Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 46 films",
+   "pathe-sint-niklaas": "fresh: 38 films",
    "sphinx-gent": "fresh: 18 films",
    "studio-skoop-gent": "fresh: 14 films"
   },
-  "watchlist": "letterboxd: 1347",
-  "watched": "1974 films (1833 rated, 1174 liked); history from export + new watches added automatically",
+  "watchlist": "letterboxd: 1345",
+  "watched": "1976 films (1835 rated, 1176 liked); history from export + new watches added automatically",
   "errors": []
  },
  "cinemas": [
@@ -62,44 +62,6 @@
      ],
      "showtimes": [],
      "posterThumb": "data/posters/e6aa6e0b1b22b61d.jpg"
-    },
-    {
-     "title": "You Can See Everything",
-     "originalTitle": "You Can See Everything",
-     "year": 2026,
-     "duration": 174,
-     "directors": [
-      "Nathan Fielder",
-      "Lance Oppenheim"
-     ],
-     "genres": [
-      "Documentaire"
-     ],
-     "releaseAt": "2026-12-30",
-     "url": "https://www.pathe.be/nl/films/you-can-see-everything-56838",
-     "poster": "https://media.pathe.be/movie/alex/HO00003807/poster/md/1/movie&uuid=7993C1DB-2EA8-4B56-AB26-87B00ECF4FFE",
-     "slug": "you-can-see-everything-56838",
-     "isNew": false,
-     "isComingSoon": true,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 16:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Avant-premiere"
-      }
-     ],
-     "posterThumb": "data/posters/7679f314fdf2ee55.jpg"
     },
     {
      "title": "I Play Rocky",
@@ -1484,43 +1446,6 @@
      "posterThumb": "data/posters/e2a1e667d88eee4b.jpg"
     },
     {
-     "title": "Focker-in-Law",
-     "originalTitle": "Mon beau-père, ma belle-fille et moi",
-     "year": 2026,
-     "duration": 105,
-     "directors": [
-      "John Hamburg"
-     ],
-     "genres": [
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-25",
-     "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
-     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/3/movie&uuid=D4ED47A6-F604-4780-842C-FD4B313B2F18",
-     "slug": "focker-in-law-56078",
-     "isNew": false,
-     "isComingSoon": true,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Avant-premiere"
-      }
-     ],
-     "posterThumb": "data/posters/e4614629b99c034d.jpg"
-    },
-    {
      "title": "Disney's Hexed",
      "originalTitle": "Billie, à la croisée des mondes",
      "year": 2026,
@@ -2187,18 +2112,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-22 13:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-22 16:45",
        "version": "vobe",
        "tags": [
@@ -2672,39 +2585,6 @@
      "posterThumb": "data/posters/c7ad57cfd8da3ff1.jpg"
     },
     {
-     "title": "De Grote Sinterklaasfilm en de  Vliegende Pieten",
-     "originalTitle": "De Grote Sinterklaasfilm en de  Vliegende Pieten",
-     "year": 2026,
-     "duration": 79,
-     "directors": [],
-     "genres": [
-      "Famille"
-     ],
-     "releaseAt": "2026-10-28",
-     "url": "https://www.pathe.be/nl/films/de-grote-sinterklaasfilm-en-de-vliegende-pieten-56375",
-     "poster": null,
-     "slug": "de-grote-sinterklaasfilm-en-de-vliegende-pieten-56375",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 15:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ]
-    },
-    {
      "title": "Clayface",
      "originalTitle": "Clayface",
      "year": 2026,
@@ -2847,53 +2727,6 @@
      "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
     },
     {
-     "title": "Shaun Het Schaap: Het Beest van de Boerderij",
-     "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
-     "year": 2026,
-     "duration": 81,
-     "directors": [],
-     "genres": [
-      "Animation",
-      "Comédie",
-      "Famille"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/shaun-het-schaap-het-beest-van-de-boerderij-56216",
-     "poster": "https://media.pathe.be/movie/alex/HO00003754/poster/md/2/movie&uuid=AE120E90-FF45-41D4-BD15-17FDFDE01E1F",
-     "slug": "shaun-het-schaap-het-beest-van-de-boerderij-56216",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/28c9cde16feba11a.jpg"
-    },
-    {
      "title": "Coyote vs. Acme",
      "originalTitle": "Coyote vs. Acme",
      "year": 2026,
@@ -2916,19 +2749,7 @@
      "allDays": [
       "2026-11-22"
      ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 16:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
+     "showtimes": [],
      "posterThumb": "data/posters/6f966442039e823f.jpg"
     },
     {
@@ -2990,138 +2811,6 @@
       }
      ],
      "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
-    },
-    {
-     "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
-     "originalTitle": "De Club Van Sinterklaas : Paniek in het Pietendorp",
-     "year": 2026,
-     "duration": 81,
-     "directors": [],
-     "genres": [
-      "Famille"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
-     "poster": "https://media.pathe.be/movie/alex/HO00003729/poster/md/1/movie&uuid=7E2D1671-C69A-475B-AF5B-C82622BB6298",
-     "slug": "de-club-van-sinterklaas-paniek-in-het-pietendorp-56036",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/c74193e7ea020753.jpg"
-    },
-    {
-     "title": "Yugly",
-     "originalTitle": "Mochy",
-     "year": 2026,
-     "duration": 85,
-     "directors": [
-      "Jérémie Degruson",
-      "Yanis Belaïd"
-     ],
-     "genres": [
-      "Animation"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/yugly-56033",
-     "poster": "https://media.pathe.be/movie/alex/HO00003726/poster/md/2/movie&uuid=6C67312C-36F6-42C9-B53E-2FF727705796",
-     "slug": "yugly-56033",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 13:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 15:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bb7e1c804714c3f7.jpg"
-    },
-    {
-     "title": "Het Vergeten Eiland",
-     "originalTitle": "L'île des souvenirs",
-     "year": 2026,
-     "duration": 98,
-     "directors": [
-      "Joel Crawford",
-      "Januel Mercado"
-     ],
-     "genres": [
-      "Animation",
-      "Aventure",
-      "Comédie"
-     ],
-     "releaseAt": "2026-10-07",
-     "url": "https://www.pathe.be/nl/films/het-vergeten-eiland-55307",
-     "poster": "https://media.pathe.be/movie/alex/HO00003654/poster/md/2/movie&uuid=2B484430-7E7D-444C-AA73-C8228E605290",
-     "slug": "het-vergeten-eiland-55307",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 13:45",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/95b8424d74013bb5.jpg"
     },
     {
      "title": "Siniclub: 500 Miles",
@@ -3429,43 +3118,6 @@
       }
      ],
      "posterThumb": "data/posters/f6fe4791e8b56464.jpg"
-    },
-    {
-     "title": "Minions & Monsters",
-     "originalTitle": "Des Minions et Des Monstres",
-     "year": 2026,
-     "duration": 85,
-     "directors": [
-      "Pierre Coffin"
-     ],
-     "genres": [
-      "Animation",
-      "Comédie"
-     ],
-     "releaseAt": "2026-06-24",
-     "url": "https://www.pathe.be/nl/films/minions-monsters-52846",
-     "poster": "https://media.pathe.be/movie/alex/HO00003488/poster/md/2/movie&uuid=26DE31CC-C48F-40C4-82F7-0B0D1622B273",
-     "slug": "minions-monsters-52846",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-22"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-22 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/0c9988d983b43b10.jpg"
     }
    ],
    "state": "fresh"
@@ -5439,10 +5091,6 @@
     "name": "The First Time (2012)"
    },
    {
-    "slug": "focker-in-law",
-    "name": "Focker In-Law (2026)"
-   },
-   {
     "slug": "la-gradiva",
     "name": "La Gradiva (2026)"
    },
@@ -5593,10 +5241,6 @@
    {
     "slug": "whalefall",
     "name": "Whalefall (2026)"
-   },
-   {
-    "slug": "the-hunger-games-sunrise-on-the-reaping",
-    "name": "The Hunger Games: Sunrise on the Reaping (2026)"
    },
    {
     "slug": "angus-thongs-and-perfect-snogging",
@@ -21793,6 +21437,18 @@
    {
     "name": "A Dog's Purpose (2017)",
     "slug": "a-dogs-purpose",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Focker In-Law (2026)",
+    "slug": "focker-in-law",
+    "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "The Hunger Games: Sunrise on the Reaping (2026)",
+    "slug": "the-hunger-games-sunrise-on-the-reaping",
     "rating": 3.5,
     "liked": true
    }
