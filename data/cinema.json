@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-22T21:43:39.797Z",
+ "generatedAt": "2026-11-23T01:03:34.790Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 37 films",
-   "sphinx-gent": "fresh: 18 films",
-   "studio-skoop-gent": "fresh: 14 films"
+   "sphinx-gent": "fresh: 14 films",
+   "studio-skoop-gent": "fresh: 12 films"
   },
   "watchlist": "letterboxd: 1345",
   "watched": "1976 films (1835 rated, 1176 liked); history from export + new watches added automatically",
@@ -2916,12 +2916,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027875/1518",
      "showtimes": [
       {
-       "time": "2026-11-22 14:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -2949,12 +2943,6 @@
      "url": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
-      {
-       "time": "2026-11-22 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 17:30",
        "version": "VO",
@@ -2984,18 +2972,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
       {
-       "time": "2026-11-22 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3017,28 +2993,6 @@
      "posterThumb": "data/posters/02728bda7d3329e1.jpg"
     },
     {
-     "title": "Donnie Darko",
-     "originalTitle": null,
-     "year": 2001,
-     "duration": 107,
-     "directors": [
-      "Richard Kelly"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/7640_fr_donnie_darko_1312293735340.jpg",
-     "cinebelId": 7640,
-     "url": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
-     "showtimes": [
-      {
-       "time": "2026-11-22 20:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/87c70a9c63e895cd.jpg"
-    },
-    {
      "title": "Heysel 85",
      "originalTitle": null,
      "year": 2026,
@@ -3051,18 +3005,6 @@
      "url": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
-      {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 17:30",
        "version": "VO",
@@ -3098,12 +3040,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-22 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3125,12 +3061,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-22 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 14:15",
        "version": "VO",
@@ -3210,12 +3140,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
       {
-       "time": "2026-11-22 17:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3237,28 +3161,6 @@
      "posterThumb": "data/posters/c2c152df6d64a95f.jpg"
     },
     {
-     "title": "Mumbo",
-     "originalTitle": null,
-     "year": 2026,
-     "duration": 83,
-     "directors": [
-      "Stine Marie Buhl"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1028103_fr__1793021443520.jpg",
-     "cinebelId": 1028103,
-     "url": "https://cinebel.dhnet.be/film/1028103/Mumbo",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
-     "showtimes": [
-      {
-       "time": "2026-11-22 11:00",
-       "version": "NV",
-       "subtitles": null,
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/3cf10dbaf121e63a.jpg"
-    },
-    {
      "title": "Naza",
      "originalTitle": null,
      "year": 2026,
@@ -3271,12 +3173,6 @@
      "url": "https://cinebel.dhnet.be/film/1028012/Naza",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028012/Naza",
      "showtimes": [
-      {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-24 14:30",
        "version": "VO",
@@ -3300,12 +3196,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027818/Sense%20and%20Sensibility",
      "showtimes": [
       {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3321,28 +3211,6 @@
      "posterThumb": "data/posters/2e5eb654227d0bfa.jpg"
     },
     {
-     "title": "Shaun le Mouton: La Bêêête d'Halloween",
-     "originalTitle": "Shaun The Sheep: The Beast Of Mossy Bottom",
-     "year": 2026,
-     "duration": 91,
-     "directors": [
-      "Steve Cox"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
-     "cinebelId": 1027315,
-     "url": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
-     "showtimes": [
-      {
-       "time": "2026-11-22 14:30",
-       "version": "VO",
-       "subtitles": null,
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bbecf8ee5024c879.jpg"
-    },
-    {
      "title": "Soudain",
      "originalTitle": "All of a Sudden",
      "year": 2026,
@@ -3355,12 +3223,6 @@
      "url": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
-      {
-       "time": "2026-11-22 13:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 20:15",
        "version": "VO",
@@ -3418,12 +3280,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
       {
-       "time": "2026-11-22 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3443,28 +3299,6 @@
       }
      ],
      "posterThumb": "data/posters/cadb982379536bef.jpg"
-    },
-    {
-     "title": "You Can See Everything",
-     "originalTitle": null,
-     "year": 2026,
-     "duration": 174,
-     "directors": [
-      "Nathan Fielder"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
-     "cinebelId": 1028110,
-     "url": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
-     "showtimes": [
-      {
-       "time": "2026-11-22 20:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/8a470b404ccc72fc.jpg"
     }
    ],
    "state": "fresh"
@@ -3511,24 +3345,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
       {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 14:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 16:45",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -3563,12 +3379,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
       {
-       "time": "2026-11-22 19:45",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -3596,24 +3406,6 @@
      "url": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
-      {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 19:45",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 14:30",
        "version": "VO",
@@ -3655,12 +3447,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-22 17:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-24 17:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3682,18 +3468,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-22 16:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 19:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 17:00",
        "version": "VO",
@@ -3767,24 +3541,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
       {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 16:45",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3818,28 +3574,6 @@
      "posterThumb": "data/posters/c2c152df6d64a95f.jpg"
     },
     {
-     "title": "Shaun le Mouton: La Bêêête d'Halloween",
-     "originalTitle": "Shaun The Sheep: The Beast Of Mossy Bottom",
-     "year": 2026,
-     "duration": 91,
-     "directors": [
-      "Steve Cox"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
-     "cinebelId": 1027315,
-     "url": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
-     "showtimes": [
-      {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": null,
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bbecf8ee5024c879.jpg"
-    },
-    {
      "title": "Soudain",
      "originalTitle": "All of a Sudden",
      "year": 2026,
@@ -3852,12 +3586,6 @@
      "url": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
-      {
-       "time": "2026-11-22 16:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-23 16:45",
        "version": "VO",
@@ -3887,12 +3615,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "showtimes": [
       {
-       "time": "2026-11-22 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3921,24 +3643,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
       {
-       "time": "2026-11-22 11:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-22 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-23 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -3958,28 +3662,6 @@
       }
      ],
      "posterThumb": "data/posters/cadb982379536bef.jpg"
-    },
-    {
-     "title": "You Can See Everything",
-     "originalTitle": null,
-     "year": 2026,
-     "duration": 174,
-     "directors": [
-      "Nathan Fielder"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
-     "cinebelId": 1028110,
-     "url": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
-     "showtimes": [
-      {
-       "time": "2026-11-22 19:45",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/8a470b404ccc72fc.jpg"
     }
    ],
    "state": "fresh"
