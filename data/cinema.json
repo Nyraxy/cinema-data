@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-23T13:15:12.653Z",
+ "generatedAt": "2026-11-23T16:04:08.879Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 37 films",
-   "sphinx-gent": "fresh: 14 films",
+   "pathe-sint-niklaas": "fresh: 38 films",
+   "sphinx-gent": "fresh: 26 films",
    "studio-skoop-gent": "fresh: 12 films"
   },
   "watchlist": "letterboxd: 1345",
@@ -1310,7 +1310,7 @@
        "special": "Voorpremière"
       },
       {
-       "time": "2026-11-28 13:30",
+       "time": "2026-11-28 13:15",
        "version": "nlbe",
        "tags": [
         "DEFAULT",
@@ -1444,6 +1444,45 @@
       }
      ],
      "posterThumb": "data/posters/e2a1e667d88eee4b.jpg"
+    },
+    {
+     "title": "Special Screening : De Kat met de Hoed",
+     "originalTitle": "Special Screening : Le Chat chapeauté",
+     "year": 2026,
+     "duration": 107,
+     "directors": [
+      "Alessandro Carloni",
+      "Erica Rivinoja"
+     ],
+     "genres": [
+      "Animation",
+      "Aventure",
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-28",
+     "url": "https://www.pathe.be/nl/films/special-screening-de-kat-met-de-hoed-56379",
+     "poster": "https://media.pathe.be/movie/alex/HO00003774/poster/md/2/movie&uuid=C0B5089A-2F8C-40C2-AE60-4B0FD04B1F12",
+     "slug": "special-screening-de-kat-met-de-hoed-56379",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-28"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-28 13:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/61d147cee92c84ac.jpg"
     },
     {
      "title": "Disney's Hexed",
@@ -1588,18 +1627,6 @@
        "special": null
       },
       {
-       "time": "2026-11-28 13:30",
-       "version": "nlbe",
-       "tags": [
-        "3d",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-28 14:00",
        "version": "nlbe",
        "tags": [
@@ -1638,18 +1665,6 @@
        "time": "2026-11-29 13:30",
        "version": "nlbe",
        "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 14:00",
-       "version": "nlbe",
-       "tags": [
-        "3d",
         "DEFAULT",
         "pmr",
         "relaxseats"
@@ -1949,17 +1964,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-23 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:40",
        "version": "vobe",
        "tags": [
@@ -2172,17 +2176,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-23 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:30",
        "version": "vobe",
        "tags": [
@@ -2266,17 +2259,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-23 14:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:00",
        "version": "vobe",
        "tags": [
@@ -2335,17 +2317,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-23 14:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-23 20:30",
        "version": "nlbe",
@@ -2515,17 +2486,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-23 14:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-23 20:15",
        "version": "vobe",
        "tags": [
@@ -2682,17 +2642,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-23 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-23 17:15",
        "version": "vobe",
        "tags": [
@@ -2740,56 +2689,6 @@
      "posterThumb": "data/posters/020fb9097c9b3d3d.jpg"
     },
     {
-     "title": "Spider-Man : Brand New Day",
-     "originalTitle": "Spider-Man : Brand New Day",
-     "year": 2026,
-     "duration": 145,
-     "directors": [
-      "Destin Daniel Cretton"
-     ],
-     "genres": [
-      "Action",
-      "Aventure",
-      "Fantastique"
-     ],
-     "releaseAt": "2026-07-29",
-     "url": "https://www.pathe.be/nl/films/spider-man-brand-new-day-54409",
-     "poster": "https://media.pathe.be/movie/alex/HO00003523/poster/md/4/movie&uuid=A86E0638-AA17-4F04-B3B3-A58BE5A6A90E",
-     "slug": "spider-man-brand-new-day-54409",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-23",
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-23 16:20",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 16:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/e6649e5a65dd7dba.jpg"
-    },
-    {
      "title": "Siniclub: The Christophers",
      "originalTitle": "Siniclub: The Christophers",
      "year": 2026,
@@ -2823,6 +2722,44 @@
       }
      ],
      "posterThumb": "data/posters/33fd18cc3a2379ac.jpg"
+    },
+    {
+     "title": "Spider-Man : Brand New Day",
+     "originalTitle": "Spider-Man : Brand New Day",
+     "year": 2026,
+     "duration": 145,
+     "directors": [
+      "Destin Daniel Cretton"
+     ],
+     "genres": [
+      "Action",
+      "Aventure",
+      "Fantastique"
+     ],
+     "releaseAt": "2026-07-29",
+     "url": "https://www.pathe.be/nl/films/spider-man-brand-new-day-54409",
+     "poster": "https://media.pathe.be/movie/alex/HO00003523/poster/md/4/movie&uuid=A86E0638-AA17-4F04-B3B3-A58BE5A6A90E",
+     "slug": "spider-man-brand-new-day-54409",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-24"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-24 16:10",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/e6649e5a65dd7dba.jpg"
     },
     {
      "title": "The Odyssey",
@@ -2903,9 +2840,67 @@
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
+      },
+      {
+       "time": "2026-11-26 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 11:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/c433167eb752c084.jpg"
+    },
+    {
+     "title": "Billie à la croisée des mondes",
+     "originalTitle": "Hexed",
+     "year": 2026,
+     "duration": 93,
+     "directors": [
+      "Josie Trinidad"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027637_fr_billie_a_la_croisee_des_mondes_1791969342933.jpg",
+     "cinebelId": 1027637,
+     "url": "https://cinebel.dhnet.be/film/1027637/Hexed",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027637/Hexed",
+     "showtimes": [
+      {
+       "time": "2026-11-25 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 14:30",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/5664586a4ec94221.jpg"
     },
     {
      "title": "Club Kid",
@@ -2931,9 +2926,109 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-25 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-25 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/3684bb436c829601.jpg"
+    },
+    {
+     "title": "Congo Boy",
+     "originalTitle": null,
+     "year": 2025,
+     "duration": 90,
+     "directors": [
+      "Rafiki Fariala"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027860_fr__1784199847625.jpg",
+     "cinebelId": 1027860,
+     "url": "https://cinebel.dhnet.be/film/1027860/Congo%20Boy",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027860/Congo%20Boy",
+     "showtimes": [
+      {
+       "time": "2026-11-25 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/e47a270830a70cdc.jpg"
     },
     {
      "title": "Coward",
@@ -2965,9 +3060,137 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-25 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-25 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/02728bda7d3329e1.jpg"
+    },
+    {
+     "title": "Donnie Darko",
+     "originalTitle": null,
+     "year": 2001,
+     "duration": 107,
+     "directors": [
+      "Richard Kelly"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/7640_fr_donnie_darko_1312293735340.jpg",
+     "cinebelId": 7640,
+     "url": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
+     "showtimes": [
+      {
+       "time": "2026-11-26 20:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 20:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 17:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/87c70a9c63e895cd.jpg"
+    },
+    {
+     "title": "Gugu's World",
+     "originalTitle": "Feito Pipa",
+     "year": 2026,
+     "duration": 93,
+     "directors": [
+      "Allan Deberton"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028037_fr_gugu_s_world_1790335320088.jpg",
+     "cinebelId": 1028037,
+     "url": "https://cinebel.dhnet.be/film/1028037/Feito%20Pipa",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028037/Feito%20Pipa",
+     "showtimes": [
+      {
+       "time": "2026-11-25 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/e21a96509568e3a8.jpg"
     },
     {
      "title": "Heysel 85",
@@ -2999,6 +3222,54 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-25 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/0488b9bce8f1e3df.jpg"
@@ -3018,6 +3289,24 @@
      "showtimes": [
       {
        "time": "2026-11-23 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
@@ -3055,9 +3344,95 @@
        "version": "VO",
        "subtitles": "S.t. nl",
        "special": null
+      },
+      {
+       "time": "2026-11-25 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 17:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 14:15",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/d2ba505675dcd990.jpg"
+    },
+    {
+     "title": "Le Dernier pour la route / The Last One for the Road",
+     "originalTitle": "Andiamo a bere l&#039;ultima",
+     "year": 2025,
+     "duration": 100,
+     "directors": [
+      "Francesco Sossai"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027876_fr_le_dernier_pour_la_route___the_last_one_for_the_road_1789582502427.jpg",
+     "cinebelId": 1027876,
+     "url": "https://cinebel.dhnet.be/film/1027876/Andiamo%20a%20bere%20l'ultima",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027876/Andiamo%20a%20bere%20l'ultima",
+     "showtimes": [
+      {
+       "time": "2026-11-27 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/da84f8e6d5285218.jpg"
+    },
+    {
+     "title": "Le Faux Soir",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 134,
+     "directors": [
+      "Michaël R. Roskam"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027756_fr__1789482890190.jpg",
+     "cinebelId": 1027756,
+     "url": "https://cinebel.dhnet.be/film/1027756/Le%20Faux%20Soir",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027756/Le%20Faux%20Soir",
+     "showtimes": [
+      {
+       "time": "2026-11-27 20:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/2047db87a81361c7.jpg"
     },
     {
      "title": "Malpertuis",
@@ -3133,9 +3508,85 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-25 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/c2c152df6d64a95f.jpg"
+    },
+    {
+     "title": "Mumbo",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 83,
+     "directors": [
+      "Stine Marie Buhl"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028103_fr__1793021443520.jpg",
+     "cinebelId": 1028103,
+     "url": "https://cinebel.dhnet.be/film/1028103/Mumbo",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028103/Mumbo",
+     "showtimes": [
+      {
+       "time": "2026-11-28 11:00",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-29 14:30",
+       "version": "NV",
+       "subtitles": null,
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/3cf10dbaf121e63a.jpg"
     },
     {
      "title": "Naza",
@@ -3155,9 +3606,155 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-26 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/70ea7795b6dd6f94.jpg"
+    },
+    {
+     "title": "No Good Men",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 103,
+     "directors": [
+      "Shahrbanoo Sadat"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027841_fr__1791982034667.jpg",
+     "cinebelId": 1027841,
+     "url": "https://cinebel.dhnet.be/film/1027841/No%20Good%20Men",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027841/No%20Good%20Men",
+     "showtimes": [
+      {
+       "time": "2026-11-25 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 09:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 17:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 14:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/fca790770949cbf9.jpg"
+    },
+    {
+     "title": "Paper Tiger",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 115,
+     "directors": [
+      "James Gray"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027851_fr__1791987748826.jpg",
+     "cinebelId": 1027851,
+     "url": "https://cinebel.dhnet.be/film/1027851/Paper%20Tiger",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027851/Paper%20Tiger",
+     "showtimes": [
+      {
+       "time": "2026-11-25 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/e1a5afe62798b725.jpg"
     },
     {
      "title": "Raison et sentiments",
@@ -3188,6 +3785,40 @@
      "posterThumb": "data/posters/2e5eb654227d0bfa.jpg"
     },
     {
+     "title": "Shaun le Mouton: La Bêêête d'Halloween",
+     "originalTitle": "Shaun The Sheep: The Beast Of Mossy Bottom",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Steve Cox"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1027315_fr_shaun_le_mouton__la_beeete_d_halloween_1774367068274.jpg",
+     "cinebelId": 1027315,
+     "url": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1027315/Shaun%20The%20Sheep:%20The%20Beast%20Of%20Mossy%20Bottom",
+     "showtimes": [
+      {
+       "time": "2026-11-25 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-28 14:30",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "VO",
+       "subtitles": null,
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/bbecf8ee5024c879.jpg"
+    },
+    {
      "title": "Soudain",
      "originalTitle": "All of a Sudden",
      "year": 2026,
@@ -3211,9 +3842,73 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-26 13:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 16:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 13:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 16:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:15",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/b82ef191903e65ab.jpg"
+    },
+    {
+     "title": "The Last Waltz",
+     "originalTitle": null,
+     "year": 1978,
+     "duration": 117,
+     "directors": [
+      "Martin Scorsese"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/9173_fr_the_last_waltz_1314880657019.jpg",
+     "cinebelId": 9173,
+     "url": "https://cinebel.dhnet.be/film/9173/The%20Last%20Waltz",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/9173/The%20Last%20Waltz",
+     "showtimes": [
+      {
+       "time": "2026-11-28 17:30",
+       "version": "VO",
+       "subtitles": "S.t. ang",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "VO",
+       "subtitles": "S.t. ang",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/763a5fdf027453d0.jpg"
     },
     {
      "title": "Wicker",
@@ -3273,9 +3968,91 @@
        "version": "VO",
        "subtitles": "S.t. fr/nl",
        "special": null
+      },
+      {
+       "time": "2026-11-25 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 17:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 14:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:30",
+       "version": "VO",
+       "subtitles": "S.t. fr/nl",
+       "special": null
       }
      ],
      "posterThumb": "data/posters/cadb982379536bef.jpg"
+    },
+    {
+     "title": "You Can See Everything",
+     "originalTitle": null,
+     "year": 2026,
+     "duration": 174,
+     "directors": [
+      "Nathan Fielder"
+     ],
+     "poster": "https://static.cinebel.be/img/movie/poster/small/1028110_fr__1793261390973.jpg",
+     "cinebelId": 1028110,
+     "url": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
+     "cinebelUrl": "https://cinebel.dhnet.be/film/1028110/You%20Can%20See%20Everything",
+     "showtimes": [
+      {
+       "time": "2026-12-01 14:30",
+       "version": "VO",
+       "subtitles": "S.t. nl",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/8a470b404ccc72fc.jpg"
     }
    ],
    "state": "fresh"
