@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23T10:13:59.133Z",
+ "generatedAt": "2026-11-23T13:15:12.653Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 37 films",
@@ -94,7 +94,7 @@
         "AVP"
        ],
        "status": "available",
-       "special": "Avant-premiere"
+       "special": "Voorpremière"
       }
      ],
      "posterThumb": "data/posters/4158f0e5059eb333.jpg"
@@ -1307,7 +1307,7 @@
         "AVP"
        ],
        "status": "available",
-       "special": "Avant-premiere"
+       "special": "Voorpremière"
       },
       {
        "time": "2026-11-28 13:30",
@@ -1319,7 +1319,7 @@
         "AVP"
        ],
        "status": "available",
-       "special": "Avant-premiere"
+       "special": "Voorpremière"
       },
       {
        "time": "2026-11-29 11:00",
@@ -1331,7 +1331,7 @@
         "AVP"
        ],
        "status": "available",
-       "special": "Avant-premiere"
+       "special": "Voorpremière"
       },
       {
        "time": "2026-11-29 13:30",
@@ -1343,7 +1343,7 @@
         "AVP"
        ],
        "status": "available",
-       "special": "Avant-premiere"
+       "special": "Voorpremière"
       }
      ],
      "posterThumb": "data/posters/689796e09772ff22.jpg"
@@ -2065,18 +2065,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-23 13:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-23 16:45",
        "version": "vobe",
        "tags": [
@@ -2408,17 +2396,6 @@
       "2026-11-24"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-23 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-23 17:15",
        "version": "vobe",
