@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-24T13:14:53.419Z",
+ "generatedAt": "2026-11-24T16:06:56.269Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 46 films",
+   "pathe-sint-niklaas": "fresh: 44 films",
    "sphinx-gent": "fresh: 25 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
@@ -2616,17 +2616,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-24 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-24 17:30",
        "version": "vobe",
        "tags": [
@@ -3394,18 +3383,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-24 14:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-24 17:30",
        "version": "vobe",
        "tags": [
@@ -3744,24 +3721,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-26",
       "2026-11-27",
       "2026-11-30",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 14:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 16:40",
        "version": "vobe",
@@ -4629,17 +4594,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-24 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-24 17:30",
        "version": "vobe",
        "tags": [
@@ -4830,78 +4784,6 @@
       }
      ],
      "posterThumb": "data/posters/33fd18cc3a2379ac.jpg"
-    },
-    {
-     "title": "Spider-Man : Brand New Day",
-     "originalTitle": "Spider-Man : Brand New Day",
-     "year": 2026,
-     "duration": 145,
-     "directors": [
-      "Destin Daniel Cretton"
-     ],
-     "genres": [
-      "Action",
-      "Aventure",
-      "Fantastique"
-     ],
-     "releaseAt": "2026-07-29",
-     "url": "https://www.pathe.be/nl/films/spider-man-brand-new-day-54409",
-     "poster": "https://media.pathe.be/movie/alex/HO00003523/poster/md/4/movie&uuid=A86E0638-AA17-4F04-B3B3-A58BE5A6A90E",
-     "slug": "spider-man-brand-new-day-54409",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 16:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/e6649e5a65dd7dba.jpg"
-    },
-    {
-     "title": "The Odyssey",
-     "originalTitle": "L'Odyssée",
-     "year": 2026,
-     "duration": 172,
-     "directors": [],
-     "genres": [
-      "Drame"
-     ],
-     "releaseAt": "2026-07-15",
-     "url": "https://www.pathe.be/nl/films/the-odyssey-52999",
-     "poster": "https://media.pathe.be/movie/alex/HO00003503/poster/md/4/movie&uuid=01B2F75A-E9CD-4876-B1B4-E84B03421871",
-     "slug": "the-odyssey-52999",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 16:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/f6fe4791e8b56464.jpg"
     }
    ],
    "state": "fresh"
