@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-24T19:00:36.929Z",
+ "generatedAt": "2026-11-24T21:58:34.092Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 41 films",
+   "pathe-sint-niklaas": "fresh: 38 films",
    "sphinx-gent": "fresh: 25 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
@@ -2533,7 +2533,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -2543,28 +2542,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 19:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-24 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 17:30",
        "version": "nlbe",
@@ -2798,7 +2775,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -2808,17 +2784,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 13:45",
        "version": "vobe",
@@ -3259,6 +3224,90 @@
      "posterThumb": "data/posters/4e5c528e7d59ebbf.jpg"
     },
     {
+     "title": "Carnaval",
+     "originalTitle": "Carnaval",
+     "year": 2026,
+     "duration": 94,
+     "directors": [
+      "Flip van der Kuil"
+     ],
+     "genres": [
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-11",
+     "url": "https://www.pathe.be/nl/films/carnaval-56963",
+     "poster": "https://media.pathe.be/movie/alex/HO00003819/poster/md/2/movie&uuid=B5D20544-16B0-4E31-B799-E141A948524C",
+     "slug": "carnaval-56963",
+     "isNew": false,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-25",
+      "2026-11-26",
+      "2026-11-27",
+      "2026-11-28",
+      "2026-11-29"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-25 22:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-26 22:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-27 22:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 22:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 22:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/e08515e1947351de.jpg"
+    },
+    {
      "title": "Ebenezer",
      "originalTitle": "Scrooge",
      "year": 2026,
@@ -3278,7 +3327,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -3288,17 +3336,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 17:00",
        "version": "vobe",
@@ -3501,90 +3538,6 @@
      "posterThumb": "data/posters/279d5ecfe5c1f86c.jpg"
     },
     {
-     "title": "Carnaval",
-     "originalTitle": "Carnaval",
-     "year": 2026,
-     "duration": 94,
-     "directors": [
-      "Flip van der Kuil"
-     ],
-     "genres": [
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-11",
-     "url": "https://www.pathe.be/nl/films/carnaval-56963",
-     "poster": "https://media.pathe.be/movie/alex/HO00003819/poster/md/2/movie&uuid=B5D20544-16B0-4E31-B799-E141A948524C",
-     "slug": "carnaval-56963",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-25",
-      "2026-11-26",
-      "2026-11-27",
-      "2026-11-28",
-      "2026-11-29"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-25 22:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-26 22:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 22:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 22:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 22:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/e08515e1947351de.jpg"
-    },
-    {
      "title": "How to Rob a Bank",
      "originalTitle": "Comment braquer une banque",
      "year": 2026,
@@ -3733,7 +3686,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -3743,17 +3695,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 17:00",
        "version": "vobe",
@@ -3980,43 +3921,6 @@
      ]
     },
     {
-     "title": "Clayface",
-     "originalTitle": "Clayface",
-     "year": 2026,
-     "duration": 108,
-     "directors": [
-      "James Watkins"
-     ],
-     "genres": [
-      "Epouvante-Horreur",
-      "Thriller"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/clayface-56038",
-     "poster": "https://media.pathe.be/movie/alex/HO00003731/poster/md/2/movie&uuid=F0F03E17-6AFD-4D9A-9AC1-C7A597A3BBFA",
-     "slug": "clayface-56038",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 21:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/1256ef3d53255aae.jpg"
-    },
-    {
      "title": "Shaun Het Schaap: Het Beest van de Boerderij",
      "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
      "year": 2026,
@@ -4075,42 +3979,6 @@
       }
      ],
      "posterThumb": "data/posters/28c9cde16feba11a.jpg"
-    },
-    {
-     "title": "Other Mommy",
-     "originalTitle": "Malfaisante",
-     "year": 2026,
-     "duration": 94,
-     "directors": [
-      "Rob Savage"
-     ],
-     "genres": [
-      "Epouvante-Horreur"
-     ],
-     "releaseAt": "2026-10-14",
-     "url": "https://www.pathe.be/nl/films/other-mommy-55475",
-     "poster": "https://media.pathe.be/movie/alex/HO00003682/poster/md/4/movie&uuid=87F88132-EE82-4E63-809C-31D3676768DF",
-     "slug": "other-mommy-55475",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/ab4f2b651c1cbb42.jpg"
     },
     {
      "title": "De Club Van Sinterklaas : Paniek in het Pietendorp",
@@ -4585,41 +4453,6 @@
       }
      ],
      "posterThumb": "data/posters/020fb9097c9b3d3d.jpg"
-    },
-    {
-     "title": "Siniclub: The Christophers",
-     "originalTitle": "Siniclub: The Christophers",
-     "year": 2026,
-     "duration": 100,
-     "directors": [],
-     "genres": [
-      "Comédie",
-      "Drame"
-     ],
-     "releaseAt": "2026-07-29",
-     "url": "https://www.pathe.be/nl/films/siniclub-the-christophers-56369",
-     "poster": "https://media.pathe.be/movie/alex/HO00003768/poster/md/1/movie&uuid=79ABA875-CC11-4BB2-822B-3B14ED6C20FD",
-     "slug": "siniclub-the-christophers-56369",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/33fd18cc3a2379ac.jpg"
     }
    ],
    "state": "fresh"
