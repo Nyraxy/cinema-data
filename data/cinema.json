@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T07:12:31.639Z",
+ "generatedAt": "2026-11-24T10:09:07.783Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 46 films",
@@ -7171,6 +7171,10 @@
   "user": "Nyrax",
   "watchlist": [
    {
+    "slug": "clashing-through-the-snow",
+    "name": "Clashing Through the Snow (2026)"
+   },
+   {
     "slug": "possible-love",
     "name": "Possible Love (2026)"
    },
@@ -8269,10 +8273,6 @@
    {
     "slug": "sense-and-sensibility",
     "name": "Sense and Sensibility (1995)"
-   },
-   {
-    "slug": "madden-2026",
-    "name": "Madden (2026)"
    },
    {
     "slug": "playmates-1",
