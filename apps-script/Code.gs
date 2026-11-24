@@ -22,6 +22,7 @@
 const REPO_RAW = 'https://raw.githubusercontent.com/Nyraxy/cinema-data/main/';
 const TZ = 'Europe/Brussels';
 const RUN_AT = 18;     // email at exactly 18:00 (one-off trigger, re-booked every run)
+const RETRY_UNTIL = 23;  // Mon/Tue: wait (retry every 30 min) until Pathé's new week is published, at most until 23:00
 const BACKUP_HOUR = 19; // daily backup run between 19:00 and 20:00, only sends if the 18:00 run didn't
 const GENT = ['sphinx-gent', 'studio-skoop-gent', 'kinepolis-gent'];
 const SHORT = { 'pathe-sint-niklaas': 'Pathé', 'sphinx-gent': 'Sphinx Gent', 'studio-skoop-gent': 'Skoop Gent' };
@@ -444,6 +445,22 @@ function main(test) {
   const age = Date.now() - new Date(data.generatedAt).getTime();
   if (age > 24 * 3600000) warnings.push(`cinema data is ${Math.round(age / 3600000)}h old`);
   data.cinemas.forEach(c => { if (c.state === 'stale' || c.state === 'missing') warnings.push(`${c.name || c.key} data is ${c.state}`); });
+
+  // Pathé publishes the next week (Wed-Tue) on Monday evening, sometimes late: on Mon/Tue wait for it
+  const wd = dow(now);
+  if (wd === 1 || wd === 2) {
+    const wed = dayKey(now + (wd === 1 ? 2 : 1) * 864e5);
+    const pathe = data.cinemas.find(c => c.key === 'pathe-sint-niklaas') || { films: [] };
+    const n = pathe.films.reduce((k, f) => k + (f.showtimes || []).filter(s => s.time.startsWith(wed)).length, 0);
+    if (n < 10) {
+      if (!test && Number(fmt(now, 'HH')) < RETRY_UNTIL) {
+        ScriptApp.newTrigger('run').timeBased().after(30 * MIN).create();
+        Logger.log(`Pathé schedule for ${wed} not published yet (${n} showtimes): retrying in 30 min.`);
+        return;
+      }
+      warnings.push(`Pathé hasn't published the schedule from ${fmt(parseLocal(wed + ' 12:00'), 'EEEE d MMMM')} yet`);
+    }
+  }
 
   const sent = readSent(now);
   const wf = wantedFilms(data, readExcludes(), now);

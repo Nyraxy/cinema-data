@@ -4,8 +4,8 @@ on:
   schedule:
     # Every 3 hours (UTC). GitHub may delay scheduled runs a bit.
     - cron: "7 */3 * * *"
-    # Extra runs on Monday evening, after Pathé publishes next week's schedule (18:00 Brussels)
-    - cron: "20,50 17 * * 1"
+    # Extra runs every 20 min on Monday evening (18:00-23:00 Brussels), until Pathé's new week is in
+    - cron: "10,30,50 16-21 * * 1"
   push:
     paths: ["letterboxd-export/**"]
   workflow_dispatch:
