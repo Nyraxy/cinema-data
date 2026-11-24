@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-11-24T10:09:07.783Z",
+ "generatedAt": "2026-11-24T13:14:53.419Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 46 films",
    "sphinx-gent": "fresh: 25 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
-  "watchlist": "letterboxd: 1345",
+  "watchlist": "letterboxd: 1346",
   "watched": "1976 films (1835 rated, 1176 liked); history from export + new watches added automatically",
   "errors": []
  },
@@ -2903,17 +2903,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-24 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-24 16:45",
        "version": "vobe",
        "tags": [
@@ -3906,17 +3895,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 13:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-24 20:15",
        "version": "vobe",
@@ -7170,6 +7148,10 @@
  "letterboxd": {
   "user": "Nyrax",
   "watchlist": [
+   {
+    "slug": "k-pop-the-debut",
+    "name": "K-POP: The Debut (2027)"
+   },
    {
     "slug": "clashing-through-the-snow",
     "name": "Clashing Through the Snow (2026)"
