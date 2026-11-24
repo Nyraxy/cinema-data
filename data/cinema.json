@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-24T16:06:56.269Z",
+ "generatedAt": "2026-11-24T19:00:36.929Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 44 films",
+   "pathe-sint-niklaas": "fresh: 41 films",
    "sphinx-gent": "fresh: 25 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
@@ -2476,78 +2476,6 @@
      "posterThumb": "data/posters/929a920289c26aea.jpg"
     },
     {
-     "title": "Ladies Night : Focker-in-Law",
-     "originalTitle": "Ladies Night : Focker-in-Law",
-     "year": 2026,
-     "duration": 105,
-     "directors": [
-      "John Hamburg"
-     ],
-     "genres": [
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-24",
-     "url": "https://www.pathe.be/nl/films/ladies-night-focker-in-law-56079",
-     "poster": "https://media.pathe.be/movie/alex/HO00003740/poster/md/4/movie&uuid=0DCFDB4E-0558-4291-9635-22E27D569C6D",
-     "slug": "ladies-night-focker-in-law-56079",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 19:30",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/cf8a4469be4b860a.jpg"
-    },
-    {
-     "title": "Nasza rewolucja",
-     "originalTitle": "Nasza rewolucja",
-     "year": 2026,
-     "duration": 125,
-     "directors": [],
-     "genres": [
-      "Biopic",
-      "Drame"
-     ],
-     "releaseAt": "2026-11-20",
-     "url": "https://www.pathe.be/nl/films/nasza-rewolucja-56957",
-     "poster": "https://media.pathe.be/movie/alex/HO00003815/poster/md/1/movie&uuid=E4994A62-1CC6-4727-B69D-7520237874EB",
-     "slug": "nasza-rewolucja-56957",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 19:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/15ef0062673ec201.jpg"
-    },
-    {
      "title": "Cine Seniors : Digger",
      "originalTitle": "Cine Seniors : Digger",
      "year": 2026,
@@ -2615,17 +2543,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-24 19:50",
        "version": "vobe",
@@ -2891,17 +2808,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 16:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-24 20:00",
        "version": "vobe",
@@ -3383,17 +3289,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-24 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-24 20:15",
        "version": "vobe",
        "tags": [
@@ -3624,7 +3519,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -3632,17 +3526,6 @@
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 19:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 22:00",
        "version": "nlbe",
@@ -4134,41 +4017,6 @@
      "posterThumb": "data/posters/1256ef3d53255aae.jpg"
     },
     {
-     "title": "Coward",
-     "originalTitle": "Coward",
-     "year": 2026,
-     "duration": 125,
-     "directors": [],
-     "genres": [
-      "Drame",
-      "Guerre"
-     ],
-     "releaseAt": "2026-10-21",
-     "url": "https://www.pathe.be/nl/films/coward-56342",
-     "poster": "https://media.pathe.be/movie/alex/HO00003764/poster/md/2/movie&uuid=E00DC734-0BA1-4B3D-BD68-DC4653F796B9",
-     "slug": "coward-56342",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-24"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-24 17:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/0fedb4f83f47ab14.jpg"
-    },
-    {
      "title": "Shaun Het Schaap: Het Beest van de Boerderij",
      "originalTitle": "Shaun le mouton : la bêêête d'Halloween",
      "year": 2026,
@@ -4583,7 +4431,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-24",
       "2026-11-25",
       "2026-11-26",
       "2026-11-27",
@@ -4593,17 +4440,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-24 17:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 19:45",
        "version": "vobe",
