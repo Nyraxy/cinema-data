@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-25T10:12:37.875Z",
+ "generatedAt": "2026-11-25T13:19:37.746Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 38 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 17 films"
   },
-  "watchlist": "letterboxd: 1346",
-  "watched": "1976 films (1835 rated, 1176 liked); history from export + new watches added automatically",
+  "watchlist": "letterboxd: 1347",
+  "watched": "1977 films (1836 rated, 1177 liked); history from export + new watches added automatically",
   "errors": []
  },
  "cinemas": [
@@ -1551,17 +1551,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-25 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-25 15:30",
        "version": "vobe",
        "tags": [
@@ -1933,18 +1922,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-25 13:30",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 14:00",
        "version": "nlbe",
@@ -2542,17 +2519,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-25 13:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 16:45",
        "version": "vobe",
@@ -3798,17 +3764,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-25 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-25 15:15",
        "version": "nlbe",
        "tags": [
@@ -3939,22 +3894,10 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-25",
       "2026-11-28",
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-25 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 15:15",
        "version": "nlbe",
@@ -4002,17 +3945,6 @@
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-25 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 15:15",
        "version": "nlbe",
@@ -4151,17 +4083,6 @@
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-25 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-25 15:15",
        "version": "nlbe",
@@ -6496,6 +6417,14 @@
   "user": "Nyrax",
   "watchlist": [
    {
+    "slug": "ralph-breaks-the-internet",
+    "name": "Ralph Breaks the Internet (2018)"
+   },
+   {
+    "slug": "the-twelve-tasks-of-asterix",
+    "name": "The Twelve Tasks of Asterix (1976)"
+   },
+   {
     "slug": "k-pop-the-debut",
     "name": "K-POP: The Debut (2027)"
    },
@@ -7618,10 +7547,6 @@
    {
     "slug": "event-horizon",
     "name": "Event Horizon (1997)"
-   },
-   {
-    "slug": "steps-2026",
-    "name": "Steps (2026)"
    },
    {
     "slug": "sacrifice-2025",
@@ -23735,6 +23660,12 @@
     "name": "The Hunger Games: Sunrise on the Reaping (2026)",
     "slug": "the-hunger-games-sunrise-on-the-reaping",
     "rating": 3.5,
+    "liked": true
+   },
+   {
+    "name": "Steps (2026)",
+    "slug": "steps-2026",
+    "rating": 4,
     "liked": true
    }
   ]
