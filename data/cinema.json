@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-26T18:58:53.847Z",
+ "generatedAt": "2026-11-26T21:55:45.635Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 44 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
-  "watchlist": "letterboxd: 1349",
-  "watched": "1978 films (1837 rated, 1177 liked); history from export + new watches added automatically",
+  "watchlist": "letterboxd: 1350",
+  "watched": "1979 films (1838 rated, 1177 liked); history from export + new watches added automatically",
   "errors": []
  },
  "cinemas": [
@@ -1819,7 +1819,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -1827,28 +1826,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-26 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 13:30",
        "version": "vobe",
@@ -2113,7 +2090,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -2121,17 +2097,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 13:30",
        "version": "nlbe",
@@ -2360,24 +2325,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 20:00",
        "version": "vobe",
@@ -2467,24 +2420,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-29",
       "2026-11-30",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 21:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "selected"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-29 20:00",
        "version": "vobe",
@@ -2569,7 +2509,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -2577,18 +2516,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 20:15",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 13:45",
        "version": "vobe",
@@ -3418,23 +3345,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 22:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 22:30",
        "version": "nlbe",
@@ -5913,6 +5828,10 @@
  "letterboxd": {
   "user": "Nyrax",
   "watchlist": [
+   {
+    "slug": "hexed-2026",
+    "name": "Hexed (2026)"
+   },
    {
     "slug": "le-faux-soir",
     "name": "Le Faux Soir (2026)"
@@ -23177,6 +23096,12 @@
     "name": "Heysel 85 (2026)",
     "slug": "heysel-85",
     "rating": 3,
+    "liked": false
+   },
+   {
+    "name": "Paper Tiger (2026)",
+    "slug": "paper-tiger-2026",
+    "rating": 3.5,
     "liked": false
    }
   ]
