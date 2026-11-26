@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-26T13:16:39.782Z",
+ "generatedAt": "2026-11-26T16:02:42.393Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 45 films",
+   "pathe-sint-niklaas": "fresh: 44 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
@@ -1828,17 +1828,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-26 15:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-26 17:50",
        "version": "vobe",
        "tags": [
@@ -2143,17 +2132,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 16:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 20:00",
        "version": "vobe",
@@ -2594,43 +2572,6 @@
      "posterThumb": "data/posters/929a920289c26aea.jpg"
     },
     {
-     "title": "Cine Seniors : Digger",
-     "originalTitle": "Cine Seniors : Digger",
-     "year": 2026,
-     "duration": 128,
-     "directors": [
-      "Alejandro González Iñárritu"
-     ],
-     "genres": [
-      "Comédie",
-      "Drame"
-     ],
-     "releaseAt": "2026-11-19",
-     "url": "https://www.pathe.be/nl/films/cine-seniors-digger-55470",
-     "poster": "https://media.pathe.be/movie/alex/HO00003681/poster/md/5/movie&uuid=5A1865CF-8E0E-4465-85EB-A238B1542552",
-     "slug": "cine-seniors-digger-55470",
-     "isNew": false,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-26"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-26 14:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/bc68360e3132aa74.jpg"
-    },
-    {
      "title": "The Hunger Games : Sunrise on the Reaping",
      "originalTitle": "Hunger Games : Lever de soleil sur la moisson",
      "year": 2026,
@@ -3002,17 +2943,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-26 14:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-26 17:15",
        "version": "nlbe",
        "tags": [
@@ -3288,17 +3218,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 17:00",
        "version": "vobe",
@@ -4124,22 +4043,10 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-29",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 14:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-29 11:00",
        "version": "vobe",
