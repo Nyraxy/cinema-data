@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-26T10:10:13.312Z",
+ "generatedAt": "2026-11-26T13:16:39.782Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 38 films",
+   "pathe-sint-niklaas": "fresh: 45 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
@@ -40,6 +40,58 @@
      "posterThumb": "data/posters/bbfe202b6337f8d7.jpg"
     },
     {
+     "title": "Siniclub: Elsinore",
+     "originalTitle": "Siniclub: Elsinore",
+     "year": 2027,
+     "duration": 111,
+     "directors": [
+      "Simon Stone"
+     ],
+     "genres": [
+      "Biopic",
+      "Drame"
+     ],
+     "releaseAt": "2027-02-24",
+     "url": "https://www.pathe.be/nl/films/siniclub-elsinore-57164",
+     "poster": "https://media.pathe.be/movie/alex/HO00003868/poster/md/1/movie&uuid=33401024-2C31-4C37-8B0B-63D7E25B2271",
+     "slug": "siniclub-elsinore-57164",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-02-25",
+      "2027-02-28",
+      "2027-03-02"
+     ],
+     "showtimes": [],
+     "posterThumb": "data/posters/2eb08edcec47e6bd.jpg"
+    },
+    {
+     "title": "Siniclub: Violette",
+     "originalTitle": "Siniclub: Violette",
+     "year": 2027,
+     "duration": 138,
+     "directors": [
+      "Jean Pierre Jeunet"
+     ],
+     "genres": [
+      "Drame"
+     ],
+     "releaseAt": "2027-02-03",
+     "url": "https://www.pathe.be/nl/films/siniclub-violette-57162",
+     "poster": null,
+     "slug": "siniclub-violette-57162",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-02-04",
+      "2027-02-14",
+      "2027-02-16"
+     ],
+     "showtimes": []
+    },
+    {
      "title": "La Bayadère (Opéra National de Paris)",
      "originalTitle": "La Bayadère (Opéra National de Paris)",
      "year": 2027,
@@ -62,6 +114,231 @@
      ],
      "showtimes": [],
      "posterThumb": "data/posters/e6aa6e0b1b22b61d.jpg"
+    },
+    {
+     "title": "Siniclub: Bunker",
+     "originalTitle": "Siniclub: Bunker",
+     "year": 2027,
+     "duration": 126,
+     "directors": [
+      "Florian Zeller"
+     ],
+     "genres": [
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2027-01-27",
+     "url": "https://www.pathe.be/nl/films/siniclub-bunker-57163",
+     "poster": null,
+     "slug": "siniclub-bunker-57163",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-02-18",
+      "2027-02-21",
+      "2027-02-23"
+     ],
+     "showtimes": []
+    },
+    {
+     "title": "Siniclub: Jonah Was Here",
+     "originalTitle": "Siniclub: Jonah Was Here",
+     "year": 2027,
+     "duration": 100,
+     "directors": [
+      "Nathalie Teirlinck"
+     ],
+     "genres": [
+      "Drame"
+     ],
+     "releaseAt": "2027-01-27",
+     "url": "https://www.pathe.be/nl/films/siniclub-jonah-was-here-57161",
+     "poster": "https://media.pathe.be/movie/alex/HO00003865/poster/md/1/movie&uuid=3C0FA5DB-1A70-49AE-B652-193E4F62CACB",
+     "slug": "siniclub-jonah-was-here-57161",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-01-28",
+      "2027-01-31",
+      "2027-02-02"
+     ],
+     "showtimes": [],
+     "posterThumb": "data/posters/4cb57508a408b18c.jpg"
+    },
+    {
+     "title": "Siniclub: Minotaur",
+     "originalTitle": "Siniclub: Minotaur",
+     "year": 2027,
+     "duration": 135,
+     "directors": [
+      "Andrey Zviaguintsev"
+     ],
+     "genres": [
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2027-01-20",
+     "url": "https://www.pathe.be/nl/films/siniclub-minotaur-57160",
+     "poster": "https://media.pathe.be/movie/alex/HO00003864/poster/md/1/movie&uuid=F4E91A12-AF36-4495-8AB7-64CF51560670",
+     "slug": "siniclub-minotaur-57160",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-01-21",
+      "2027-01-24",
+      "2027-01-26"
+     ],
+     "showtimes": [
+      {
+       "time": "2027-01-21 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2027-01-24 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/97d408d31e4e5be9.jpg"
+    },
+    {
+     "title": "Siniclub: Fatherland",
+     "originalTitle": "Siniclub: Fatherland",
+     "year": 2027,
+     "duration": 82,
+     "directors": [
+      "Paweł Pawlikowski"
+     ],
+     "genres": [
+      "Drame",
+      "Historique"
+     ],
+     "releaseAt": "2027-01-13",
+     "url": "https://www.pathe.be/nl/films/siniclub-fatherland-57158",
+     "poster": "https://media.pathe.be/movie/alex/HO00003863/poster/md/1/movie&uuid=A8384C63-B554-44FF-A6B3-7CF59A135AFF",
+     "slug": "siniclub-fatherland-57158",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-01-14",
+      "2027-01-17",
+      "2027-01-19"
+     ],
+     "showtimes": [
+      {
+       "time": "2027-01-14 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2027-01-17 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2027-01-19 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/8332922602c6486c.jpg"
+    },
+    {
+     "title": "Siniclub: La Bola Negra",
+     "originalTitle": "Siniclub: La Bola Negra",
+     "year": 2027,
+     "duration": 155,
+     "directors": [
+      "Javier Ambrossi",
+      "Javier Calvo"
+     ],
+     "genres": [
+      "Drame",
+      "Historique"
+     ],
+     "releaseAt": "2027-01-06",
+     "url": "https://www.pathe.be/nl/films/siniclub-la-bola-negra-57157",
+     "poster": "https://media.pathe.be/movie/alex/HO00003862/poster/md/1/movie&uuid=E6461F41-1403-40B6-8903-761D2F019D6C",
+     "slug": "siniclub-la-bola-negra-57157",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2027-01-07",
+      "2027-01-10",
+      "2027-01-12"
+     ],
+     "showtimes": [
+      {
+       "time": "2027-01-07 14:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2027-01-10 11:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2027-01-12 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/9420e14822437ec4.jpg"
     },
     {
      "title": "You Can See Everything",
@@ -1196,7 +1473,7 @@
      ],
      "releaseAt": "2026-12-09",
      "url": "https://www.pathe.be/nl/films/mini-movie-club-nijntje-en-vriendjes-winterpret-56999",
-     "poster": null,
+     "poster": "https://media.pathe.be/movie/alex/HO00003833/poster/md/1/movie&uuid=BE96444B-36AB-498F-B3B4-4824DA2B5C4C",
      "slug": "mini-movie-club-nijntje-en-vriendjes-winterpret-56999",
      "isNew": false,
      "isComingSoon": true,
@@ -1216,7 +1493,8 @@
        "status": "available",
        "special": null
       }
-     ]
+     ],
+     "posterThumb": "data/posters/fd818bbb3d2ec47e.jpg"
     },
     {
      "title": "Siniclub: Fjord",
@@ -1535,7 +1813,7 @@
      ],
      "releaseAt": "2026-11-25",
      "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
-     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/3/movie&uuid=D4ED47A6-F604-4780-842C-FD4B313B2F18",
+     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/4/movie&uuid=F61219FC-66F5-4D2B-B78C-2754BCF908ED",
      "slug": "focker-in-law-56078",
      "isNew": true,
      "isComingSoon": false,
@@ -1549,17 +1827,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 15:30",
        "version": "vobe",
@@ -1847,7 +2114,7 @@
        "special": null
       }
      ],
-     "posterThumb": "data/posters/e4614629b99c034d.jpg"
+     "posterThumb": "data/posters/7ceb10eceee1e7ba.jpg"
     },
     {
      "title": "Disney's Hexed",
@@ -1876,18 +2143,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 13:30",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 16:00",
        "version": "nlbe",
@@ -2124,13 +2379,15 @@
      "originalTitle": "Buddy",
      "year": 2026,
      "duration": 96,
-     "directors": [],
+     "directors": [
+      "Casper Kelly"
+     ],
      "genres": [
       "Epouvante-Horreur"
      ],
      "releaseAt": "2026-11-25",
      "url": "https://www.pathe.be/nl/films/buddy-57082",
-     "poster": "https://media.pathe.be/movie/alex/HO00003857/poster/md/1/movie&uuid=F499D597-7219-45B4-869D-EA6F67AFE295",
+     "poster": "https://media.pathe.be/movie/alex/HO00003857/poster/md/2/movie&uuid=0D9425C7-1F64-4941-AA46-F35034110DA8",
      "slug": "buddy-57082",
      "isNew": true,
      "isComingSoon": false,
@@ -2221,7 +2478,7 @@
        "special": null
       }
      ],
-     "posterThumb": "data/posters/57e6293348ca2cc1.jpg"
+     "posterThumb": "data/posters/43e7f535c2a80c61.jpg"
     },
     {
      "title": "Paper Tiger",
@@ -2402,17 +2659,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 13:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 16:45",
        "version": "vobe",
@@ -3948,17 +4194,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 13:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 16:50",
        "version": "vobe",
