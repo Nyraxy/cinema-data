@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-11-26T16:02:42.393Z",
+ "generatedAt": "2026-11-26T18:58:53.847Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 44 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
-  "watchlist": "letterboxd: 1346",
-  "watched": "1977 films (1836 rated, 1177 liked); history from export + new watches added automatically",
+  "watchlist": "letterboxd: 1349",
+  "watched": "1978 films (1837 rated, 1177 liked); history from export + new watches added automatically",
   "errors": []
  },
  "cinemas": [
@@ -1828,17 +1828,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-26 17:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-26 20:15",
        "version": "vobe",
        "tags": [
@@ -2485,18 +2474,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-26 19:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "selected"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-26 21:40",
        "version": "vobe",
        "tags": [
@@ -2600,29 +2577,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 16:45",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-26 19:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-26 20:15",
        "version": "vobe",
@@ -2934,7 +2888,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -2942,28 +2895,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 17:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-26 19:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 14:30",
        "version": "nlbe",
@@ -3210,7 +3141,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -3218,28 +3148,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 17:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-26 19:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 14:30",
        "version": "vobe",
@@ -3406,34 +3314,11 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-30",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 16:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-26 19:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 14:15",
        "version": "vobe",
@@ -3607,7 +3492,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -3615,17 +3499,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 17:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 17:15",
        "version": "vobe",
@@ -4093,7 +3966,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-26",
       "2026-11-27",
       "2026-11-28",
       "2026-11-29",
@@ -4101,17 +3973,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-26 16:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-27 13:15",
        "version": "vobe",
@@ -6053,6 +5914,22 @@
   "user": "Nyrax",
   "watchlist": [
    {
+    "slug": "le-faux-soir",
+    "name": "Le Faux Soir (2026)"
+   },
+   {
+    "slug": "the-thomas-crown-affair-2027",
+    "name": "The Thomas Crown Affair (2027)"
+   },
+   {
+    "slug": "jumanji-open-world",
+    "name": "Jumanji: Open World (2026)"
+   },
+   {
+    "slug": "behemoth-2026",
+    "name": "Behemoth! (2026)"
+   },
+   {
     "slug": "ralph-breaks-the-internet",
     "name": "Ralph Breaks the Internet (2018)"
    },
@@ -6067,10 +5944,6 @@
    {
     "slug": "possible-love",
     "name": "Possible Love (2026)"
-   },
-   {
-    "slug": "heysel-85",
-    "name": "Heysel 85 (2026)"
    },
    {
     "slug": "a-quiet-place-part-ii",
@@ -23299,6 +23172,12 @@
     "slug": "steps-2026",
     "rating": 4,
     "liked": true
+   },
+   {
+    "name": "Heysel 85 (2026)",
+    "slug": "heysel-85",
+    "rating": 3,
+    "liked": false
    }
   ]
  }
