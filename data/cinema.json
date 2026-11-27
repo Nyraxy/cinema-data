@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T07:16:09.730Z",
+ "generatedAt": "2026-11-27T10:06:40.354Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 44 films",
@@ -429,7 +429,7 @@
      "title": "Avengers : Doomsday",
      "originalTitle": "Avengers : Doomsday",
      "year": 2026,
-     "duration": 165,
+     "duration": 150,
      "directors": [
       "Joe Russo",
       "Anthony Russo"
