@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-27T18:58:37.398Z",
+ "generatedAt": "2026-11-27T21:57:51.573Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 45 films",
+   "pathe-sint-niklaas": "fresh: 52 films",
    "sphinx-gent": "fresh: 22 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
@@ -290,6 +290,44 @@
      "posterThumb": "data/posters/8332922602c6486c.jpg"
     },
     {
+     "title": "Zero A.D.",
+     "originalTitle": "Année Zéro",
+     "year": 2027,
+     "duration": 115,
+     "directors": [
+      "Alejandro Monteverde"
+     ],
+     "genres": [
+      "Drame",
+      "Thriller"
+     ],
+     "releaseAt": "2027-01-13",
+     "url": "https://www.pathe.be/nl/films/zero-a-d-57057",
+     "poster": "https://media.pathe.be/movie/alex/HO00003851/poster/md/1/movie&uuid=FB1CA737-36B2-4475-8743-BD20DD749F14",
+     "slug": "zero-a-d-57057",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-25"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-25 17:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats",
+        "AVP"
+       ],
+       "status": "available",
+       "special": "Voorpremière"
+      }
+     ],
+     "posterThumb": "data/posters/e5b4dd1f4e67c442.jpg"
+    },
+    {
      "title": "Siniclub: La Bola Negra",
      "originalTitle": "Siniclub: La Bola Negra",
      "year": 2027,
@@ -424,6 +462,43 @@
       }
      ],
      "posterThumb": "data/posters/4158f0e5059eb333.jpg"
+    },
+    {
+     "title": "Cine Seniors: Heysel 85",
+     "originalTitle": "Cine Seniors : Heysel 85",
+     "year": 2026,
+     "duration": 91,
+     "directors": [
+      "Teodora Mihai"
+     ],
+     "genres": [
+      "Drame",
+      "Historique"
+     ],
+     "releaseAt": "2026-12-17",
+     "url": "https://www.pathe.be/nl/films/cine-seniors-heysel-85-56975",
+     "poster": "https://media.pathe.be/movie/alex/HO00003826/poster/md/1/movie&uuid=BD56C88C-ED4E-43FD-9EED-7ED4D71FE9AE",
+     "slug": "cine-seniors-heysel-85-56975",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-17"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-17 14:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/86a62a3062b5798d.jpg"
     },
     {
      "title": "Avengers : Doomsday",
@@ -1472,6 +1547,52 @@
      "posterThumb": "data/posters/f1cdaa30705abb8d.jpg"
     },
     {
+     "title": "Fjord",
+     "originalTitle": "Fjord",
+     "year": 2026,
+     "duration": 146,
+     "directors": [],
+     "genres": [
+      "Drame"
+     ],
+     "releaseAt": "2026-12-09",
+     "url": "https://www.pathe.be/nl/films/fjord-57007",
+     "poster": "https://media.pathe.be/movie/alex/HO00003841/poster/md/2/movie&uuid=5EB5D266-E860-40A0-9DC1-BF87309869EA",
+     "slug": "fjord-57007",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-10",
+      "2026-12-14"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-10 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-14 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/180d30de0452438c.jpg"
+    },
+    {
      "title": "Mini Movie Club: Nijntje en vriendjes: Winterpret",
      "originalTitle": "Mini Movie Club: Nijntje en vriendjes: Winterpret",
      "year": 2026,
@@ -1566,6 +1687,102 @@
      "posterThumb": "data/posters/d471de020d82206a.jpg"
     },
     {
+     "title": "Wildwood",
+     "originalTitle": "Wildwood : La Prophétie de la forêt",
+     "year": 2026,
+     "duration": 132,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Aventure",
+      "Drame"
+     ],
+     "releaseAt": "2026-12-09",
+     "url": "https://www.pathe.be/nl/films/wildwood-57009",
+     "poster": "https://media.pathe.be/movie/alex/HO00003843/poster/md/2/movie&uuid=9403FD7E-5421-415E-B6A0-1A2402930163",
+     "slug": "wildwood-57009",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-09",
+      "2026-12-10",
+      "2026-12-12",
+      "2026-12-13",
+      "2026-12-14",
+      "2026-12-15"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-09 16:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-10 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-12 16:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-13 16:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-14 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-15 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/2cf01fb8f62ba238.jpg"
+    },
+    {
      "title": "Przepis na Swieta",
      "originalTitle": "Przepis na Swieta",
      "year": 2026,
@@ -1584,11 +1801,23 @@
      "isComingSoon": true,
      "specialEvent": false,
      "allDays": [
-      "2026-12-06"
+      "2026-12-06",
+      "2026-12-08"
      ],
      "showtimes": [
       {
        "time": "2026-12-06 17:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-08 19:15",
        "version": "vobe",
        "tags": [
         "DEFAULT",
@@ -1637,6 +1866,55 @@
       }
      ],
      "posterThumb": "data/posters/0b107331eeefbd4a.jpg"
+    },
+    {
+     "title": "Cine Seniors : Coward",
+     "originalTitle": "Cine Seniors : Coward",
+     "year": 2026,
+     "duration": 125,
+     "directors": [
+      "Lukas Dhont"
+     ],
+     "genres": [
+      "Drame",
+      "Guerre"
+     ],
+     "releaseAt": "2026-12-03",
+     "url": "https://www.pathe.be/nl/films/cine-seniors-coward-56977",
+     "poster": "https://media.pathe.be/movie/alex/HO00003828/poster/md/1/movie&uuid=8361C412-38EE-4A13-AE6A-A81A7729CA65",
+     "slug": "cine-seniors-coward-56977",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-03",
+      "2026-12-10"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-03 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-10 14:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/dbf910fe0907cfdd.jpg"
     },
     {
      "title": "Asterix - Het Koninkrijk Nubië",
@@ -1710,6 +1988,175 @@
       }
      ],
      "posterThumb": "data/posters/689796e09772ff22.jpg"
+    },
+    {
+     "title": "Behemoth!",
+     "originalTitle": "Behemoth!",
+     "year": 2026,
+     "duration": 124,
+     "directors": [
+      "Tony Gilroy"
+     ],
+     "genres": [
+      "Drame",
+      "Musical"
+     ],
+     "releaseAt": "2026-12-02",
+     "url": "https://www.pathe.be/nl/films/behemoth-57149",
+     "poster": "https://media.pathe.be/movie/alex/HO00003860/poster/md/2/movie&uuid=8DC99CBA-CB5E-4F4D-8DBF-6BA07CCA6E74",
+     "slug": "behemoth-57149",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-03",
+      "2026-12-06",
+      "2026-12-07",
+      "2026-12-08"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-03 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-06 17:20",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-07 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-08 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/61a3eb9346a3f010.jpg"
+    },
+    {
+     "title": "Le Faux Soir",
+     "originalTitle": "Le Faux Soir",
+     "year": 2026,
+     "duration": 134,
+     "directors": [],
+     "genres": [
+      "Drame",
+      "Guerre",
+      "Historique"
+     ],
+     "releaseAt": "2026-12-02",
+     "url": "https://www.pathe.be/nl/films/le-faux-soir-56233",
+     "poster": "https://media.pathe.be/movie/alex/HO00003755/poster/md/1/movie&uuid=B32D4E9C-9CB5-4CD8-A5BD-35F0AD477D65",
+     "slug": "le-faux-soir-56233",
+     "isNew": false,
+     "isComingSoon": true,
+     "specialEvent": false,
+     "allDays": [
+      "2026-12-02",
+      "2026-12-03",
+      "2026-12-04",
+      "2026-12-05",
+      "2026-12-06",
+      "2026-12-07"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-12-02 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-03 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-04 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-05 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-06 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-07 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/1a55d75e3f5e6d67.jpg"
     },
     {
      "title": "Siniclub: Le Faux Soir",
@@ -1873,28 +2320,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-27 20:10",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 11:00",
        "version": "vobe",
@@ -2104,24 +2529,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29",
       "2026-11-30",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-27 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 14:00",
        "version": "nlbe",
@@ -2323,28 +2736,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-27 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-28 20:00",
        "version": "vobe",
        "tags": [
@@ -2500,47 +2891,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29",
       "2026-11-30",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-27 20:15",
-       "version": "vobe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 21:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 21:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 11:00",
        "version": "vobe",
@@ -2991,24 +3347,12 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29",
       "2026-11-30",
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-27 19:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 17:10",
        "version": "vobe",
@@ -3228,17 +3572,6 @@
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-27 22:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 22:00",
        "version": "nlbe",
