@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-28T09:55:10.286Z",
+ "generatedAt": "2026-11-28T12:58:31.164Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 51 films",
+   "pathe-sint-niklaas": "fresh: 50 films",
    "sphinx-gent": "fresh: 20 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
@@ -1934,34 +1934,9 @@
      "isComingSoon": true,
      "specialEvent": false,
      "allDays": [
-      "2026-11-28",
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Voorpremière"
-      },
-      {
-       "time": "2026-11-28 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats",
-        "AVP"
-       ],
-       "status": "available",
-       "special": "Voorpremière"
-      },
       {
        "time": "2026-11-29 11:00",
        "version": "nlbe",
@@ -2219,260 +2194,6 @@
      "posterThumb": "data/posters/0fe003b389771216.jpg"
     },
     {
-     "title": "Special Screening : De Kat met de Hoed",
-     "originalTitle": "Special Screening : Le Chat chapeauté",
-     "year": 2026,
-     "duration": 107,
-     "directors": [
-      "Alessandro Carloni",
-      "Erica Rivinoja"
-     ],
-     "genres": [
-      "Animation",
-      "Aventure",
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-28",
-     "url": "https://www.pathe.be/nl/films/special-screening-de-kat-met-de-hoed-56379",
-     "poster": "https://media.pathe.be/movie/alex/HO00003774/poster/md/2/movie&uuid=C0B5089A-2F8C-40C2-AE60-4B0FD04B1F12",
-     "slug": "special-screening-de-kat-met-de-hoed-56379",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-28"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-28 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/61d147cee92c84ac.jpg"
-    },
-    {
-     "title": "Focker-in-Law",
-     "originalTitle": "Mon beau-père, ma belle-fille et moi",
-     "year": 2026,
-     "duration": 105,
-     "directors": [
-      "John Hamburg"
-     ],
-     "genres": [
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-25",
-     "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
-     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/4/movie&uuid=F61219FC-66F5-4D2B-B78C-2754BCF908ED",
-     "slug": "focker-in-law-56078",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-28",
-      "2026-11-29",
-      "2026-11-30",
-      "2026-12-01"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-28 11:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 13:20",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 15:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 18:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 20:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 15:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 17:50",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 21:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-30 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-30 17:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-30 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 13:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 17:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 20:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/7ceb10eceee1e7ba.jpg"
-    },
-    {
      "title": "Disney's Hexed",
      "originalTitle": "Billie, à la croisée des mondes",
      "year": 2026,
@@ -2673,6 +2394,199 @@
      "posterThumb": "data/posters/3b4288ee2b00c9d5.jpg"
     },
     {
+     "title": "Focker-in-Law",
+     "originalTitle": "Mon beau-père, ma belle-fille et moi",
+     "year": 2026,
+     "duration": 105,
+     "directors": [
+      "John Hamburg"
+     ],
+     "genres": [
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-25",
+     "url": "https://www.pathe.be/nl/films/focker-in-law-56078",
+     "poster": "https://media.pathe.be/movie/alex/HO00003739/poster/md/4/movie&uuid=F61219FC-66F5-4D2B-B78C-2754BCF908ED",
+     "slug": "focker-in-law-56078",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-28",
+      "2026-11-29",
+      "2026-11-30",
+      "2026-12-01"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-28 15:40",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 18:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 20:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 22:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 15:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 17:50",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 21:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 13:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 17:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 13:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 17:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/7ceb10eceee1e7ba.jpg"
+    },
+    {
      "title": "Paper Tiger",
      "originalTitle": "Paper Tiger",
      "year": 2026,
@@ -2858,28 +2772,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 11:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 13:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 17:15",
        "version": "vobe",
@@ -3259,21 +3151,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-28",
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-29 11:00",
        "version": "nlbe",
@@ -3653,28 +3533,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-28 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-28 15:05",
        "version": "nlbe",
        "tags": [
@@ -3812,28 +3670,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-28 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 13:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-28 15:15",
        "version": "nlbe",
        "tags": [
@@ -3926,17 +3762,6 @@
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 11:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 15:40",
        "version": "nlbe",
