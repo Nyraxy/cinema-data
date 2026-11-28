@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-28T07:09:24.255Z",
+ "generatedAt": "2026-11-28T09:55:10.286Z",
  "status": {
   "cinemas": {
-   "pathe-sint-niklaas": "fresh: 52 films",
+   "pathe-sint-niklaas": "fresh: 51 films",
    "sphinx-gent": "fresh: 20 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
@@ -2217,43 +2217,6 @@
       }
      ],
      "posterThumb": "data/posters/0fe003b389771216.jpg"
-    },
-    {
-     "title": "Family Day : Disney's Hexed",
-     "originalTitle": "Family Day : Billie, à la croisée des mondes",
-     "year": 2026,
-     "duration": 109,
-     "directors": [],
-     "genres": [
-      "Animation",
-      "Aventure",
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-28",
-     "url": "https://www.pathe.be/nl/films/family-day-disney-s-hexed-56721",
-     "poster": "https://media.pathe.be/movie/alex/HO00003793/poster/md/2/movie&uuid=8CF3E44E-0225-4128-9E5E-5AC581DBB012",
-     "slug": "family-day-disney-s-hexed-56721",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-28"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-28 10:30",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/e2a1e667d88eee4b.jpg"
     },
     {
      "title": "Special Screening : De Kat met de Hoed",
