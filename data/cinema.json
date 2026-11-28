@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-27T21:57:51.573Z",
+ "generatedAt": "2026-11-28T01:08:51.720Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 52 films",
-   "sphinx-gent": "fresh: 22 films",
+   "sphinx-gent": "fresh: 20 films",
    "studio-skoop-gent": "fresh: 16 films"
   },
   "watchlist": "letterboxd: 1349",
@@ -2313,7 +2313,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29",
       "2026-11-30",
@@ -2711,78 +2710,6 @@
      "posterThumb": "data/posters/3b4288ee2b00c9d5.jpg"
     },
     {
-     "title": "Buddy",
-     "originalTitle": "Buddy",
-     "year": 2026,
-     "duration": 96,
-     "directors": [
-      "Casper Kelly"
-     ],
-     "genres": [
-      "Epouvante-Horreur"
-     ],
-     "releaseAt": "2026-11-25",
-     "url": "https://www.pathe.be/nl/films/buddy-57082",
-     "poster": "https://media.pathe.be/movie/alex/HO00003857/poster/md/2/movie&uuid=0D9425C7-1F64-4941-AA46-F35034110DA8",
-     "slug": "buddy-57082",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-27",
-      "2026-11-28",
-      "2026-11-29",
-      "2026-12-01"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-28 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 22:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 22:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 21:45",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/43e7f535c2a80c61.jpg"
-    },
-    {
      "title": "Paper Tiger",
      "originalTitle": "Paper Tiger",
      "year": 2026,
@@ -2869,6 +2796,77 @@
       }
      ],
      "posterThumb": "data/posters/929a920289c26aea.jpg"
+    },
+    {
+     "title": "Buddy",
+     "originalTitle": "Buddy",
+     "year": 2026,
+     "duration": 96,
+     "directors": [
+      "Casper Kelly"
+     ],
+     "genres": [
+      "Epouvante-Horreur"
+     ],
+     "releaseAt": "2026-11-25",
+     "url": "https://www.pathe.be/nl/films/buddy-57082",
+     "poster": "https://media.pathe.be/movie/alex/HO00003857/poster/md/2/movie&uuid=0D9425C7-1F64-4941-AA46-F35034110DA8",
+     "slug": "buddy-57082",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-28",
+      "2026-11-29",
+      "2026-12-01"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-28 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 22:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 22:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 21:45",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/43e7f535c2a80c61.jpg"
     },
     {
      "title": "The Hunger Games : Sunrise on the Reaping",
@@ -3567,7 +3565,6 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-27",
       "2026-11-28",
       "2026-11-29"
      ],
@@ -4189,12 +4186,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027875/1518",
      "showtimes": [
       {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 11:00",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -4250,12 +4241,6 @@
      "url": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
-      {
-       "time": "2026-11-27 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 14:30",
        "version": "VO",
@@ -4343,12 +4328,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
       {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 11:00",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -4401,12 +4380,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
       {
-       "time": "2026-11-27 17:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-30 20:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -4457,12 +4430,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
       {
-       "time": "2026-11-27 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -4509,12 +4476,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-27 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 14:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -4536,12 +4497,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-27 14:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 17:15",
        "version": "VO",
@@ -4570,50 +4525,6 @@
      "posterThumb": "data/posters/d2ba505675dcd990.jpg"
     },
     {
-     "title": "Le Dernier pour la route / The Last One for the Road",
-     "originalTitle": "Andiamo a bere l&#039;ultima",
-     "year": 2025,
-     "duration": 100,
-     "directors": [
-      "Francesco Sossai"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1027876_fr_le_dernier_pour_la_route___the_last_one_for_the_road_1789582502427.jpg",
-     "cinebelId": 1027876,
-     "url": "https://cinebel.dhnet.be/film/1027876/Andiamo%20a%20bere%20l'ultima",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1027876/Andiamo%20a%20bere%20l'ultima",
-     "showtimes": [
-      {
-       "time": "2026-11-27 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/da84f8e6d5285218.jpg"
-    },
-    {
-     "title": "Le Faux Soir",
-     "originalTitle": null,
-     "year": 2026,
-     "duration": 134,
-     "directors": [
-      "Michaël R. Roskam"
-     ],
-     "poster": "https://static.cinebel.be/img/movie/poster/small/1027756_fr__1789482890190.jpg",
-     "cinebelId": 1027756,
-     "url": "https://cinebel.dhnet.be/film/1027756/Le%20Faux%20Soir",
-     "cinebelUrl": "https://cinebel.dhnet.be/film/1027756/Le%20Faux%20Soir",
-     "showtimes": [
-      {
-       "time": "2026-11-27 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/2047db87a81361c7.jpg"
-    },
-    {
      "title": "Minotaure",
      "originalTitle": "Minotaur",
      "year": 2026,
@@ -4626,12 +4537,6 @@
      "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
-      {
-       "time": "2026-11-27 20:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 17:15",
        "version": "VO",
@@ -4735,12 +4640,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027841/No%20Good%20Men",
      "showtimes": [
       {
-       "time": "2026-11-27 14:15",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 11:00",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -4780,12 +4679,6 @@
      "url": "https://cinebel.dhnet.be/film/1027851/Paper%20Tiger",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027851/Paper%20Tiger",
      "showtimes": [
-      {
-       "time": "2026-11-27 17:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 20:30",
        "version": "VO",
@@ -4855,12 +4748,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
       {
-       "time": "2026-11-27 16:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 20:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -4928,18 +4815,6 @@
      "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
-      {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 20:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 14:30",
        "version": "VO",
@@ -5052,12 +4927,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1028017/Club%20Kid",
      "showtimes": [
       {
-       "time": "2026-11-27 17:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 22:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5091,18 +4960,6 @@
      "url": "https://cinebel.dhnet.be/film/1027586/Coward",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027586/Coward",
      "showtimes": [
-      {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 20:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 14:30",
        "version": "VO",
@@ -5196,12 +5053,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/7640/Donnie%20Darko",
      "showtimes": [
       {
-       "time": "2026-11-27 17:15",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 22:30",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -5235,18 +5086,6 @@
      "url": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1026489/Heysel%2085",
      "showtimes": [
-      {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 19:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 14:30",
        "version": "VO",
@@ -5324,12 +5163,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027719/The%20Invite",
      "showtimes": [
       {
-       "time": "2026-11-27 17:45",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 22:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5357,12 +5190,6 @@
      "url": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027753/La%20Gradiva",
      "showtimes": [
-      {
-       "time": "2026-11-27 17:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 16:30",
        "version": "VO",
@@ -5416,12 +5243,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027756/Le%20Faux%20Soir",
      "showtimes": [
       {
-       "time": "2026-11-27 20:00",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
-      {
        "time": "2026-11-29 11:00",
        "version": "VO",
        "subtitles": "S.t. nl",
@@ -5443,12 +5264,6 @@
      "url": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "cinebelUrl": "https://cinebel.dhnet.be/film/11566/Lost%20in%20Translation",
      "showtimes": [
-      {
-       "time": "2026-11-27 22:30",
-       "version": "VO",
-       "subtitles": "S.t. nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 22:15",
        "version": "VO",
@@ -5477,24 +5292,6 @@
      "url": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027914/Minotaur",
      "showtimes": [
-      {
-       "time": "2026-11-27 17:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 19:45",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 22:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 14:30",
        "version": "VO",
@@ -5600,18 +5397,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027595/All%20of%20a%20Sudden",
      "showtimes": [
       {
-       "time": "2026-11-27 14:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 21:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 16:30",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5658,12 +5443,6 @@
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027894/The%20Only%20Living%20Pickpocket%20in%20New%20York",
      "showtimes": [
       {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
        "time": "2026-11-28 17:15",
        "version": "VO",
        "subtitles": "S.t. fr/nl",
@@ -5703,24 +5482,6 @@
      "url": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "cinebelUrl": "https://cinebel.dhnet.be/film/1027608/Wild%20Horse%20Nine",
      "showtimes": [
-      {
-       "time": "2026-11-27 14:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 20:00",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
-      {
-       "time": "2026-11-27 22:30",
-       "version": "VO",
-       "subtitles": "S.t. fr/nl",
-       "special": null
-      },
       {
        "time": "2026-11-28 17:15",
        "version": "VO",
