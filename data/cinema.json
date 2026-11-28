@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-28T12:58:31.164Z",
+ "generatedAt": "2026-11-28T15:48:19.074Z",
  "status": {
   "cinemas": {
    "pathe-sint-niklaas": "fresh: 50 films",
@@ -2194,206 +2194,6 @@
      "posterThumb": "data/posters/0fe003b389771216.jpg"
     },
     {
-     "title": "Disney's Hexed",
-     "originalTitle": "Billie, à la croisée des mondes",
-     "year": 2026,
-     "duration": 109,
-     "directors": [],
-     "genres": [
-      "Animation",
-      "Aventure",
-      "Comédie"
-     ],
-     "releaseAt": "2026-11-25",
-     "url": "https://www.pathe.be/nl/films/disney-s-hexed-56720",
-     "poster": "https://media.pathe.be/movie/alex/HO00003792/poster/md/2/movie&uuid=5C91EBE7-EB79-4085-9DD5-27C56A3FE7D0",
-     "slug": "disney-s-hexed-56720",
-     "isNew": true,
-     "isComingSoon": false,
-     "specialEvent": false,
-     "allDays": [
-      "2026-11-28",
-      "2026-11-29",
-      "2026-11-30",
-      "2026-12-01"
-     ],
-     "showtimes": [
-      {
-       "time": "2026-11-28 14:00",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 14:45",
-       "version": "nlbe",
-       "tags": [
-        "3d",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 16:30",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-28 19:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 11:00",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 13:30",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 14:30",
-       "version": "nlbe",
-       "tags": [
-        "3d",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 16:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-29 19:30",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-30 13:30",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-30 16:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-11-30 19:15",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 13:30",
-       "version": "nlbe",
-       "tags": [
-        "ATMOS",
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 16:00",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
-       "time": "2026-12-01 20:00",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      }
-     ],
-     "posterThumb": "data/posters/3b4288ee2b00c9d5.jpg"
-    },
-    {
      "title": "Focker-in-Law",
      "originalTitle": "Mon beau-père, ma belle-fille et moi",
      "year": 2026,
@@ -2418,17 +2218,6 @@
       "2026-12-01"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 15:40",
-       "version": "vobe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 18:00",
        "version": "vobe",
@@ -2585,6 +2374,182 @@
       }
      ],
      "posterThumb": "data/posters/7ceb10eceee1e7ba.jpg"
+    },
+    {
+     "title": "Disney's Hexed",
+     "originalTitle": "Billie, à la croisée des mondes",
+     "year": 2026,
+     "duration": 109,
+     "directors": [],
+     "genres": [
+      "Animation",
+      "Aventure",
+      "Comédie"
+     ],
+     "releaseAt": "2026-11-25",
+     "url": "https://www.pathe.be/nl/films/disney-s-hexed-56720",
+     "poster": "https://media.pathe.be/movie/alex/HO00003792/poster/md/2/movie&uuid=5C91EBE7-EB79-4085-9DD5-27C56A3FE7D0",
+     "slug": "disney-s-hexed-56720",
+     "isNew": true,
+     "isComingSoon": false,
+     "specialEvent": false,
+     "allDays": [
+      "2026-11-28",
+      "2026-11-29",
+      "2026-11-30",
+      "2026-12-01"
+     ],
+     "showtimes": [
+      {
+       "time": "2026-11-28 16:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-28 19:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 11:00",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 13:30",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 14:30",
+       "version": "nlbe",
+       "tags": [
+        "3d",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 16:15",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-29 19:30",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 16:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-11-30 19:15",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 13:30",
+       "version": "nlbe",
+       "tags": [
+        "ATMOS",
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 16:00",
+       "version": "nlbe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      },
+      {
+       "time": "2026-12-01 20:00",
+       "version": "vobe",
+       "tags": [
+        "DEFAULT",
+        "pmr",
+        "relaxseats"
+       ],
+       "status": "available",
+       "special": null
+      }
+     ],
+     "posterThumb": "data/posters/3b4288ee2b00c9d5.jpg"
     },
     {
      "title": "Paper Tiger",
@@ -3533,17 +3498,6 @@
      ],
      "showtimes": [
       {
-       "time": "2026-11-28 15:05",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
-      {
        "time": "2026-11-28 17:00",
        "version": "nlbe",
        "tags": [
@@ -3619,21 +3573,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-28",
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 15:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-29 14:30",
        "version": "nlbe",
@@ -3669,17 +3611,6 @@
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 15:15",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-28 17:15",
        "version": "nlbe",
@@ -3758,21 +3689,9 @@
      "isComingSoon": false,
      "specialEvent": false,
      "allDays": [
-      "2026-11-28",
       "2026-11-29"
      ],
      "showtimes": [
-      {
-       "time": "2026-11-28 15:40",
-       "version": "nlbe",
-       "tags": [
-        "DEFAULT",
-        "pmr",
-        "relaxseats"
-       ],
-       "status": "available",
-       "special": null
-      },
       {
        "time": "2026-11-29 13:30",
        "version": "nlbe",
